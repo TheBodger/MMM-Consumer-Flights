@@ -1,7 +1,7 @@
-/* global Module, MMM-ChartDisplay */
+/* global Module,  MMM-Consumer-Flights */
 
 /* Magic Mirror
- * Module: MMM-ChartDisplay
+ * Module: MMM-Consumer-Flights
  *
  * By Neil Scott
  * MIT Licensed.
