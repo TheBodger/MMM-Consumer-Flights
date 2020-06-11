@@ -1,0 +1,25 @@
+{
+  "name": "MMM-ChartDisplay",
+  "version": "1.0.0",
+  "description": "Magic Mirror Module for displaying charts using data provided from other modules in NDTF on Magic Mirror 2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBodger/MMM-ChartDisplay"
+  },
+  "author": {
+    "name": "N Scott"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "JSON Feeds",
+    "Chart Display",
+    "module"
+  ],
+  "dependencies": {},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBodger/MMM-ChartDisplay/issues"
+  },
+  "homepage": "https://github.com/TheBodger/MMM-ChartDisplay#readme"
+}
