@@ -55,6 +55,7 @@ To use this module, add the following configuration block to the modules array i
 | `scroll`            |*Optional* - If true, then the flights are moved up one at atime on the board, otherwise a full baord at a time is displayed<br><br> **Possible values:** true or false<br> **Default value:** false
 | `animate`            |*Optional* - Animate the characters on the board as they change.<br><br> **Possible values:** true or false<br> **Default value:** false
 | `simple`            |*Optional* - Show a simple formated board with no embellishments<br><br> **Possible values:** true or false<br> **Default value:** true
+| `remarks`            |*Optional* - Display full remarks, using varisou elelments to determine message<br><br> **Possible values:** true or false<br> **Default value:** true
 
 ### Additional_Notes
 
@@ -62,6 +63,13 @@ The config id must match between providers and consumers. Being a case sensitive
 
 Fields available to display on the board, any field or fields can be excluded using the exclude config option
 
+At
+Airline
+To
+Flight
+Remarks
+Terminal
+Gate
 
 
 
