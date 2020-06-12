@@ -56,6 +56,7 @@ To use this module, add the following configuration block to the modules array i
 | `animate`            |*Optional* - Animate the characters on the board as they change.<br><br> **Possible values:** true or false<br> **Default value:** false
 | `simple`            |*Optional* - Show a simple formated board with no embellishments<br><br> **Possible values:** true or false<br> **Default value:** true
 | `remarks`            |*Optional* - Display full remarks, using varisou elelments to determine message<br><br> **Possible values:** true or false<br> **Default value:** true
+| `theme`            |*Optional* - Which style from the MMM-Consumer-Flights.css to use, provided so different colour schems can be used to mimic different airport's boards<br><br> **Possible values:** the name of a css class set in the modules css file<br> **Default value:** LHR TODO - add full theme capabilities including adjustment to layout
 
 ### Additional_Notes
 
