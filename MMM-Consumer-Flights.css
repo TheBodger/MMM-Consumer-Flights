@@ -1,0 +1,60 @@
+﻿.LHR {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .LHR .flights td {
+        border-bottom-color: lightgrey;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+    }
+
+    .LHR .head {
+        color: black;
+        font-size: x-large;
+        text-align: center;
+        background-color: #FFFF00;
+    }
+
+    .LHR .columnhead {
+        color: white;
+        font-size: normal;
+        text-align: center;
+    }
+
+    .LHR .flight {
+        color: white;
+        background-color: #333333;
+    }
+
+        .LHR .flight .time, .terminal {
+            text-align: center;
+        }
+
+        .LHR .flight .airline {
+            color: yellow;
+        }
+
+        .LHR .flight .departed {
+            color: green;
+        }
+
+        .LHR .flight .final {
+            background-color: fuchsia
+        }
+
+        .LHR .flight .boarding {
+            background-color: green
+        }
+
+    .LHR .simple .foot {
+        background-color: #72ACF6;
+        text-align: left;
+        color: white;
+    }
+
+    .LHR .simple .head {
+        color: black;
+        font-size: large;
+        text-align: center;
+        background-color: #FFFF00;
+    }
