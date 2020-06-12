@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+.LHR {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.LHR .flights td {
+	border-bottom-color: lightgrey;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+.LHR .head {
+	color: black;
+	font-size: x-large;
+	text-align: center;
+	background-color: #FFFF00;
+}
+
+.LHR .columnhead {
+	color: white;
+	font-size: normal;
+	text-align: center;
+}
+
+.LHR .flight {
+	color: white;
+	background-color: #333333;
+}
+
+.LHR .flight .time, .terminal {
+	text-align:center;
+}
+
+.LHR .flight .airline {
+	color:yellow;
+}
+
+.LHR .flight .departed {
+	color: green;
+}
+
+.LHR .flight .final {
+	background-color:fuchsia
+}
+
+.LHR .flight .boarding {
+	background-color:green
+}
+
+.LHR .simple .foot{
+	background-color: #72ACF6;
+	text-align: left;
+	color: white;
+
+}
+
+.LHR .simple .head{
+	color: black;
+	font-size: large;
+	text-align: center;
+	background-color: #FFFF00;
+
+}
+
+
+
+
+.auto-style1 {
+
+	color: yellow;
+}
+.auto-style3 {
+	font-family: "Microsoft Sans Serif";
+	color: black;
+	font-size: xx-small;
+	text-align: center;
+	background-color: #FFFF00;
+}
+.auto-style4 {
+	color: white;
+}
+.auto-style11 {
+	text-align: center;
+	font-size: large;
+	font-weight: normal;
+	background-color: #FFFF00;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style12 {
+	border-width: 0;
+	background-color: #FFFFFF;
+}
+.auto-style13 {
+	background-color: #333333;
+}
+.auto-style14 {
+	color: white;
+	background-color: #333333;
+}
+.auto-style16 {
+	text-align: center;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style25 {
+	background-color: #333333;
+}
+.auto-style27 {
+	color: white;
+	background-color: #333333;
+	text-align: left;
+}
+.auto-style30 {
+	background-color: #72ACF6;
+	text-align: right;
+	color: white;
+}
+.auto-style31 {
+	color: black;
+}
+.auto-style33 {
+	font-family: "Microsoft Sans Serif";
+	color: black;
+	background-color: #FFFF00;
+	text-align: center;
+}
+.auto-style34 {
+	color: white;
+	text-align: left;
+	background-color: #FFFF00;
+}
+.auto-style40 {
+	background-color: #72ACF6;
+	text-align: left;
+	color: white;
+}
+.auto-style41 {
+	border: 0 solid #72ACF6;
+}
+.auto-style42 {
+	border: 0 solid #72ACF6;
+	text-align: center;
+}
+.auto-style43 {
+	border: 0 solid #72ACF6;
+	text-align: left;
+	color: white;
+}
+.auto-style44 {
+	border: 0 solid #72ACF6;
+	font-family: "Yu Gothic UI Light";
+	color: white;
+}
+.auto-style45 {
+	border: 0 solid #72ACF6;
+	color: white;
+}
+.auto-style46 {
+	border: 0 solid #72ACF6;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.auto-style47 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	font-family: "Yu Gothic UI Light";
+	color: white;
+}
+.auto-style48 {
+	border: 0 solid #72ACF6;
+	color: white;
+	background-color: #333333;
+}
+.auto-style49 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.auto-style50 {
+	border: 0 solid #72ACF6;
+	color: white;
+	background-color: #008000;
+	text-align: left;
+}
+.auto-style51 {
+	border: 0 solid #72ACF6;
+	color: white;
+	background-color: #FF0066;
+	text-align: left;
+}
+.auto-style52 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+}
+.auto-style53 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	text-align: center;
+}
+.auto-style56 {
+	text-align: center;
+	background-color: #333333;
+}
+.auto-style57 {
+	border: 0 solid #72ACF6;
+	text-align: left;
+	color: white;
+	background-color: #333333;
+}
+.auto-style58 {
+	border: 0 solid #72ACF6;
+	color: #00CC66;
+	text-align: center;
+	background-color: #333333;
+}
+.auto-style59 {
+	color: black;
+	text-align: center;
+	background-color: #FFFF00;
+}
+.auto-style61 {
+	text-align: center;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFFFF;
+}
+.auto-style62 {
+	color: white;
+	background-color: #333333;
+	text-align: left;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style63 {
+	color: white;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style65 {
+	border: 0 solid #72ACF6;
+	text-align: center;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFFFF;
+}
+.auto-style66 {
+	border: 0 solid #72ACF6;
+	text-align: left;
+	color: white;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style67 {
+	border: 0 solid #72ACF6;
+	font-family: "Microsoft Sans Serif";
+	color: white;
+}
+.auto-style69 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	text-align: center;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFFFF;
+}
+.auto-style70 {
+	border: 0 solid #72ACF6;
+	text-align: left;
+	color: white;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style71 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+	color: white;
+}
+.auto-style72 {
+	border: 0 solid #72ACF6;
+	color: white;
+	background-color: #008000;
+	text-align: left;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style73 {
+	border: 0 solid #72ACF6;
+	color: white;
+	background-color: #FF0066;
+	text-align: left;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style74 {
+	border: 0 solid #72ACF6;
+	color: #00CC66;
+	text-align: center;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style75 {
+	font-family: "Microsoft Sans Serif";
+}
+.auto-style76 {
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFF00;
+}
+.auto-style77 {
+	border: 0 solid #72ACF6;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFF00;
+}
+.auto-style78 {
+	border: 0 solid #72ACF6;
+	background-color: #333333;
+	font-family: "Microsoft Sans Serif";
+	color: #FFFF00;
+}
+.auto-style79 {
+	color: black;
+	text-align: right;
+	background-color: #FFFF00;
+}
+</style>
+</head>
+
+<body style="background-color: #000000">
+
+<table cellspacing="0" class="LHR">
+	<tr class="head">
+		<td colspan="3" rowspan="2">
+		<img height="40" src="Departures.png" width="40" /> </td>
+		<td colspan="7" rowspan="2">&nbsp;Boston Logan</td>
+		<td colspan="1" style="font-size: x-small">Tue 30 May 2017</td>
+	</tr>
+	<tr class="head">
+		<td colspan="1">14:31</td>
+	</tr>
+	<tr>
+		<td colspan="11" style="height: 2px"></td>
+	</tr>
+	<tr>
+		<td colspan="11">
+		<table cellpadding="2" cellspacing="0" class="flights">
+			<tr class="columnhead">
+				<td  colspan="5">At</td>
+				<td >Airline</td>
+				<td >To</td>
+				<td >Flight</td>
+				<td >Remarks</td>
+				<td >Terminal</td>
+				<td >Gate</td>
+			</tr>
+			<tr>
+				<td  colspan="11" style="height: 1px"></td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">1 </td>
+				<td class="time">2 </td>
+				<td class="airline">American </td>
+				<td >Los Angeles </td>
+				<td >AA4 </td>
+				<td class="departed">Departed 12:30 </td>
+				<td class="terminal">2 </td>
+				<td >&nbsp;</td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">2 </td>
+				<td class="time">4 </td>
+				<td >BA </td>
+				<td >London </td>
+				<td >BA101 </td>
+				<td >On Time </td>
+				<td >1 </td>
+				<td class="terminal">4b </td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">3 </td>
+				<td class="time">9 </td>
+				<td >BA </td>
+				<td >London </td>
+				<td >BA101 </td>
+				<td class="final">Final Call </td>
+				<td >2 </td>
+				<td >12 </td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">4 </td>
+				<td class="time">7 </td>
+				<td>American </td>
+				<td >Los Angeles </td>
+				<td >AA4 </td>
+				<td class="boarding">Boarding </td>
+				<td class="terminal">2 </td>
+				<td>2 </td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">5 </td>
+				<td class="time">2 </td>
+				<td >BA </td>
+				<td >London </td>
+				<td >BA101 </td>
+				<td class="auto-style70">At Gate </td>
+				<td class="terminal">3 </td>
+				<td >4g </td>
+			</tr>
+			<tr class="flight">
+				<td class="time">1 </td>
+				<td class="time">4 </td>
+				<td class="time">: </td>
+				<td class="time">2 </td>
+				<td class="time">3 </td>
+				<td class="auto-style77">American </td>
+				<td >Los Angeles </td>
+				<td >AA4 </td>
+				<td class="auto-style66">On Time </td>
+				<td class="terminal">2 </td>
+				<td >4h </td>
+			</tr>
+			<tr>
+				<td >1 </td>
+				<td >4 </td>
+				<td >: </td>
+				<td >2 </td>
+				<td >6 </td>
+				<td >BA </td>
+				<td >London </td>
+				<td >BA101 </td>
+				<td class="auto-style70">On Time </td>
+				<td >1 </td>
+				<td >34 </td>
+			</tr>
+			<tr class="auto-style13">
+				<td class="time">1 </td>
+				<td class="time">6 </td>
+				<td class="time">: </td>
+				<td class="time">3 </td>
+				<td class="time">2 </td>
+				<td class="auto-style77">American </td>
+				<td class="time">Los Angeles </td>
+				<td class="time">AA4 </td>
+				<td class="auto-style66">On Time </td>
+				<td class="auto-style65">3 </td>
+				<td class="time">2 </td>
+			</tr>
+			<tr>
+				<td class="auto-style63">1 </td>
+				<td class="auto-style63">6 </td>
+				<td class="auto-style63">: </td>
+				<td class="auto-style63">2 </td>
+				<td class="auto-style63">8 </td>
+				<td class="auto-style76">American </td>
+				<td class="auto-style63">Los Angeles </td>
+				<td class="auto-style63">AA4 </td>
+				<td class="auto-style62">On Time </td>
+				<td class="auto-style61">1 </td>
+				<td class="auto-style63">2 </td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<br><br><br><br><br><br><br><br><br><br>
+<table class="auto-style1 LHR">
+	<tr>
+		<td colspan="11">
+		<table cellspacing="0" style="width: 100%" class="simple">
+			<tr class="head" >
+				<td colspan="4" style="text-align:left">
+				<img align="middle" height="26" src="Departures.png" width="27"></td>
+				<td colspan="6">Boston Logan</td>
+				<td  colspan="1" style="text-align:right">Gate</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="auto-style12" colspan="11" style="height: 1px"></td>
+	</tr>
+	<tr>
+		<td colspan="11">
+		<table class="flights">
+			<tr>
+				<td class="auto-style48" valign="bottom">1</td>
+				<td class="auto-style48" valign="bottom">4</td>
+				<td class="auto-style48" valign="bottom">:</td>
+				<td class="auto-style48" valign="bottom">1</td>
+				<td class="auto-style48" valign="bottom">2</td>
+				<td class="auto-style49" valign="bottom">American</td>
+				<td class="auto-style48" valign="bottom">Los Angeles</td>
+				<td class="auto-style47" valign="bottom">AA4</td>
+				<td class="auto-style58" valign="bottom">Departed 12:30</td>
+				<td class="auto-style53" valign="bottom">2</td>
+				<td class="auto-style52" valign="bottom">&nbsp; </td>
+			</tr>
+			<tr class="auto-style13">
+				<td class="auto-style45" valign="bottom">1</td>
+				<td class="auto-style45" valign="bottom">4</td>
+				<td class="auto-style45" valign="bottom">:</td>
+				<td class="auto-style45" valign="bottom">2</td>
+				<td class="auto-style45" valign="bottom">4</td>
+				<td class="auto-style49" valign="bottom">BA</td>
+				<td class="auto-style48" valign="bottom">London</td>
+				<td class="auto-style47" valign="bottom">BA101</td>
+				<td class="auto-style57" valign="bottom">On Time</td>
+				<td class="auto-style53" valign="bottom">1</td>
+				<td class="auto-style52" valign="bottom">4b</td>
+			</tr>
+			<tr>
+				<td class="auto-style48" valign="bottom">1</td>
+				<td class="auto-style48" valign="bottom">4</td>
+				<td class="auto-style48" valign="bottom">:</td>
+				<td class="auto-style48" valign="bottom">3</td>
+				<td class="auto-style48" valign="bottom">9</td>
+				<td class="auto-style49" valign="bottom">BA</td>
+				<td class="auto-style48" valign="bottom">London</td>
+				<td class="auto-style47" valign="bottom">BA101</td>
+				<td class="auto-style51" valign="bottom">Final Call</td>
+				<td class="auto-style53" valign="bottom">2</td>
+				<td class="auto-style52" valign="bottom">12</td>
+			</tr>
+			<tr class="auto-style13">
+				<td class="auto-style45" valign="bottom">1</td>
+				<td class="auto-style45" valign="bottom">4</td>
+				<td class="auto-style45" valign="bottom">:</td>
+				<td class="auto-style45" valign="bottom">4</td>
+				<td class="auto-style45" valign="bottom">7</td>
+				<td class="auto-style46" valign="bottom">American</td>
+				<td class="auto-style45" valign="bottom">Los Angeles</td>
+				<td class="auto-style44" valign="bottom">AA4</td>
+				<td class="auto-style50" valign="bottom">Boarding</td>
+				<td class="auto-style42" valign="bottom">2</td>
+				<td class="auto-style41" valign="bottom">2</td>
+			</tr>
+			<tr>
+				<td class="auto-style48" style="border-bottom-color: lightgrey; border-bottom-style: solid; border-bottom-width: thin; height: 28px;" valign="bottom">
+				1 </td>
+				<td class="auto-style48" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				4 </td>
+				<td class="auto-style48" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				: </td>
+				<td class="auto-style48" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				5 </td>
+				<td class="auto-style48" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				2 </td>
+				<td class="auto-style49" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				BA </td>
+				<td class="auto-style48" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				London </td>
+				<td class="auto-style47" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				BA101 </td>
+				<td class="auto-style57" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				At Gate </td>
+				<td class="auto-style53" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				3 </td>
+				<td class="auto-style52" style="border-bottom: 1 blue solid; height: 28px;" valign="bottom">
+				4g </td>
+			</tr>
+			<tr class="auto-style13">
+				<td class="auto-style45" style="height: 23px" valign="bottom">1</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">4</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">:</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">2</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">3</td>
+				<td class="auto-style46" style="height: 23px" valign="bottom">American</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">Los 
+				Angeles</td>
+				<td class="auto-style44" style="height: 23px" valign="bottom">AA4</td>
+				<td class="auto-style43" style="height: 23px" valign="bottom">On 
+				Time</td>
+				<td class="auto-style42" style="height: 23px" valign="bottom">2</td>
+				<td class="auto-style41" style="height: 23px;" valign="bottom">4h</td>
+			</tr>
+			<tr>
+				<td class="auto-style48" valign="bottom">1</td>
+				<td class="auto-style48" valign="bottom">4</td>
+				<td class="auto-style48" valign="bottom">:</td>
+				<td class="auto-style48" valign="bottom">2</td>
+				<td class="auto-style48" valign="bottom">6</td>
+				<td class="auto-style49" valign="bottom">BA</td>
+				<td class="auto-style48" valign="bottom">London</td>
+				<td class="auto-style47" valign="bottom">BA101</td>
+				<td class="auto-style57" valign="bottom">On Time</td>
+				<td class="auto-style53" valign="bottom">1</td>
+				<td class="auto-style52" valign="bottom">34</td>
+			</tr>
+			<tr class="auto-style13">
+				<td class="auto-style45" style="height: 23px" valign="bottom">1</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">6</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">:</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">3</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">2</td>
+				<td class="auto-style46" style="height: 23px" valign="bottom">American</td>
+				<td class="auto-style45" style="height: 23px" valign="bottom">Los 
+				Angeles</td>
+				<td class="auto-style44" style="height: 23px" valign="bottom">AA4</td>
+				<td class="auto-style43" style="height: 23px" valign="bottom">On 
+				Time</td>
+				<td class="auto-style42" style="height: 23px" valign="bottom">3</td>
+				<td class="auto-style41" style="height: 23px;" valign="bottom">2</td>
+			</tr>
+			<tr>
+				<td class="auto-style14" valign="bottom">1</td>
+				<td class="auto-style14" valign="bottom">6</td>
+				<td class="auto-style14" valign="bottom">:</td>
+				<td class="auto-style14" valign="bottom">2</td>
+				<td class="auto-style14" valign="bottom">8</td>
+				<td class="auto-style25" valign="bottom">American</td>
+				<td class="auto-style14" valign="bottom">Los Angeles</td>
+				<td class="auto-style14" valign="bottom">AA4</td>
+				<td class="auto-style27" valign="bottom">On Time</td>
+				<td class="auto-style56" valign="bottom">1</td>
+				<td class="auto-style13" valign="bottom">2</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="11">
+		<table cellpacing="0" cellspacing="0" style="width: 100%" class="simple ">
+			<tr class="foot">
+				<td >Tue 30 May 2017</td>
+				<td style="text-align:right">14:31</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<p>Gate</p>
+
+</body>
+
+</html>
