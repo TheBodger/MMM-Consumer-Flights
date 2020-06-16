@@ -19,6 +19,11 @@
         text-align: center;
     }
 
+    .LHR .divider {
+        border-width: 0;
+        background-color: #FFFFFF;
+    }
+
     .LHR .flight {
         color: white;
         background-color: #333333;

@@ -12,7 +12,7 @@ var NodeHelper = require("node_helper");
 //global Var
 const startTime = new Date(); //use for getting elapsed times during debugging
 
-const moment = require('moment');
+const moment = require('moment-timezone');
 const csv = require('csvtojson')
 const fs = require('fs');
 
@@ -69,15 +69,15 @@ module.exports = NodeHelper.create({
 //		Name 	Name of airport.May or may not contain the City name.
 //		City 	Main city served by airport.May be spelled differently from Name.
 //		Country 	Country or territory where airport is located.See Countries to cross - reference to ISO 3166 - 1 codes.
-//			IATA 	3 - letter IATA code.Null if not assigned / unknown.
-//				ICAO 	4 - letter ICAO code.
+//		IATA 	3 - letter IATA code.Null if not assigned / unknown.
+//		ICAO 	4 - letter ICAO code.
 //		Null if not assigned.
 //		Latitude 	Decimal degrees, usually to six significant digits.Negative is South, positive is North.
 //		Longitude 	Decimal degrees, usually to six significant digits.Negative is West, positive is East.
 //		Altitude 	In feet.
 //		Timezone 	Hours offset from UTC.Fractional hours are expressed as decimals, eg.India is 5.5.
 //		DST 	Daylight savings time.One of E(Europe), A(US / Canada), S(South America), O(Australia), Z(New Zealand), N(None) or U(Unknown).See also: Help: Time
-//		Tz database time zone 	Timezone in "tz"(Olson) format, eg. "America/Los_Angeles".
+//		Tz		Database time zone 	Timezone in "tz"(Olson) format, eg. "America/Los_Angeles".
 //		Type 	Type of the airport.Value "airport" for air terminals, "station" for train stations, "port" for ferry terminals and "unknown" if not known.In airports.csv, only type = airport is included.
 //		Source 	Source of this data. "OurAirports" for data sourced from OurAirports, "Legacy" for old data not matched to OurAirports(mostly DAFIF), "User" for unverified user contributions.In airports.csv, only source = OurAirports is included.
 
@@ -140,7 +140,17 @@ module.exports = NodeHelper.create({
 		//reformat the data so we keep the subjects meta data together
 		//allowing the module to format the output
 
-		var flightdata = { airport: itemarray[0].subject, flighttype: itemarray[0].object,flights:[]};
+		//add a total offset in minutes from local time
+		//uses moment timezone so takes into account TZ and DST
+
+		//1 get the local time as an offset from utc in minutes
+		var utcoffset = moment().utcOffset();
+		//2 get the remote time as an offset from utc in minutes
+		 // Olson format timezone
+
+		if (self.consumerstorage[moduleinstance].config.localtime) { var utcoffset = moment().tz(itemarray[0].tzd).utcOffset();};
+
+		var flightdata = { timeoffset: utcoffset,airport: itemarray[0].subject, flighttype: itemarray[0].object,flights:[]};
 
 		itemarray.forEach(function (flight) {
 

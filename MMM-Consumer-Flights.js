@@ -38,11 +38,11 @@ Module.register("MMM-Consumer-Flights", {
 		flightcount: null,          //*Optional* - The number of flights to show, the default is all flights passed from the provider, but this can be used to reduce the total number
 		scroll: false,				//*Optional* - If true, then the flights are moved up one at atime on the board, otherwise a full baord at a time is displayed
 		animate: false,				//*Optional* - Animate the characters on the board as they change.
-		simple: true,				//*Optional* - Show a simple formated board with no embellishments
+		simple: true,				//*Optional* - Show a simple formatted board with no embellishments
 		remarks: true,				//*Optional* - Display full remarks, using varisou elelments to determine message
 		theme: 'LHR',				//*Optional* - Which style from the MMM-Consumer-Flights.css to use, provided so different colour schemas can be used to mimic different airport's boards
 		codeshare: false,			//*Optional* - If scroll is enabled then cycle through each codeshared flight number, not enabled, then all codeshares are shown
-		localtime: false,			//*Optional* - If true, show the time on the board header in local time (utc + timesone offset)
+		localtime: true,			//*Optional* - If true, show the time on the board header in local time (utc + timesone offset)
 	},
 
 	start: function () {
@@ -190,25 +190,25 @@ Module.register("MMM-Consumer-Flights", {
 
 		//now we have some flight information update some key information
 
+		if (this.config.header) { var height = 40; var align = ''; } else { var height = 26; var align = 'align="middle"'; };
+
+
 		if (this.payload.flighttype == "FlightDepartures") {
-			document.getElementById('boardicon_' + this.config.id).innerHTML= '<img height="40" src="modules/MMM-Consumer-Flights/images/Departures.png" width="40" />'; 
+			document.getElementById('boardicon_' + this.config.id).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/images/Departures.png" width="${height}" />`; 
 		}
 		if (this.payload.flighttype == "FlightArrivals") {
-			document.getElementById('boardicon_' + this.config.id).innerHTML = '<img height="40" src="modules/MMM-Consumer-Flights/images/Arrivals.png" width="40" />';
+			document.getElementById('boardicon_' + this.config.id).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/images/Arrivals.png" width="${height}" />`;
 		}
 
-		document.getElementById('boardairport_' + this.config.id).innerHTML = this.payload.airport; 
+		document.getElementById('boardairport_' + this.config.id).innerHTML = (this.config.codes) ? this.payload.airport : airports['getattribute'](this.payload.airport,'airport').replace(' Airport',''); 
 
-		// get the time offset if required
-
-		if (this.config.localtime) { this.timeoffset = airports['getattribute'](this.payload.airport, 'tz'); } //needs local zone/airport zone +  DST additional code
-
+		//local zone/airport zone +  DST adjusted
+		this.timeoffset = this.payload.timeoffset;
+		
 		//and add the flights
 
 		flightscell.innerHTML = this.buildflights(true);
 
-		//this.tick('boardtime', 'boarddate'); //add the info and then set a 1/2 second timer to keep it up to date ish
-		//this.boardtimer = setInterval(this.tick, 500, 'boardtime', 'boarddate');
 
 		//var footer = document.createElement('table');
 		//header.className = this.payload.airport || 'LHR';
@@ -234,57 +234,104 @@ Module.register("MMM-Consumer-Flights", {
 		//build the display board depending on the data received
 		//initially have an empty board and then subsequently animate the flights in
 
-		//full header
-
 		var board = document.createElement('table');
 		board.className = this.config.theme;
 		board.classList.add('small');
 		board.cellSpacing = '0';
-		var row = board.insertRow(0);
-		row.className = 'head';
-		var cell1 = row.insertCell(0);
-		cell1.rowSpan = '2';
-		cell1.colSpan = '3';
-		cell1.id = 'boardicon_' + this.config.id;
-		
-		var cell2 = row.insertCell(1);
-		cell2.colSpan = '7';
-		cell2.rowSpan = '2';
-		cell2.innerHTML = '';
-		cell2.id = 'boardairport_' + this.config.id;
-		var cell3 = row.insertCell(2);
-		cell3.className = 'xsmall';
-		cell3.id = 'boarddate_' + this.config.id;
 
-		var row = board.insertRow(1);
-		row.className = 'head';
-		var cell1 = row.insertCell(0);
-		cell1.id = 'boardtime_' + this.config.id;
+		if (this.config.header) {
+			//full header
 
-		var row = board.insertRow(2);
-		var cell1 = row.insertCell(0);
-		cell1.colSpan = '11';
-		cell1.style = "height: 2px";
-		var row = board.insertRow(2);
+			var row = board.insertRow(0);
+			row.className = 'head';
+			var cell1 = row.insertCell(0);
+			cell1.rowSpan = '2';
+			cell1.colSpan = '3';
+			cell1.id = 'boardicon_' + this.config.id;
+
+			var cell2 = row.insertCell(1);
+			cell2.colSpan = '7';
+			cell2.rowSpan = '2';
+			cell2.innerHTML = '';
+			cell2.id = 'boardairport_' + this.config.id;
+			var cell3 = row.insertCell(2);
+			cell3.className = 'xsmall';
+			cell3.id = 'boarddate_' + this.config.id;
+
+			var row = board.insertRow(1);
+			row.className = 'head';
+			var cell1 = row.insertCell(0);
+			cell1.id = 'boardtime_' + this.config.id;
+
+			var row = board.insertRow(2);
+			var cell1 = row.insertCell(0);
+			cell1.colSpan = '11';
+			cell1.style = "height: 2px";
+			
+		}
+		else {
+			//noheader
+			var row = board.insertRow(-1);
+			
+			var headercell = row.insertCell(-1);
+			headercell.colSpan = '11'
+
+			var header = document.createElement('table');
+			header.className = this.config.theme;
+			header.classList.add('small');
+			header.cellSpacing = '0';
+
+			var row = header.insertRow(-1);
+			row.className = 'head';
+			var cell1 = row.insertCell(-1);
+			cell1.colSpan = '4';
+			cell1.style = "text-align:left";
+			cell1.id = 'boardicon_' + this.config.id
+			var cell2 = row.insertCell(-1);
+			cell2.colSpan = '6';
+			cell2.id = 'boardairport_' + this.config.id;
+			var cell3 = row.insertCell(-1);
+			cell3.colSpan = '1';
+			cell3.style = 'text-align:right';
+			cell3.innerHTML = "Gate";
+			headercell.appendChild(header);
+
+			var row = board.insertRow(-1);
+			var cell1 = row.insertCell(-1);
+			cell1.colSpan = '11';
+			cell1.className = 'divider';
+		}
+
+		var row = board.insertRow(-1);
 		var flightscell = row.insertCell(0);
 		flightscell.colSpan = '11';
 		flightscell.id = 'boardflights_' + this.config.id;
-
 		flightscell.innerHTML = this.buildflights();
 
-		this.tick('boardtime_' + this.config.id, 'boarddate_' + this.config.id,this); //add the info and then set a 1/2 second timer to keep it up to date ish
-		this.boardtimer = setInterval(this.tick, 500, 'boardtime_' + this.config.id, 'boarddate_' + this.config.id,this);
+		if (!this.config.header) {
+			var row = board.insertRow(-1);
+			var footercell = row.insertCell(-1);
+			footercell.colSpan = '11';
 
-		//var footer = document.createElement('table');
-		//header.className = this.payload.airport || 'LHR';
-		//header.cellSpacing = '0';
-		//var row = header.insertRow(0);
-		//row.className = 'head';
-		//var cell1 = row.insertCell(0);
-		//cell1.rowspan = '2';
-		//cell1.colSpan = '3';
-		////if (this.payload.flightype==flightdepartures)
-		//cell1.innerHTML = '<img height="40" src="Departures.png" width="40" />'; // need to point to images folder
+			var footer = document.createElement('table');
+			footer.className = 'simple';
+			footer.classList.add('small');
+			footer.cellspacing = '0';
+			footer.style = 'width:100%';
+			var row = footer.insertRow(-1);
+			row.className = 'foot';
+			var cell1 = row.insertCell(-1);
+			cell1.id = 'boarddate_' + this.config.id;
+			var cell2 = row.insertCell(-1);
+			cell2.style = 'text-align:right';
+			cell2.id = 'boardtime_' + this.config.id;
+
+			footercell.appendChild(footer);
+		}
+
+		this.tick('boardtime_' + this.config.id, 'boarddate_' + this.config.id,this); //add the info and then set a 1/2 second timer to keep it up to date ish
+		this.boardtimer = setInterval(this.tick, 500, 'boardtime_' + this.config.id, 'boarddate_' + this.config.id, this);
+
 		return board;
 
 	},
@@ -297,28 +344,30 @@ Module.register("MMM-Consumer-Flights", {
 		flights.className = 'flights';
 		flights.cellSpacing = '0';
 		flights.cellPadding = '2';
-		var row = flights.insertRow(0);
-		row.className = 'columnhead';
-		var cell1 = row.insertCell(0);
-		cell1.colSpan = 5;
-		cell1.innerHTML = "At";
-		var cell2 = row.insertCell(1);
-		cell2.innerHTML = "Airline";
-		var flightdirectioncell = row.insertCell(2);
-		flightdirectioncell.innerHTML = "To";
-		var cell4 = row.insertCell(3);
-		cell4.innerHTML = "Flight";
-		var cell5 = row.insertCell(4);
-		cell5.innerHTML = "Remarks";
-		var cell6 = row.insertCell(5);
-		cell6.innerHTML = "Terminal";
-		var cell7 = row.insertCell(6);
-		cell7.innerHTML = "Gate";
-		var row = flights.insertRow(1);
-		var cell1 = row.insertCell(0);
-		cell1.colSpan = '11';
-		cell1.style = "height:1px";
 
+		if (this.config.header) {
+			var row = flights.insertRow(0);
+			row.className = 'columnhead';
+			var cell1 = row.insertCell(0);
+			cell1.colSpan = 5;
+			cell1.innerHTML = "At";
+			var cell2 = row.insertCell(1);
+			cell2.innerHTML = "Airline";
+			var flightdirectioncell = row.insertCell(2);
+			flightdirectioncell.innerHTML = "To";
+			var cell4 = row.insertCell(3);
+			cell4.innerHTML = "Flight";
+			var cell5 = row.insertCell(4);
+			cell5.innerHTML = "Remarks";
+			var cell6 = row.insertCell(5);
+			cell6.innerHTML = "Terminal";
+			var cell7 = row.insertCell(6);
+			cell7.innerHTML = "Gate";
+			var row = flights.insertRow(1);
+			var cell1 = row.insertCell(0);
+			cell1.colSpan = '11';
+			cell1.style = "height:1px";
+		}
 		var ridx = 0;
 		var cell = new Array(11);
 
@@ -327,7 +376,7 @@ Module.register("MMM-Consumer-Flights", {
 			var ridx = 0;
 			var cell = new Array(11);
 			var boardtype = (this.payload.flighttype == "FlightDepartures") ? 'dep' : 'arr';
-			flightdirectioncell.innerHTML = (boardtype == 'arr') ? 'From' : flightdirectioncell.innerHTML;
+			if (this.config.header) { flightdirectioncell.innerHTML = (boardtype == 'arr') ? 'From' : flightdirectioncell.innerHTML; }
 
 			for (var fidx = this.boardflightidx; fidx < this.boardflightidx + this.config.rowcount; fidx++) {
 
@@ -414,8 +463,8 @@ Module.register("MMM-Consumer-Flights", {
 
 		if (targetdate == null || targettime == null) { return;}
 
-		targettime.innerHTML = moment().add(self.timeoffset, 'hours').format('HH:mm:ss'); 
-		targetdate.innerHTML = moment().add(self.timeoffset, 'hours').format('ddd do MMM YYYY'); 
+		targettime.innerHTML = moment().utc().add(self.timeoffset, 'minutes').format('HH:mm:ss'); 
+		targetdate.innerHTML = moment().utc().add(self.timeoffset, 'minutes').format('ddd do MMM YYYY'); 
 	},
 
 	sendNotificationToNodeHelper: function (notification, payload) {

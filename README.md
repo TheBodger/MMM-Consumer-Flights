@@ -20,6 +20,7 @@ Before installing this module, also install https://github.com/TheBodger/MMM-Cha
 cd to the MagicMirror folder
 
 npm i --save csvtojson
+npm install moment-timezone --save
 		
 		
 
@@ -67,6 +68,7 @@ To use this module, add the following configuration block to the modules array i
 | `remarks`            |*Optional* - Display full remarks, using varisou elelments to determine message<br><br> **Possible values:** true or false<br> **Default value:** true
 | `theme`            |*Optional* - Which style from the MMM-Consumer-Flights.css to use, provided so different colour schems can be used to mimic different airport's boards<br><br> **Possible values:** the name of a css class set in the modules css file<br> **Default value:** LHR TODO - add full theme capabilities including adjustment to layout
 | 'codeshare'			|*Optional* - If scroll is enabled then cycle through each codeshared flight number, not enabled, then all codeshares are shown<br><br> **Possible values:** true or false<br> **Default value:** false
+| 'localtime' true,			|*Optional* - If true, show the time on the board header in local time (utc + timezone offset)<br><br> **Possible values:** true or false<br> **Default value:** true
 
 ### Additional_Notes
 
