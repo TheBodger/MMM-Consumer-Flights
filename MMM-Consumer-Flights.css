@@ -10,14 +10,12 @@
 
     .LHR .head {
         color: black;
-        font-size: x-large;
         text-align: center;
         background-color: #FFFF00;
     }
 
     .LHR .columnhead {
         color: white;
-        font-size: normal;
         text-align: center;
     }
 
@@ -38,6 +36,9 @@
             color: green;
         }
 
+        .LHR .flight .cancelled {
+            color: red;
+        }
         .LHR .flight .final {
             background-color: fuchsia
         }
@@ -54,7 +55,6 @@
 
     .LHR .simple .head {
         color: black;
-        font-size: large;
         text-align: center;
         background-color: #FFFF00;
     }

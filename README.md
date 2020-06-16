@@ -17,10 +17,18 @@ It works well with data extracted through the MMM-Provider-JSON module pulling d
 
 Before installing this module, also install https://github.com/TheBodger/MMM-ChartUtilities as well as https://github.com/TheBodger/MMM-FeedUtilities 
 
+cd to the MagicMirror folder
+
+npm i --save csvtojson
+		
+		
+
 ## Standalone Installation
 To install the module, use your terminal to:
 1. Navigate to your MagicMirror's modules folder. If you are using the default installation directory, use the command:<br />`cd ~/MagicMirror/modules`
 2. Clone the module:<br />`git clone https://github.com/TheBodger/MMM-Consumer-Flights`
+
+update the list of airports from here : https://openflights.org/data.html , save the file into the folder modules/MMM-Consumer-Flights/reference and call it airports.csv
 
 ### MagicMirror² Configuration
 
@@ -58,6 +66,7 @@ To use this module, add the following configuration block to the modules array i
 | `simple`            |*Optional* - Show a simple formated board with no embellishments<br><br> **Possible values:** true or false<br> **Default value:** true
 | `remarks`            |*Optional* - Display full remarks, using varisou elelments to determine message<br><br> **Possible values:** true or false<br> **Default value:** true
 | `theme`            |*Optional* - Which style from the MMM-Consumer-Flights.css to use, provided so different colour schems can be used to mimic different airport's boards<br><br> **Possible values:** the name of a css class set in the modules css file<br> **Default value:** LHR TODO - add full theme capabilities including adjustment to layout
+| 'codeshare'			|*Optional* - If scroll is enabled then cycle through each codeshared flight number, not enabled, then all codeshares are shown<br><br> **Possible values:** true or false<br> **Default value:** false
 
 ### Additional_Notes
 
@@ -74,6 +83,7 @@ Terminal
 Gate
 
 
-
+the script airports.js exposes the list of iata airportcodes in the file references/airports.csv (down loadable from https://openflights.org/data.html ) so that additional information can be added to the board if it cant be supplied in the main feed from the MMM-Provider-xxx module
+if an alternative source is required, clone airports.js and adjust accordingly.
 
 
