@@ -148,7 +148,7 @@ module.exports = NodeHelper.create({
 		//2 get the remote time as an offset from utc in minutes
 		 // Olson format timezone
 
-		if (self.consumerstorage[moduleinstance].config.localtime) { var utcoffset = moment().tz(itemarray[0].tzd).utcOffset();};
+		if (self.consumerstorage[moduleinstance].config.localtime) {var utcoffset = moment().tz(itemarray[0].tzd).utcOffset();};
 
 		var flightdata = { timeoffset: utcoffset,airport: itemarray[0].subject, flighttype: itemarray[0].object,flights:[]};
 
