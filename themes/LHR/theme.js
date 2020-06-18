@@ -1,10 +1,17 @@
 //theme.js
+//LHR
 //contains paramaters that are used to layout the board
 //options are:
 //board column indexes
 //
 //
-var theme = {
+var LHR_theme = {
+	arr_columnnames: [],
+	dep_columnnames: [],					//enter the columnnames, in the default order shown in BCI,
+											//i.e. ['At','Airline','Airport*','Flight','Remarks','Terminal','Gate']
+											// To will be automatically replaced with  From depending if departure or arrivals board
+											// Example ['Time','Carrier','Airport','Number','Status','Term','Flight Gate']
+											// leave empty or set to null to use the default set
 
 	bci: [],    //enter the order of fields to appear on the board, using the following index numbers
 				//0-4 = arrival/departure time (h,h,:,m,m)

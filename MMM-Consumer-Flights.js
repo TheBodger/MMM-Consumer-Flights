@@ -27,7 +27,6 @@ Module.register("MMM-Consumer-Flights", {
 		rowcount: 10,				//* Optional * - The number of rows of flights to show at a time
 		exclude: null,				//* Optional * - An array of field names to exclude from the board  
 		icon: false,				//*Optional* - Include an icon of the airline instead of the text
-		icons: 'iataicons.js',		//*optional* - the location of the icons to use if icon is true
 		codes: true,				//*Optional* - Show only the codes provided from the provider for Airports, flights and carriers. 
 		//	It is assumed that these will be IATA codes. 
 		//	IF other codes are provided then used the reference setting to convert to strings for displaying on the board
@@ -69,8 +68,43 @@ Module.register("MMM-Consumer-Flights", {
 
 		this.timeoffset = 0;
 
-		console.log(theme);
-		console.log(this.theme);
+		//setup any missing theme entries
+		//need to determine though which theme we are using otherwise the same named variables will clash
+
+		this.themedetails = window[this.config.theme + "_theme"]; //var name = window['a'];
+
+		var setdefault = false;
+
+		if (this.themedetails.bci == null) {
+			setdefault = true;
+		}
+		else if (this.themedetails.bci.length != 11) { setdefault = true; }
+
+		if (setdefault) {
+			this.themedetails.bci = [0,1,2,3,4,5,6,7,8,9,10];
+		}
+
+		var setdefault = false;
+
+		if (this.themedetails.dep_columnnames == null) {
+			setdefault = true;
+		}
+		else if (this.themedetails.dep_columnnames.length != 7) { setdefault = true; }
+
+		if (setdefault) {
+			this.themedetails.dep_columnnames = ['At','Airline','To','Flight','Remarks','Terminal','Gate'];
+		}
+
+		var setdefault = false;
+
+		if (this.themedetails.arr_columnnames == null) {
+			setdefault = true;
+		}
+		else if (this.themedetails.arr_columnnames.length != 7) { setdefault = true; }
+
+		if (setdefault) {
+			this.themedetails.arr_columnnames = ['At', 'Airline', 'From', 'Flight', 'Remarks', 'Terminal', 'Gate'];
+		}
 
 	},
 
@@ -89,7 +123,7 @@ Module.register("MMM-Consumer-Flights", {
 		return [
 			//'vendor/node_modules/requirejs/require.js',
 			'airports.js',
-			'modules/MMM-Consumer-Flights/themes/' + this.config.theme + '/theme.js'
+			`modules/MMM-Consumer-Flights/themes/${this.config.theme}/theme.js`
 		]
 	},
 
@@ -97,7 +131,7 @@ Module.register("MMM-Consumer-Flights", {
 	getStyles: function () {
 		return [
 			//'MMM-Consumer-Flights.css',
-			'modules/MMM-Consumer-Flights/themes/'+this.config.theme+'/theme.css'
+			`modules/MMM-Consumer-Flights/themes/${this.config.theme}/theme.css`
 		]
 	},
 
@@ -106,12 +140,6 @@ Module.register("MMM-Consumer-Flights", {
 		var self = this;
 
 		console.log(this.showElapsed(), 'notifications',notification);
-
-		//if (sender) {
-		//	Log.log(self.identifier + " " + this.name + " received a module notification: " + notification + " from sender: " + sender.name);
-		//} else {
-		//	Log.log(self.identifier + " " + this.name + " received a system notification: " + notification);
-		//}
 
 		if (notification == 'ALL_MODULES_STARTED') {
 			//build my initial payload for any providers listening to me
@@ -163,58 +191,65 @@ Module.register("MMM-Consumer-Flights", {
 				this.showflightscount = Math.min(this.config.flightcount, this.payload.flights.length);
 			}
 
-			this.updateDom(1000); //force a getdom
+			this.updateboard(); //force an update
 		}
 	},
 
 	forceDomUpdate: function (self,delay = 250) {
-		self.updateDom(delay); //force a getdom
+		self.updateboard(); //force an update
     },
 
 	// Override dom generator.
 	getDom: function () {
 		Log.log(this.identifier + " Hello from getdom @" + this.showElapsed());
 
-		var wrapper;
-
 		if (this.board == null) {
-			wrapper = document.createElement("div");
+			var wrapper = document.createElement("div");
 			wrapper.id = 'flightwrapper_'+this.identifier;
 			this.board = wrapper.appendChild(this.buildboard());
-			if (this.payload == null) { return wrapper; }
+			//if (this.payload == null) {
+			
+				return wrapper;
+			//}
 		}
+	},
+
+	updateboard: function () {
 
 		wrapper = document.getElementById('flightwrapper_' + this.identifier);
+		
 
-		if (this.payload == null) { return wrapper; }
+		if (this.payload == null) { return;}
 
 		//we have the wrapper, so now we need to update the innerhtml of the flights tables
 		//which lives inside a specfic cell - boardflights
 
 		var flightscell = document.getElementById('boardflights_' + this.identifier);
 
-		//now we have some flight information update some key information
+		if (flightscell != null) { //the dom elements may not have been stored yet
 
-		if (this.config.header) { var height = 40; var align = ''; } else { var height = 26; var align = 'align="middle"'; };
+			//now we have some flight information update some key information
 
-		if (this.payload.flighttype == "FlightDepartures") {
-			document.getElementById('boardicon_' + this.identifier).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/themes/${this.config.theme}/Departures.png" width="${height}" />`; 
+			if (this.config.header) { var height = 40; var align = ''; } else { var height = 26; var align = 'align="middle"'; };
+
+			if (this.payload.flighttype == "FlightDepartures") {
+				document.getElementById('boardicon_' + this.identifier).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/themes/${this.config.theme}/Departures.png" width="${height}" />`;
+			}
+			if (this.payload.flighttype == "FlightArrivals") {
+				document.getElementById('boardicon_' + this.identifier).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/themes/${this.config.theme}/Arrivals.png" width="${height}" />`;
+			}
+
+			document.getElementById('boardairport_' + this.identifier).innerHTML = (this.config.codes) ? this.payload.airport : airports['getattribute'](this.payload.airport, 'airport').replace(' Airport', '');
+
+			//local zone/airport zone +  DST adjusted
+			this.timeoffset = this.payload.timeoffset;
+
+			//and add the flights
+
+			flightscell.innerHTML = this.buildflights(true);
+
 		}
-		if (this.payload.flighttype == "FlightArrivals") {
-			document.getElementById('boardicon_' + this.identifier).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/themes/${this.config.theme}/Arrivals.png" width="${height}" />`;
-		}
-
-		document.getElementById('boardairport_' + this.identifier).innerHTML = (this.config.codes) ? this.payload.airport : airports['getattribute'](this.payload.airport,'airport').replace(' Airport',''); 
-
-		//local zone/airport zone +  DST adjusted
-		this.timeoffset = this.payload.timeoffset;
-		
-		//and add the flights
-
-		flightscell.innerHTML = this.buildflights(true);
-
-		return wrapper;
-	},
+    },
 
 	buildboard: function () {
 
@@ -339,29 +374,40 @@ Module.register("MMM-Consumer-Flights", {
 		flights.cellSpacing = '0';
 		flights.cellPadding = '2';
 
+		var columnnames = this.themedetails.dep_columnnames; //initial set if we dont have data yet
+
 		if (this.config.header) {
-			var row = flights.insertRow(0);
+
+			if (usedata) {
+				var boardtype = (this.payload.flighttype == "FlightDepartures") ? 'dep' : 'arr';
+				if (boardtype == 'arr') { columnnames = this.themedetails.arr_columnnames;}
+			}
+
+			var row = flights.insertRow(-1);
 			row.className = 'columnhead';
-			var cell1 = row.insertCell(0);
-			cell1.colSpan = 5;
-			cell1.innerHTML = "At";
-			var cell2 = row.insertCell(1);
-			cell2.innerHTML = "Airline";
-			var flightdirectioncell = row.insertCell(2);
-			flightdirectioncell.innerHTML = "To";
-			var cell4 = row.insertCell(3);
-			cell4.innerHTML = "Flight";
-			var cell5 = row.insertCell(4);
-			cell5.innerHTML = "Remarks";
-			var cell6 = row.insertCell(5);
-			cell6.innerHTML = "Terminal";
-			var cell7 = row.insertCell(6);
-			cell7.innerHTML = "Gate";
-			var row = flights.insertRow(1);
-			var cell1 = row.insertCell(0);
+
+			//add a -ve offset to apply to any returned indexes other than 0 - this is so the column index can be used to get the column name
+
+			for (var cidx = 0; cidx < self.themedetails.bci.length; cidx++) {
+				if (this.themedetails.bci[cidx] < 1 || this.themedetails.bci[cidx] > 4) { //special case ignore the 4 time slots after 0
+					var cell1 = row.insertCell(-1);
+					if (this.themedetails.bci[cidx] == 0) { //special case = time start
+						cell1.colSpan = 5;
+						cell1.innerHTML = columnnames[this.themedetails.bci[cidx]];
+					}
+					else {
+						cell1.innerHTML = columnnames[this.themedetails.bci[cidx]-4]; //-ve offset to ignore the 4 extra time slots
+					}
+
+				}
+			}
+
+			var row = flights.insertRow(-1);
+			var cell1 = row.insertCell(-1);
 			cell1.colSpan = '11';
 			cell1.style = "height:1px";
 		}
+
 		var ridx = 0;
 		var cell = new Array(11);
 
@@ -369,45 +415,55 @@ Module.register("MMM-Consumer-Flights", {
 
 			var ridx = 0;
 			var cell = new Array(11);
-			var boardtype = (this.payload.flighttype == "FlightDepartures") ? 'dep' : 'arr';
-			if (this.config.header) { flightdirectioncell.innerHTML = (boardtype == 'arr') ? 'From' : flightdirectioncell.innerHTML; }
 
 			for (var fidx = this.boardflightidx; fidx < this.boardflightidx + this.config.rowcount; fidx++) {
 
 				var flight = this.payload.flights[fidx];
 
-				for (var ridx = 0; ridx < 11; ridx++) {
+				for (var rowidx = 0; rowidx < 11; rowidx++) {
 
 					//process each field in turn unless excluded
 
-					if (ridx == 0) {
+					if (rowidx == 0) {
 						var row = flights.insertRow(-1);
 						row.className = 'flight';
 					}
 
-					cell[ridx] = row.insertCell(-1);
+					ridx = this.themedetails.bci[rowidx];
+
+					cell[rowidx] = row.insertCell(-1);
 
 					if (ridx < 5) {
-						cell[ridx].className = 'time';
-						cell[ridx].innerHTML = flight.scheduled.split('')[ridx];
+						cell[rowidx].className = 'time';
+						cell[rowidx].innerHTML = flight.scheduled.split('')[ridx];
 					}
-					else if (ridx == 5) { cell[ridx].innerHTML = (this.config.codes) ? flight.airline.airlines[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx] ; cell[ridx].className = 'airline'; }
-					else if (ridx == 6) { cell[ridx].innerHTML = (this.config.codes) ? flight.remoteairport : airports['getcity'](flight.remoteairport); }
+					else if (ridx == 5) {//Airline code, name or icon
+						if (this.config.icon) {
+							var width = '80px';
+							if (this.config.size == 'small') { width = '100px';}
+							cell[rowidx].style = 'background-color:white';
+							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/images/icons/${flight.airline.airlinesiata[flight.flight.flightidx]}.svg" width="${width}" />`;
+						}
+						else {
+							cell[rowidx].innerHTML = (this.config.codes) ? flight.airline.airlinesiata[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx];
+						}
+						cell[rowidx].className = 'airline';
+					}
+					else if (ridx == 6) { cell[rowidx].innerHTML = (this.config.codes) ? flight.remoteairport : airports['getcity'](flight.remoteairport); }
 					else if (ridx == 7) {
-						cell[ridx].innerHTML = (this.config.codes) ? flight.flight.flights[flight.flight.flightidx] : flight.flight.flights[flight.flight.flightidx]
-						//console.log(JSON.stringify(this.payload.flights[fidx].flight));
+						cell[rowidx].innerHTML = (this.config.codes) ? flight.flight.flights[flight.flight.flightidx] : flight.flight.flights[flight.flight.flightidx]
 						this.payload.flights[fidx].flight.flightidx++;
 						if (this.payload.flights[fidx].flight.flightidx == this.payload.flights[fidx].flight.flights.length) { this.payload.flights[fidx].flight.flightidx = 0};
 					}
 					else if (ridx == 8) {
-						cell[ridx].innerHTML = flight.remarks;
-						if (flight.remarks.indexOf('inal')>-1) { cell[ridx].className = 'final'; }
-						if (flight.remarks.indexOf('oard') > -1) { cell[ridx].className = 'boarding'; }
-						if (flight.remarks.indexOf('arted') > -1) { cell[ridx].className = 'departed'; }
-						if (flight.remarks.indexOf('ancelled') > -1) { cell[ridx].className = 'cancelled'; }
+						cell[rowidx].innerHTML = flight.remarks;
+						if (flight.remarks.indexOf('inal') > -1) { cell[rowidx].className = 'final'; }
+						if (flight.remarks.indexOf('oard') > -1) { cell[rowidx].className = 'boarding'; }
+						if (flight.remarks.indexOf('arted') > -1) { cell[rowidx].className = 'departed'; }
+						if (flight.remarks.indexOf('ancelled') > -1) { cell[rowidx].className = 'cancelled'; }
 					}
-					else if (ridx == 9) { cell[ridx].innerHTML = flight.terminal; cell[ridx].className = 'terminal'; }
-					else if (ridx == 10) { cell[ridx].innerHTML = flight.gate;  }
+					else if (ridx == 9) { cell[rowidx].innerHTML = flight.terminal; cell[rowidx].className = 'terminal'; }
+					else if (ridx == 10) { cell[rowidx].innerHTML = flight.gate;  }
 
 				}
 			}

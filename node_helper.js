@@ -163,7 +163,7 @@ module.exports = NodeHelper.create({
 
 				//setup flights for codeshare displaying
 				flight: { flightidx: 0, flights: [flight.flight] },
-				airline: { airlines: [flight.airline] },
+				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata]},
 
 			}
 
@@ -184,7 +184,7 @@ module.exports = NodeHelper.create({
 						addflight = false;
 						flightdata.flights[index].flight.flights.push(flight.flight);
 						flightdata.flights[index].airline.airlines.push(flight.airline);
-
+						flightdata.flights[index].airline.airlinesiata.push(flight.airlineiata);
 					}
                 }
 
