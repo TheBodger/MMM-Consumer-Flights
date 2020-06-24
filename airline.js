@@ -1,7 +1,7 @@
 //helper utility to be used in a nodehelper to return details about an airline based on a IATA code
 //
-//Includes an cion generator if the icon isnt available yet
-//made up of the Airline name , shortened if neccessary
+//Includes an icon generator if the icon isnt available yet
+//made up of the Airline name , shortened if necessary
 
 //as some airlines have mulitple entries, then the ICAO code is requested by returning ICAO
 
@@ -50,7 +50,7 @@ exports.airlines = function () {
             return airline ;
         }
 
-        return { IATA: IATAcode, ICAO: ICAOcode, Airline: null, Callsign: null, Region: null, Comments: null, Icon: '', offset: offset}
+        return { IATA: IATAcode, ICAO: ICAOcode, Airline: null, Callsign: null, Region: null, Comments: null, Icon: '', Offset: offset}
 
     }
 
@@ -83,7 +83,7 @@ exports.airlines = function () {
 
     };
 
-    this.geticonname = function (IATAcode, offset = 0, subfolder = iconfolder) {
+    this.geticonname = function (IATAcode, offset = 0, subfolder = iconfolder,shorten=true, length=14) {
 
         var _iconname;
 
@@ -91,7 +91,7 @@ exports.airlines = function () {
 
             var tmpiconfilename = uf(subfolder+tempsubfolder) + ".svg";
 
-            this.buildicon(tmpiconfilename, this._airlines[IATAcode][offset].Airline);
+            this.buildicon(tmpiconfilename, this.shorten(shorten,length,this._airlines[IATAcode][offset].Airline));
 
             _iconname = tmpiconfilename
 
@@ -117,6 +117,36 @@ exports.airlines = function () {
         var tempicon = svgtemplate.replace('%width', _width).replace('%height', height).replace('%color', color).replace('%text', text);
 
         fs.writeFileSync(iconfilename, tempicon);
+
+    };
+
+    this.shorten = function (shorten, length, text) {
+
+        if (!shorten) { return text; }
+
+        var _text = text;
+        var iteration = 0;
+
+        //shorten words where possible before truncating at length
+
+        while (_text.length <= length) {
+
+            switch (iteration) {
+                case 0:
+                    _text = _text.replace('irline', "'line");
+                    break;
+                case 1:
+                    _text = _text.replace('irway', "'way");
+                    break;
+                default:
+                    _text = _text.substr(0, length);
+            } 
+
+            iteration++;
+
+        }
+
+        return _text;
 
     };
 

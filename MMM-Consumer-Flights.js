@@ -217,7 +217,6 @@ Module.register("MMM-Consumer-Flights", {
 	updateboard: function () {
 
 		wrapper = document.getElementById('flightwrapper_' + this.identifier);
-		
 
 		if (this.payload == null) { return;}
 
@@ -439,10 +438,10 @@ Module.register("MMM-Consumer-Flights", {
 					}
 					else if (ridx == 5) {//Airline code, name or icon
 						if (this.config.icon) {
-
 							if (this.config.size == 'small') { width = '100px';}
 							cell[rowidx].style = 'background-color:white';
-							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/images/icons/${flight.airline.airlinesiata[flight.flight.flightidx]}.svg" class='icon' />`;
+							//go get the icon filename
+							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/${flight.airline.airlinesiata[flight.flight.flightidx].Icon}" class='icon' />`;
 						}
 						else {
 							cell[rowidx].innerHTML = (this.config.codes) ? flight.airline.airlinesiata[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx];

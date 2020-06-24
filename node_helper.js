@@ -33,6 +33,11 @@ var commonutils = require('../MMM-FeedUtilities/utilities');
 const JSONutils = new utilities.JSONutils();
 const configutils = new utilities.configutils();
 
+// just for this helper
+
+const svgutils = require('./airline.js');
+const svgutil = new svgutils.airlines();
+
 module.exports = NodeHelper.create({
 
 	start: function () {
@@ -55,6 +60,8 @@ module.exports = NodeHelper.create({
 		//store a local copy so we dont have keep moving it about
 
 		this.consumerstorage[moduleinstance] = { config: config, feedstorage: {} };
+
+		svgutil.init();
 
 	},
 
@@ -81,7 +88,6 @@ module.exports = NodeHelper.create({
 //		Type 	Type of the airport.Value "airport" for air terminals, "station" for train stations, "port" for ferry terminals and "unknown" if not known.In airports.csv, only type = airport is included.
 //		Source 	Source of this data. "OurAirports" for data sourced from OurAirports, "Legacy" for old data not matched to OurAirports(mostly DAFIF), "User" for unverified user contributions.In airports.csv, only source = OurAirports is included.
 
-		
 		csv({
 			noheader: true,
 			headers: ['idx', 'airport', 'city','country','iata','icao','lat','lon','alt','tz','dst','tzd','type','source']
@@ -163,9 +169,12 @@ module.exports = NodeHelper.create({
 
 				//setup flights for codeshare displaying
 				flight: { flightidx: 0, flights: [flight.flight] },
-				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata]},
-
+				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata] },
 			}
+
+			if (self.consumerstorage[moduleinstance].config.icon) {
+				oflight['icon'] = svgutil.getairline(flight.airlineiata, flight.airlineicao).Icon;
+            }
 
 			var addflight = true;
 
