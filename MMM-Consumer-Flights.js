@@ -230,7 +230,7 @@ Module.register("MMM-Consumer-Flights", {
 
 			//now we have some flight information update some key information
 
-			if (this.config.header) { var height = 40; var align = ''; } else { var height = 26; var align = 'align="middle"'; };
+			if (this.config.header) { var height = 28; var align = ''; } else { var height = 24; var align = 'align="middle"'; };
 
 			if (this.payload.flighttype == "FlightDepartures") {
 				document.getElementById('boardicon_' + this.identifier).innerHTML = `<img ${align} height="${height}" src="modules/MMM-Consumer-Flights/themes/${this.config.theme}/Departures.png" width="${height}" />`;
@@ -439,10 +439,10 @@ Module.register("MMM-Consumer-Flights", {
 					}
 					else if (ridx == 5) {//Airline code, name or icon
 						if (this.config.icon) {
-							var width = '80px';
+
 							if (this.config.size == 'small') { width = '100px';}
 							cell[rowidx].style = 'background-color:white';
-							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/images/icons/${flight.airline.airlinesiata[flight.flight.flightidx]}.svg" width="${width}" />`;
+							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/images/icons/${flight.airline.airlinesiata[flight.flight.flightidx]}.svg" class='icon' />`;
 						}
 						else {
 							cell[rowidx].innerHTML = (this.config.codes) ? flight.airline.airlinesiata[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx];

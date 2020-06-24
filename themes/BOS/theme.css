@@ -35,6 +35,13 @@
         background-color: #333333;
     }
 
+        .BOS .flight .icon {
+            max-width: 80px;
+            max-height: 24px;
+            width: auto;
+            height: auto;
+        }
+
         .BOS .flight .time, .terminal {
             text-align: center;
         }

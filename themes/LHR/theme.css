@@ -29,6 +29,13 @@
         background-color: #333333;
     }
 
+        .LHR .flight .icon {
+            max-width: 80px;
+            max-height: 24px;
+            width: auto;
+            height: auto;
+        }
+
         .LHR .flight .time, .terminal {
             text-align: center;
         }
