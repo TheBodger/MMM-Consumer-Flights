@@ -437,11 +437,17 @@ Module.register("MMM-Consumer-Flights", {
 						cell[rowidx].innerHTML = flight.scheduled.split('')[ridx];
 					}
 					else if (ridx == 5) {//Airline code, name or icon
+						//need to handle code share airlines
+						//need to handle code share airlines
+						
+
+
 						if (this.config.icon) {
 							if (this.config.size == 'small') { width = '100px';}
 							cell[rowidx].style = 'background-color:white';
-							//go get the icon filename
-							cell[rowidx].innerHTML = `<img src="modules/MMM-Consumer-Flights/${flight.airline.airlinesiata[flight.flight.flightidx].Icon}" class='icon' />`;
+							cell[rowidx].innerHTML = `<img src="${flight.airline.airlineicon[flight.flight.flightidx]}" class='icon' />`;
+							var x;
+							x = 0;
 						}
 						else {
 							cell[rowidx].innerHTML = (this.config.codes) ? flight.airline.airlinesiata[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx];

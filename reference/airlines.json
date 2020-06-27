@@ -215,7 +215,7 @@
       "Call sign": "",
       "Region": "United States",
       "Comments": "",
-      "Icon": "1I.svg"
+      "Icon": ""
     },
     {
       "IATA": "1I",
@@ -233,7 +233,7 @@
       "Call sign": "PHAZER",
       "Region": "United States",
       "Comments": "",
-      "Icon": ""
+      "Icon": "1I_PZR.svg"
     },
     {
       "IATA": "1I",
@@ -242,7 +242,7 @@
       "Call sign": "NAVIGATOR",
       "Region": "Sweden",
       "Comments": "",
-      "Icon": ""
+      "Icon": "1I_NVR.svg"
     },
     {
       "IATA": "1I",
@@ -251,7 +251,7 @@
       "Call sign": "FRACTION",
       "Region": "Portugal",
       "Comments": "",
-      "Icon": ""
+      "Icon": "1I_NJE.svg"
     },
     {
       "IATA": "1I",
@@ -260,7 +260,7 @@
       "Call sign": "EXECJET",
       "Region": "United States",
       "Comments": "",
-      "Icon": ""
+      "Icon": "1I_EJA.svg"
     },
     {
       "IATA": "1I",
@@ -269,7 +269,7 @@
       "Call sign": "CIVIL AIR AMBULANCE",
       "Region": "Germany",
       "Comments": "",
-      "Icon": ""
+      "Icon": "1I_AMB.svg"
     }
   ],
   "1J": [
@@ -564,6 +564,15 @@
       "Region": "Belgium",
       "Comments": "Not an airline (train).",
       "Icon": ""
+    },
+    {
+      "IATA": "2H",
+      "ICAO": "HML",
+      "Airline": "Hamsal Air Services Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "2J": [
@@ -719,6 +728,15 @@
       "Airline": "Haiti Ambassador Airlines",
       "Call sign": "",
       "Region": "Haiti",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "2T",
+      "ICAO": "ANH",
+      "Airline": "Alajnihah For Air Transport",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -1169,6 +1187,15 @@
       "Region": "Republic of the Congo",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "4S",
+      "ICAO": "OLC",
+      "Airline": "Solar Cargo, C.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "4T": [
@@ -1388,6 +1415,15 @@
       "Region": "Germany",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "5P",
+      "ICAO": "PCP",
+      "Airline": "Aerolinea Principal Chile S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "5T": [
@@ -1398,7 +1434,7 @@
       "Call sign": "EMPRESS",
       "Region": "Canada",
       "Comments": "Air Norterra",
-      "Icon": "5T.svg"
+      "Icon": "5T_MPE.svg"
     }
   ],
   "5V": [
@@ -1525,6 +1561,15 @@
       "Region": "United Kingdom",
       "Comments": "defunct, ICAO code no longer allocated",
       "Icon": ""
+    },
+    {
+      "IATA": "6G",
+      "ICAO": "GBK",
+      "Airline": "Gabon Airlines Cargo",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "6H": [
@@ -1578,6 +1623,15 @@
       "Region": "Philippines",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "6K",
+      "ICAO": "INX",
+      "Airline": "Inter Express Hava Tasimacilik A.S.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "6N": [
@@ -1620,6 +1674,15 @@
       "Region": "Slovakia",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "6Q",
+      "ICAO": "SAW",
+      "Airline": "Sham Wings Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "6R": [
@@ -1629,6 +1692,15 @@
       "Airline": "Alrosa Air Company",
       "Call sign": "MIRNY",
       "Region": "Russia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "6R",
+      "ICAO": "TNO",
+      "Airline": "Aerotransporte de Carga Union, S.A. de C",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -1742,6 +1814,15 @@
       "Region": "United States",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "7A",
+      "ICAO": "NXA",
+      "Airline": "Air Next Co., Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "7B": [
@@ -1752,6 +1833,15 @@
       "Call sign": "KRASNOJARSKY AIR",
       "Region": "Russia",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "7B",
+      "ICAO": "AYZ",
+      "Airline": "Atlant-Soyuz",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -1795,6 +1885,15 @@
       "Region": "Canada",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "7F",
+      "ICAO": "KAV",
+      "Airline": "Air Kurfa",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "7G": [
@@ -1804,6 +1903,15 @@
       "Airline": "Star Flyer",
       "Call sign": "STARFLYER",
       "Region": "Japan",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "7G",
+      "ICAO": "MKA",
+      "Airline": "MK Airlines Limited",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -1823,11 +1931,11 @@
     {
       "IATA": "7L",
       "ICAO": "ERO",
-      "Airline": "Sun D'Or",
+      "Airline": "Sun D#@Or",
       "Call sign": "ECHO ROMEO",
       "Region": "Israel",
       "Comments": "",
-      "Icon": "7L.svg"
+      "Icon": "7L_ERO.svg"
     },
     {
       "IATA": "7L",
@@ -1836,7 +1944,16 @@
       "Call sign": "SILK WEST",
       "Region": "Azerbaijan",
       "Comments": "",
-      "Icon": ""
+      "Icon": "7L_AZG.svg"
+    },
+    {
+      "IATA": "7L",
+      "ICAO": "CRN",
+      "Airline": "Aerocaribbean S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "7L_CRN.svg"
     }
   ],
   "7M": [
@@ -1846,6 +1963,15 @@
       "Airline": "Mayair",
       "Call sign": "MAYAIR",
       "Region": "Mexico",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "7M",
+      "ICAO": "MSA",
+      "Airline": "Mistral Air S.r.l.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -2056,6 +2182,15 @@
       "Region": "Czech Republic",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "8F",
+      "ICAO": "CRG",
+      "Airline": "PT Cardig Air",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "8H": [
@@ -2065,6 +2200,15 @@
       "Airline": "BH Air",
       "Call sign": "BALKAN HOLIDAYS",
       "Region": "Bulgaria",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "8H",
+      "ICAO": "HWY",
+      "Airline": "Highland Airways Limited",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -2162,6 +2306,15 @@
       "Region": "Canada",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "8P",
+      "ICAO": "TDR",
+      "Airline": "Trade Air Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "8Q*": [
@@ -2183,7 +2336,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "no longer assigned",
-      "Icon": "8Q.svg"
+      "Icon": ""
     },
     {
       "IATA": "8Q",
@@ -2192,7 +2345,7 @@
       "Call sign": "ONUR AIR",
       "Region": "Turkey",
       "Comments": "",
-      "Icon": ""
+      "Icon": "8Q_OHY.svg"
     }
   ],
   "8S": [
@@ -2225,7 +2378,7 @@
       "Call sign": "AFRIQIYAH",
       "Region": "Libya",
       "Comments": "",
-      "Icon": "8U.svg"
+      "Icon": "8U_AAW.svg"
     }
   ],
   "8V": [
@@ -2340,7 +2493,7 @@
       "Call sign": "FLAGSHIP",
       "Region": "United States",
       "Comments": "",
-      "Icon": "9E.svg"
+      "Icon": "9E_FLG.svg"
     },
     {
       "IATA": "9E",
@@ -2349,7 +2502,7 @@
       "Call sign": "ENDEAVOR",
       "Region": "United States",
       "Comments": "",
-      "Icon": ""
+      "Icon": "9E_EDV.svg"
     }
   ],
   "9I": [
@@ -2389,7 +2542,16 @@
       "Call sign": "CAIR",
       "Region": "United States",
       "Comments": "",
-      "Icon": "9K.svg"
+      "Icon": "9K_KAP.svg"
+    },
+    {
+      "IATA": "9K",
+      "ICAO": "TFZ",
+      "Airline": "Transport Africa",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "9K_TFZ.svg"
     }
   ],
   "9L": [
@@ -2410,6 +2572,15 @@
       "Airline": "Central Mountain Air",
       "Call sign": "GLACIER",
       "Region": "Canada",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "9M",
+      "ICAO": "MKE",
+      "Airline": "PT. Megantara Air",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -2478,6 +2649,15 @@
       "Region": "Kazakhstan",
       "Comments": "defunct",
       "Icon": ""
+    },
+    {
+      "IATA": "9V",
+      "ICAO": "ROI",
+      "Airline": "Aviones de Oriente C.A. (AVIOR)",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "9W": [
@@ -2541,7 +2721,7 @@
       "Call sign": "AEGEAN",
       "Region": "Greece",
       "Comments": "",
-      "Icon": ""
+      "Icon": "A3_AEE.png"
     }
   ],
   "A4": [
@@ -2624,6 +2804,15 @@
       "Region": "Benin",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "A8",
+      "ICAO": "AMF",
+      "Airline": "Ameriflight, LLC",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "A9": [
@@ -2645,7 +2834,7 @@
       "Call sign": "AMERICAN",
       "Region": "United States",
       "Comments": "",
-      "Icon": "AA.svg"
+      "Icon": "AA_AAL.svg"
     }
   ],
   "AAC": [
@@ -2922,9 +3111,9 @@
     {
       "IATA": "",
       "ICAO": "AAX",
-      "Airline": "Africeair Express",
+      "Airline": "Afric#@air Express",
       "Call sign": "AFREX",
-      "Region": "Cote d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "defunct",
       "Icon": ""
     },
@@ -3220,7 +3409,7 @@
       "Call sign": "AIR CANADA",
       "Region": "Canada",
       "Comments": "",
-      "Icon": "AC.svg"
+      "Icon": "AC_ACA.svg"
     }
   ],
   "ACB": [
@@ -3580,7 +3769,7 @@
       "ICAO": "ADJ",
       "Airline": "Abidjan Air Cargo",
       "Call sign": "ABICAR",
-      "Region": "Cote d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "defunct",
       "Icon": ""
     }
@@ -4024,7 +4213,7 @@
       "Call sign": "AIRFRANS",
       "Region": "France",
       "Comments": "",
-      "Icon": "AF.svg"
+      "Icon": "AF_AFR.svg"
     }
   ],
   "AFA": [
@@ -4165,7 +4354,7 @@
       "ICAO": "AFV",
       "Airline": "Air Afrique Vacancies",
       "Call sign": "AFRIQUE VACANCE",
-      "Region": "Cote d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "",
       "Icon": ""
     }
@@ -4176,7 +4365,7 @@
       "ICAO": "AFW",
       "Airline": "Afrique Regional Airways",
       "Call sign": "AFRAIR",
-      "Region": "Cote d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "defunct",
       "Icon": ""
     }
@@ -4211,7 +4400,16 @@
       "Call sign": "ARUBA",
       "Region": "Aruba",
       "Comments": "",
-      "Icon": "AG.svg"
+      "Icon": "AG_ARU.svg"
+    },
+    {
+      "IATA": "AG",
+      "ICAO": "ABR",
+      "Airline": "Air Contractors (UK) Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "AG_ABR.svg"
     }
   ],
   "AGA": [
@@ -4612,7 +4810,7 @@
       "Call sign": "AIRINDIA",
       "Region": "India",
       "Comments": "",
-      "Icon": "AI.svg"
+      "Icon": "AI_AIC.svg"
     }
   ],
   "AID": [
@@ -5050,7 +5248,7 @@
       "Call sign": "RED CAP",
       "Region": "Malaysia",
       "Comments": "ICAO code no longer allocated",
-      "Icon": "AK.svg"
+      "Icon": "AK_AXM.svg"
     },
     {
       "IATA": "AK",
@@ -5059,7 +5257,7 @@
       "Call sign": "AIRBRIDGE",
       "Region": "United Kingdom",
       "Comments": "defunct",
-      "Icon": ""
+      "Icon": "AK_ABR.svg"
     }
   ],
   "AKA": [
@@ -5482,7 +5680,7 @@
       "Call sign": "AEROMEXICO",
       "Region": "Mexico",
       "Comments": "",
-      "Icon": "AM.svg"
+      "Icon": "AM_AMX.svg"
     }
   ],
   "AMA": [
@@ -6060,6 +6258,15 @@
       "Region": "Spain",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "AP",
+      "ICAO": "ADH",
+      "Airline": "Air One",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "APA": [
@@ -6288,7 +6495,7 @@
       "Call sign": "MAPJET",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "AQ.svg"
+      "Icon": "AQ_MPJ.svg"
     },
     {
       "IATA": "AQ",
@@ -6297,7 +6504,7 @@
       "Call sign": "ALOHA",
       "Region": "United States",
       "Comments": "Ceased operations; former IATA code: TS",
-      "Icon": ""
+      "Icon": "AQ_AAH.svg"
     }
   ],
   "AQA": [
@@ -6533,7 +6740,7 @@
       "ICAO": "ARP",
       "Airline": "Aero Corporate",
       "Call sign": "IVORYCORP",
-      "Region": "Cote d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "",
       "Icon": ""
     }
@@ -6634,7 +6841,7 @@
       "Call sign": "ALASKA",
       "Region": "United States",
       "Comments": "",
-      "Icon": "AS.svg"
+      "Icon": "AS_ASA.svg"
     }
   ],
   "ASB": [
@@ -6870,7 +7077,7 @@
       "Call sign": "ROYALAIR MAROC",
       "Region": "Morocco",
       "Comments": "",
-      "Icon": ""
+      "Icon": "AT_RAM.svg"
     }
   ],
   "ATA": [
@@ -7882,7 +8089,7 @@
       "Call sign": "FINNAIR",
       "Region": "Finland",
       "Comments": "",
-      "Icon": "AY.svg"
+      "Icon": "AY_FIN.svg"
     }
   ],
   "AYB": [
@@ -8014,7 +8221,7 @@
       "Call sign": "ALITALIA",
       "Region": "Italy",
       "Comments": "",
-      "Icon": "AZ.svg"
+      "Icon": "AZ_AZA.svg"
     }
   ],
   "AZB": [
@@ -8252,7 +8459,7 @@
       "Call sign": "JETBLUE",
       "Region": "United States",
       "Comments": "",
-      "Icon": "B6.svg"
+      "Icon": "B6_JBU.svg"
     }
   ],
   "B7": [
@@ -8296,7 +8503,7 @@
       "Call sign": "SPEEDBIRD",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": "BA.svg"
+      "Icon": "BA_BAW.svg"
     }
   ],
   "BAA": [
@@ -8504,6 +8711,15 @@
       "Airline": "Seaborne Airlines",
       "Call sign": "SEABORNE",
       "Region": "United States",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "BB",
+      "ICAO": "CBB",
+      "Airline": "Cargo B Airlines",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -9053,7 +9269,7 @@
       "Call sign": "BANGLADESH",
       "Region": "Bangladesh",
       "Comments": "",
-      "Icon": ""
+      "Icon": "BG_BBC.svg"
     }
   ],
   "BGF": [
@@ -9262,7 +9478,7 @@
       "Call sign": "BRUNEI",
       "Region": "Brunei",
       "Comments": "",
-      "Icon": "BI.svg"
+      "Icon": "BI_RBA.svg"
     }
   ],
   "BIB": [
@@ -9763,6 +9979,15 @@
       "Airline": "BMI Regional",
       "Call sign": "MIDLAND",
       "Region": "United Kingdom",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "BM",
+      "ICAO": "OBE",
+      "Airline": "Air Bee S.p.A",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -10355,8 +10580,8 @@
     {
       "IATA": "",
       "ICAO": "BRL",
-      "Airline": "Air Brasd'or",
-      "Call sign": "BRASD'OR",
+      "Airline": "Air Brasd#@or",
+      "Call sign": "BRASD#@OR",
       "Region": "Canada",
       "Comments": "",
       "Icon": ""
@@ -10748,6 +10973,15 @@
       "Airline": "Buryat Airlines Aircompany",
       "Call sign": "BURAL",
       "Region": "Russia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "BU",
+      "ICAO": "CNO",
+      "Airline": "SAS Scandinavian Airlines Norge AS",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -11213,6 +11447,15 @@
       "Region": "Ukraine",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "C3",
+      "ICAO": "KIS",
+      "Airline": "Contact-Air Flugdienst GmbH & Co. KG",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "C4": [
@@ -11231,6 +11474,15 @@
       "Airline": "Zimex Aviation",
       "Call sign": "ZIMEX",
       "Region": "Switzerland",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "C4",
+      "ICAO": "CGK",
+      "Airline": "Click Airways",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -11275,6 +11527,15 @@
       "Region": "Sri Lanka",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "C7",
+      "ICAO": "UZS",
+      "Airline": "Closed Joint Stock Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "C8": [
@@ -11316,7 +11577,7 @@
       "Call sign": "AIR CHINA",
       "Region": "China",
       "Comments": "",
-      "Icon": ""
+      "Icon": "CA_CCA.svg"
     }
   ],
   "CAA": [
@@ -11852,6 +12113,15 @@
       "Region": "Netherlands",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "CD",
+      "ICAO": "LLR",
+      "Airline": "Alliance Air",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "CDA": [
@@ -12111,7 +12381,7 @@
     {
       "IATA": "",
       "ICAO": "CEV",
-      "Airline": "Centre d'Essais en Vol",
+      "Airline": "Centre d#@Essais en Vol",
       "Call sign": "CENTEV",
       "Region": "France",
       "Comments": "",
@@ -12731,7 +13001,7 @@
       "Call sign": "DYNASTY",
       "Region": "Taiwan",
       "Comments": "",
-      "Icon": ""
+      "Icon": "CI_CAL.svg"
     }
   ],
   "CIA": [
@@ -13670,7 +13940,7 @@
     {
       "IATA": "",
       "ICAO": "CNT",
-      "Airline": "Centre national d'�tudes des t�l�communications - C.N.E.T.",
+      "Airline": "Centre national d#@�tudes des t�l�communications - C.N.E.T.",
       "Call sign": "KNET",
       "Region": "France",
       "Comments": "",
@@ -14902,6 +15172,15 @@
       "Region": "Marshall Islands",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "CW",
+      "ICAO": "MRS",
+      "Airline": "Air Marshall Islands, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "CWD": [
@@ -15055,7 +15334,7 @@
       "Call sign": "CATHAY",
       "Region": "Hong Kong",
       "Comments": "",
-      "Icon": "CX.svg"
+      "Icon": "CX_CPA.svg"
     }
   ],
   "CXE": [
@@ -15242,7 +15521,7 @@
       "Call sign": "CHINA SOUTHERN",
       "Region": "China",
       "Comments": "",
-      "Icon": ""
+      "Icon": "CZ_CSN.svg"
     }
   ],
   "D0": [
@@ -15287,6 +15566,15 @@
       "Region": "Italy",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "D4",
+      "ICAO": "ASC",
+      "Airline": "Alas Del Sur S.R.L",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "D5": [
@@ -15296,6 +15584,15 @@
       "Airline": "Dauair",
       "Call sign": "DAUAIR",
       "Region": "Germany",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "D5",
+      "ICAO": "DAE",
+      "Airline": "DHL Aero Expreso S.A.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -15740,7 +16037,7 @@
       "Call sign": "NOK AIR",
       "Region": "Thailand",
       "Comments": "",
-      "Icon": "DD.svg"
+      "Icon": "DD_NOK.svg"
     },
     {
       "IATA": "DD",
@@ -15749,7 +16046,7 @@
       "Call sign": "",
       "Region": "Denmark",
       "Comments": "defunct",
-      "Icon": ""
+      "Icon": "DD_DDL.svg"
     }
   ],
   "DDA": [
@@ -16167,6 +16464,15 @@
       "Region": "New Zealand",
       "Comments": "Controlled Dupe IATA with Virgin Australia",
       "Icon": ""
+    },
+    {
+      "IATA": "DJ",
+      "ICAO": "VOZ",
+      "Airline": "Virgin Blue Airlines Pty Ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "DJE": [
@@ -16242,6 +16548,15 @@
       "Region": "Australia",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "DK",
+      "ICAO": "VKG",
+      "Airline": "Thomas Cook Airlines Scandinavia A/S",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "DKA": [
@@ -16307,7 +16622,7 @@
       "Call sign": "DELTA",
       "Region": "United States",
       "Comments": "",
-      "Icon": "DL.svg"
+      "Icon": "DL_DAL.svg"
     }
   ],
   "DLA": [
@@ -17104,7 +17419,7 @@
     {
       "IATA": "",
       "ICAO": "DUN",
-      "Airline": "Dun'Air",
+      "Airline": "Dun#@Air",
       "Call sign": "DUNAIR",
       "Region": "Mauritania",
       "Comments": "",
@@ -17355,7 +17670,7 @@
       "Call sign": "EUROWINGS",
       "Region": "Austria",
       "Comments": "",
-      "Icon": ""
+      "Icon": "E2_EWE.svg"
     }
   ],
   "E3": [
@@ -17416,6 +17731,15 @@
       "Airline": "Bringer Air Cargo Taxi A�reo",
       "Call sign": "",
       "Region": "Brazil",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "E6",
+      "ICAO": "BRC",
+      "Airline": "Bringer Air Cargo Taxi Aereo Ltda",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -17479,6 +17803,15 @@
       "Call sign": "EASTERN",
       "Region": "United States",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "EA",
+      "ICAO": "ANU",
+      "Airline": "Operador Aereo Andalus S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -18331,7 +18664,7 @@
       "Call sign": "SHAMROCK",
       "Region": "Ireland",
       "Comments": "",
-      "Icon": "EI.svg"
+      "Icon": "EI_EIN.svg"
     }
   ],
   "EIC": [
@@ -18507,7 +18840,7 @@
       "Call sign": "EMIRATES",
       "Region": "United Arab Emirates",
       "Comments": "",
-      "Icon": "EK.svg"
+      "Icon": "EK_UAE.svg"
     }
   ],
   "EKA": [
@@ -19425,7 +19758,7 @@
       "Call sign": "ETHIOPIAN",
       "Region": "Ethiopia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "ET_ETH.svg"
     }
   ],
   "ETA": [
@@ -19498,7 +19831,7 @@
     {
       "IATA": "",
       "ICAO": "ETP",
-      "Airline": "Empire Test Pilots' School",
+      "Airline": "Empire Test Pilots#@ School",
       "Call sign": "TESTER",
       "Region": "United Kingdom",
       "Comments": "",
@@ -19644,6 +19977,15 @@
       "Region": "United States",
       "Comments": "Merged into ExpressJet Airlines",
       "Icon": ""
+    },
+    {
+      "IATA": "EV",
+      "ICAO": "ACY",
+      "Airline": "Atlantic Southeast Airlines, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "EVE": [
@@ -19751,7 +20093,7 @@
       "Call sign": "EUROWINGS",
       "Region": "Germany",
       "Comments": "",
-      "Icon": ""
+      "Icon": "EW_EWG.svg"
     }
   ],
   "EWA": [
@@ -20013,7 +20355,7 @@
       "Call sign": "ETIHAD",
       "Region": "United Arab Emirates",
       "Comments": "",
-      "Icon": "EY.svg"
+      "Icon": "EY_ETD.svg"
     },
     {
       "IATA": "EY",
@@ -20022,7 +20364,7 @@
       "Call sign": "FLYING EAGLE",
       "Region": "Tanzania",
       "Comments": "defunct 2002",
-      "Icon": ""
+      "Icon": "EY_EFL.svg"
     }
   ],
   "EYE": [
@@ -20098,6 +20440,15 @@
       "Region": "Turkey",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "F2",
+      "ICAO": "RCQ",
+      "Airline": "Aerolineas Regionales, S.A. de C.V",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "F3": [
@@ -20109,6 +20460,15 @@
       "Region": "Burkina Faso",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "F3",
+      "ICAO": "FXL",
+      "Airline": "Fly Excellent",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "F4": [
@@ -20118,6 +20478,15 @@
       "Airline": "Albarka Air",
       "Call sign": "AL-AIR",
       "Region": "Nigeria",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "F4",
+      "ICAO": "SHQ",
+      "Airline": "Shanghai Airlines Cargo International",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -20142,6 +20511,15 @@
       "Region": "Faroe Islands",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "F6",
+      "ICAO": "FGL",
+      "Airline": "Futura Gael",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "F7": [
@@ -20163,7 +20541,7 @@
       "Call sign": "FRONTIER FLIGHT",
       "Region": "United States",
       "Comments": "",
-      "Icon": "F9.svg"
+      "Icon": "F9_FFT.svg"
     }
   ],
   "FA": [
@@ -20445,7 +20823,7 @@
       "Call sign": "FLYING BULGARIA",
       "Region": "Bulgaria",
       "Comments": "",
-      "Icon": ""
+      "Icon": "FB_LZB.svg"
     }
   ],
   "FBA": [
@@ -21073,7 +21451,7 @@
     {
       "IATA": "",
       "ICAO": "FGC",
-      "Airline": "Departament d'Agricultura de la Generalitat de Catalunya",
+      "Airline": "Departament d#@Agricultura de la Generalitat de Catalunya",
       "Call sign": "FORESTALS",
       "Region": "Spain",
       "Comments": "",
@@ -21196,7 +21574,7 @@
       "Call sign": "ICEAIR",
       "Region": "Iceland",
       "Comments": "",
-      "Icon": "FI.svg"
+      "Icon": "FI_ICE.svg"
     }
   ],
   "FIC": [
@@ -21661,7 +22039,7 @@
     {
       "IATA": "",
       "ICAO": "FMY",
-      "Airline": "Aviation Legere De L'Armee De Terre",
+      "Airline": "Aviation Legere De L#@Armee De Terre",
       "Call sign": "FRENCH ARMY",
       "Region": "France",
       "Comments": "",
@@ -21818,6 +22196,15 @@
       "Region": "Australia",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "FO",
+      "ICAO": "FXX",
+      "Airline": "Felix Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "FOB": [
@@ -21835,7 +22222,7 @@
     {
       "IATA": "",
       "ICAO": "FOC",
-      "Airline": "Office Federal De'Aviation Civile",
+      "Airline": "Office Federal De#@Aviation Civile",
       "Call sign": "FOCA",
       "Region": "Switzerland",
       "Comments": "",
@@ -22106,7 +22493,7 @@
     {
       "IATA": "",
       "ICAO": "FRQ",
-      "Airline": "Afrique Chart'air",
+      "Airline": "Afrique Chart#@air",
       "Call sign": "CHARTER AFRIQUE",
       "Region": "Cameroon",
       "Comments": "",
@@ -22366,7 +22753,7 @@
     {
       "IATA": "",
       "ICAO": "FTR",
-      "Airline": "Finist'air",
+      "Airline": "Finist#@air",
       "Call sign": "FINISTAIR",
       "Region": "France",
       "Comments": "",
@@ -22785,6 +23172,15 @@
       "Region": "Gabon",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "G2",
+      "ICAO": "GGG",
+      "Airline": "South-East European Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "G3": [
@@ -22847,6 +23243,15 @@
       "Region": "Guinea-Bissau",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "G6",
+      "ICAO": "AKW",
+      "Airline": "Angkor Airways Corporation",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "G7": [
@@ -22865,6 +23270,15 @@
       "Airline": "GoJet Airlines",
       "Call sign": "LINDBERGH",
       "Region": "United States",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "G7",
+      "ICAO": "KAO",
+      "Airline": "JSC \"KAPO Avia\"",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -22926,7 +23340,7 @@
       "Call sign": "INDONESIA",
       "Region": "Indonesia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "GA_GIA.svg"
     }
   ],
   "GAA": [
@@ -23490,7 +23904,7 @@
     {
       "IATA": "",
       "ICAO": "GDN",
-      "Airline": "Gerry's Dnata",
+      "Airline": "Gerry#@s Dnata",
       "Call sign": "",
       "Region": "Pakistan",
       "Comments": "",
@@ -24696,6 +25110,15 @@
       "Region": "Palau",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "GP",
+      "ICAO": "GDR",
+      "Airline": "Gadair European Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "GPA": [
@@ -24760,6 +25183,15 @@
       "Airline": "Big Sky Airlines",
       "Call sign": "BIG SKY",
       "Region": "United States",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "GQ",
+      "ICAO": "SHE",
+      "Airline": "Sky Express S.A.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -25236,6 +25668,15 @@
       "Region": "Germany",
       "Comments": "defunct",
       "Icon": ""
+    },
+    {
+      "IATA": "GV",
+      "ICAO": "SKG",
+      "Airline": "Sky Gabon S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "GVG": [
@@ -25596,7 +26037,7 @@
     {
       "IATA": "H9",
       "ICAO": "HAD",
-      "Airline": "Air d'Ayiti",
+      "Airline": "Air d#@Ayiti",
       "Call sign": "HAITI AVIA",
       "Region": "Haiti",
       "Comments": "",
@@ -25611,7 +26052,7 @@
       "Call sign": "HAWAIIAN",
       "Region": "United States",
       "Comments": "",
-      "Icon": "HA.svg"
+      "Icon": "HA_HAL.svg"
     }
   ],
   "HAA": [
@@ -25891,6 +26332,15 @@
       "Call sign": "",
       "Region": "Australia",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "HC",
+      "ICAO": "AVC",
+      "Airline": "Avient Cameroon S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -26186,7 +26636,7 @@
       "Call sign": "FLYNIKI",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "HG.svg"
+      "Icon": "HG_NLY.svg"
     }
   ],
   "HGA": [
@@ -26492,6 +26942,15 @@
       "Call sign": "FOUR STAR",
       "Region": "United States",
       "Comments": "Virgin Islands",
+      "Icon": ""
+    },
+    {
+      "IATA": "HK",
+      "ICAO": "TRK",
+      "Airline": "Turkuaz Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -27405,6 +27864,15 @@
       "Region": "Ukraine",
       "Comments": "defunct",
       "Icon": ""
+    },
+    {
+      "IATA": "HT",
+      "ICAO": "IMP",
+      "Airline": "Hellenic Imperial Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "HTB": [
@@ -28089,7 +28557,7 @@
       "Call sign": "IBERIA",
       "Region": "Spain",
       "Comments": "",
-      "Icon": "IB.svg"
+      "Icon": "IB_IBE.svg"
     }
   ],
   "IBC": [
@@ -28389,7 +28857,7 @@
     {
       "IATA": "",
       "ICAO": "IEP",
-      "Airline": "Elipiu'",
+      "Airline": "Elipiu#@",
       "Call sign": "ELIPIU",
       "Region": "Italy",
       "Comments": "",
@@ -28736,6 +29204,15 @@
       "Airline": "Ikar",
       "Call sign": "IKAR",
       "Region": "Russian Federation",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "IK",
+      "ICAO": "ITX",
+      "Airline": "IMAIR Airline",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -29119,6 +29596,15 @@
       "Airline": "Indonesian Airlines",
       "Call sign": "INDO LINES",
       "Region": "Indonesia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "IO",
+      "ICAO": "IDO",
+      "Airline": "Indochina Airlines",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -30052,7 +30538,7 @@
       "Call sign": "JAZEERA",
       "Region": "Kuwait",
       "Comments": "",
-      "Icon": "J9.svg"
+      "Icon": "J9_JZR.svg"
     },
     {
       "IATA": "J9",
@@ -30061,7 +30547,7 @@
       "Call sign": "GUINEE AIRLINES",
       "Region": "Guinea",
       "Comments": "defunct",
-      "Icon": ""
+      "Icon": "J9_GIF.svg"
     }
   ],
   "JA": [
@@ -30322,6 +30808,15 @@
       "Airline": "Beijing Capital Airlines",
       "Call sign": "CAPITAL JET",
       "Region": "China",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "JD",
+      "ICAO": "DER",
+      "Airline": "Deer Jet Co. Ltd.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -30808,7 +31303,7 @@
       "Call sign": "J-BIRD",
       "Region": "Japan",
       "Comments": "defunct",
-      "Icon": "JL.svg"
+      "Icon": "JL_JAL.svg"
     },
     {
       "IATA": "JL",
@@ -30817,7 +31312,7 @@
       "Call sign": "JAPANAIR",
       "Region": "Japan",
       "Comments": "Japan Airlines International",
-      "Icon": ""
+      "Icon": "JL_JAL.svg"
     }
   ],
   "JLA": [
@@ -31258,7 +31753,7 @@
       "ICAO": "KOR",
       "Airline": "Air Koryo",
       "Call sign": "AIR KORYO",
-      "Region": "Democratic People's Republic of Korea",
+      "Region": "Democratic People#@s Republic of Korea",
       "Comments": "",
       "Icon": ""
     }
@@ -31520,6 +32015,15 @@
       "Call sign": "AIR SERBIA",
       "Region": "Serbia",
       "Comments": "Name changed from Aeroput to JAT Yugoslav Airlines to Jat Airways to Air Serbia. Formerly used JAT as ICAO code.",
+      "Icon": "JU_ASL.svg"
+    },
+    {
+      "IATA": "JU",
+      "ICAO": "JAT",
+      "Airline": "Jat Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -31804,6 +32308,15 @@
       "Region": "United States",
       "Comments": "Operates Lear 20s & 30s, Falcon 20s, & King Airs",
       "Icon": ""
+    },
+    {
+      "IATA": "K9",
+      "ICAO": "ESD",
+      "Airline": "Aircompany \"Esen Air\"",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "KA": [
@@ -32001,7 +32514,7 @@
       "Call sign": "SPAKAZ",
       "Region": "Kazakhstan",
       "Comments": "",
-      "Icon": "KC.svg"
+      "Icon": "KC_KZR.svg"
     },
     {
       "IATA": "KC",
@@ -32010,7 +32523,7 @@
       "Call sign": "ASTANALINE",
       "Region": "Kazakhstan",
       "Comments": "",
-      "Icon": ""
+      "Icon": "KC_KZR.svg"
     }
   ],
   "KCA": [
@@ -32127,7 +32640,7 @@
       "Call sign": "KOREANAIR",
       "Region": "South Korea",
       "Comments": "",
-      "Icon": "KE.svg"
+      "Icon": "KE_KAL.svg"
     }
   ],
   "KEK": [
@@ -32237,7 +32750,16 @@
       "Call sign": "AIR BARINAS",
       "Region": "Venezuela",
       "Comments": "",
-      "Icon": "KG.svg"
+      "Icon": "KG_BNX.svg"
+    },
+    {
+      "IATA": "KG",
+      "ICAO": "LYM",
+      "Airline": "Key Lime Air Corporation",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "KG_LYM.svg"
     }
   ],
   "KGB": [
@@ -32332,7 +32854,7 @@
     {
       "IATA": "",
       "ICAO": "KHE",
-      "Airline": "Kanfey Ha'emek Aviation",
+      "Airline": "Kanfey Ha#@emek Aviation",
       "Call sign": "KANFEY HAEMEK",
       "Region": "Israel",
       "Comments": "",
@@ -32422,6 +32944,15 @@
       "Call sign": "ATLANTIC",
       "Region": "United Kingdom",
       "Comments": "Former name: Atlantic Air Transport; former IATA codes: 7M, DG, transferred to Atlantic Flight Training in 2014.",
+      "Icon": ""
+    },
+    {
+      "IATA": "KI",
+      "ICAO": "SKZ",
+      "Airline": "Sky Way Enterprises Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -32563,7 +33094,7 @@
       "Call sign": "KLM",
       "Region": "Netherlands",
       "Comments": "",
-      "Icon": "KL.svg"
+      "Icon": "KL_KLM.svg"
     }
   ],
   "KLB": [
@@ -32673,7 +33204,7 @@
       "Call sign": "AIR MALTA",
       "Region": "Malta",
       "Comments": "",
-      "Icon": ""
+      "Icon": "KM_AMC.svg"
     }
   ],
   "KMA": [
@@ -32957,7 +33488,7 @@
       "Call sign": "KENYA",
       "Region": "Kenya",
       "Comments": "",
-      "Icon": "KQ.svg"
+      "Icon": "KQ_KQA.svg"
     }
   ],
   "KR": [
@@ -32976,6 +33507,15 @@
       "Airline": "Comores Airlines",
       "Call sign": "CONTICOM",
       "Region": "Comoros",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "KR",
+      "ICAO": "KHA",
+      "Airline": "Kitty Hawk Aircargo, Inc.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -33741,6 +34281,15 @@
       "Region": "Italy",
       "Comments": "Previously Britannia Airways",
       "Icon": ""
+    },
+    {
+      "IATA": "L9",
+      "ICAO": "ALG",
+      "Airline": "Air Logistics L.L.C. d/b/a",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "LA": [
@@ -33751,7 +34300,7 @@
       "Call sign": "LAN CHILE",
       "Region": "Chile",
       "Comments": "",
-      "Icon": "LA.svg"
+      "Icon": "LA_LAN.svg"
     }
   ],
   "LAC": [
@@ -34359,7 +34908,7 @@
     {
       "IATA": "",
       "ICAO": "LEX",
-      "Airline": "L'Express Airlines",
+      "Airline": "L#@Express Airlines",
       "Call sign": "LEX",
       "Region": "United States",
       "Comments": "",
@@ -34570,7 +35119,7 @@
       "Call sign": "LUFTHANSA CARGO",
       "Region": "Germany",
       "Comments": "",
-      "Icon": "LH.svg"
+      "Icon": "LH_GEC.svg"
     },
     {
       "IATA": "LH",
@@ -34579,7 +35128,7 @@
       "Call sign": "LUFTHANSA",
       "Region": "Germany",
       "Comments": "",
-      "Icon": ""
+      "Icon": "LH_DLH.svg"
     }
   ],
   "LHB": [
@@ -34806,7 +35355,7 @@
       "ICAO": "LKA",
       "Airline": "Lao Capricorn Air",
       "Call sign": "NAKLAO",
-      "Region": "Lao People's Democratic Republic",
+      "Region": "Lao People#@s Democratic Republic",
       "Comments": "",
       "Icon": ""
     }
@@ -34947,7 +35496,7 @@
       "ICAO": "LLL",
       "Airline": "Lao Skyway",
       "Call sign": "LAVIE",
-      "Region": "Lao People's Democratic Republic",
+      "Region": "Lao People#@s Democratic Republic",
       "Comments": "",
       "Icon": ""
     }
@@ -35919,6 +36468,15 @@
       "Region": "United States",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "LW",
+      "ICAO": "ANV",
+      "Airline": "Pacific Wings, L.L.C.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "LWA": [
@@ -35962,7 +36520,7 @@
       "Call sign": "SWISS",
       "Region": "Switzerland",
       "Comments": "",
-      "Icon": "LX.svg"
+      "Icon": "LX_SWR.svg"
     }
   ],
   "LXA": [
@@ -36017,7 +36575,7 @@
       "Call sign": "ELAL",
       "Region": "Israel",
       "Comments": "",
-      "Icon": "LY.svg"
+      "Icon": "LY_ELY.svg"
     }
   ],
   "LYB": [
@@ -36116,6 +36674,15 @@
       "Call sign": "",
       "Region": "Bulgaria",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "LZ",
+      "ICAO": "LBY",
+      "Airline": "Belle Air Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -36251,6 +36818,24 @@
       "Call sign": "AIRMERCI",
       "Region": "Italy",
       "Comments": "renamed Poste Air Cargo",
+      "Icon": ""
+    },
+    {
+      "IATA": "M4",
+      "ICAO": "NZA",
+      "Airline": "Nayzak Air Transport Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "M4",
+      "ICAO": "PMO",
+      "Airline": "Polar Airlines de Mexico S.A. de C.V.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -37191,7 +37776,7 @@
       "Call sign": "XIAMEN AIR",
       "Region": "China",
       "Comments": "",
-      "Icon": ""
+      "Icon": "MF_CXA.svg"
     }
   ],
   "MFA": [
@@ -37411,7 +37996,7 @@
       "Call sign": "MASWINGS",
       "Region": "Malaysia",
       "Comments": "",
-      "Icon": "MH.svg"
+      "Icon": "MH_MWG.svg"
     },
     {
       "IATA": "MH",
@@ -37420,7 +38005,7 @@
       "Call sign": "MALAYSIAN",
       "Region": "Malaysia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "MH_MAS.svg"
     }
   ],
   "MHA": [
@@ -38579,8 +39164,8 @@
     {
       "IATA": "",
       "ICAO": "MRG",
-      "Airline": "MANAG'AIR",
-      "Call sign": "MANAG'AIR",
+      "Airline": "MANAG#@AIR",
+      "Call sign": "MANAG#@AIR",
       "Region": "France",
       "Comments": "",
       "Icon": ""
@@ -38678,7 +39263,7 @@
     {
       "IATA": "",
       "ICAO": "MRX",
-      "Airline": "Herman's Markair Express",
+      "Airline": "Herman#@s Markair Express",
       "Call sign": "SPEEDMARK",
       "Region": "United States",
       "Comments": "",
@@ -38920,7 +39505,7 @@
       "Call sign": "THOMAS COOK",
       "Region": "United Kingdom",
       "Comments": "Formerly \"KESTREL�",
-      "Icon": "MT.svg"
+      "Icon": "MT_TCX.svg"
     },
     {
       "IATA": "MT",
@@ -38929,7 +39514,7 @@
       "Call sign": "JAYEMMSEE",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": ""
+      "Icon": "MT_JMC.svg"
     }
   ],
   "MTA": [
@@ -39158,7 +39743,7 @@
       "Call sign": "CHINA EASTERN",
       "Region": "China",
       "Comments": "",
-      "Icon": "MU.svg"
+      "Icon": "MU_CES.svg"
     }
   ],
   "MUA": [
@@ -39686,6 +40271,15 @@
       "Region": "Sierra Leone",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "N4",
+      "ICAO": "TNB",
+      "Airline": "Trans Air Benin",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "N5": [
@@ -39722,6 +40316,15 @@
       "Airline": "Fly Easy",
       "Call sign": "FLYEASY",
       "Region": "India",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "N5",
+      "ICAO": "MDM",
+      "Airline": "Mediterranean Aviation Company Ltd.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -39775,6 +40378,15 @@
       "Region": "Uganda",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "N8",
+      "ICAO": "MUA",
+      "Airline": "Murray Air Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "N9": [
@@ -39793,6 +40405,15 @@
       "Airline": "Shree Airlines",
       "Call sign": "SHREEAIR",
       "Region": "Nepal",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "N9",
+      "ICAO": "NVR",
+      "Airline": "Nova Airlines AB",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -39898,10 +40519,10 @@
     {
       "IATA": "",
       "ICAO": "NAK",
-      "Airline": "�cole Nationale de l'Aviation Civile",
+      "Airline": "�cole Nationale de l#@Aviation Civile",
       "Call sign": "ENAC SCHOOL",
       "Region": "France",
-      "Comments": "Formerly SFA prior to SEFA ATO being absorbed by the �cole Nationale de l'Aviation Civile.",
+      "Comments": "Formerly SFA prior to SEFA ATO being absorbed by the �cole Nationale de l#@Aviation Civile.",
       "Icon": ""
     }
   ],
@@ -40655,7 +41276,7 @@
       "Call sign": "ALL NIPPON",
       "Region": "Japan",
       "Comments": "",
-      "Icon": "NH.svg"
+      "Icon": "NH_ANA.svg"
     }
   ],
   "NHC": [
@@ -40873,7 +41494,7 @@
       "Call sign": "SPIRIT WINGS",
       "Region": "United States",
       "Comments": "",
-      "Icon": "NK.svg"
+      "Icon": "NK_NKS.svg"
     },
     {
       "IATA": "NK",
@@ -40882,7 +41503,7 @@
       "Call sign": "SPIRIT WINGS",
       "Region": "United States",
       "Comments": "",
-      "Icon": ""
+      "Icon": "NK_NKS.svg"
     }
   ],
   "NKL": [
@@ -42183,7 +42804,7 @@
       "Call sign": "EAGLE",
       "Region": "New Zealand",
       "Comments": "",
-      "Icon": "NZ.svg"
+      "Icon": "NZ_EAG.svg"
     },
     {
       "IATA": "NZ",
@@ -42192,7 +42813,7 @@
       "Call sign": "NEW ZEALAND",
       "Region": "New Zealand",
       "Comments": "\"NZ\" used by New Zealand National Airways Corporation until its merger with Air New Zealand in 1978",
-      "Icon": ""
+      "Icon": "NZ_ANZ.svg"
     }
   ],
   "NZA": [
@@ -42520,6 +43141,15 @@
       "Airline": "Malindo Airways",
       "Call sign": "MALINDO EXPRESS",
       "Region": "Malaysia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "OD",
+      "ICAO": "SAL",
+      "Airline": "Asia Alpha Airways",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -43097,7 +43727,7 @@
     {
       "IATA": "OP",
       "ICAO": "CHK",
-      "Airline": "Chalk's International Airlines",
+      "Airline": "Chalk#@s International Airlines",
       "Call sign": "CHALKS",
       "Region": "United States",
       "Comments": "",
@@ -43372,7 +44002,7 @@
       "Call sign": "AUSTRIAN",
       "Region": "Austria",
       "Comments": "",
-      "Icon": ""
+      "Icon": "OS_AUA.svg"
     }
   ],
   "OSA": [
@@ -43568,7 +44198,7 @@
       "Call sign": "CROATIA",
       "Region": "Croatia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "OU_CTN.svg"
     }
   ],
   "OUF": [
@@ -43838,6 +44468,15 @@
       "Region": "Colombia",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "P5",
+      "ICAO": "JPR",
+      "Airline": "Taxi Fly Group S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "P6": [
@@ -43897,6 +44536,15 @@
       "Call sign": "MEKONG",
       "Region": "Vietnam",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "P8",
+      "ICAO": "PKW",
+      "Airline": "Pak West Airlines Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -44219,7 +44867,7 @@
       "Call sign": "SUNTURK",
       "Region": "Turkey",
       "Comments": "WAS 1I, H9",
-      "Icon": ""
+      "Icon": "PC_PGT.svg"
     },
     {
       "IATA": "PC",
@@ -44228,14 +44876,14 @@
       "Call sign": "FIJIAIR",
       "Region": "Fiji",
       "Comments": "defunct",
-      "Icon": ""
+      "Icon": "PC_FAJ.svg"
     }
   ],
   "PCA": [
     {
       "IATA": "",
       "ICAO": "PCA",
-      "Airline": "Penya De L'Aire",
+      "Airline": "Penya De L#@Aire",
       "Call sign": "PENA DEL AIRE",
       "Region": "Spain",
       "Comments": "",
@@ -44521,7 +45169,7 @@
     {
       "IATA": "PE",
       "ICAO": "PEV",
-      "Airline": "People's",
+      "Airline": "People#@s",
       "Call sign": "PEOPLES",
       "Region": "Austria",
       "Comments": "Previously used by Pegaviation",
@@ -45451,6 +46099,15 @@
       "Airline": "Tropic Air",
       "Call sign": "TROPISER",
       "Region": "Belize",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "PM",
+      "ICAO": "PSK",
+      "Airline": "Prescott Support Company",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -47085,6 +47742,15 @@
       "Region": "Zambia",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "Q3",
+      "ICAO": "MAZ",
+      "Airline": "Zambian Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "Q4": [
@@ -47145,6 +47811,15 @@
       "Airline": "SkyBahamas",
       "Call sign": "SKY BAHAMAS",
       "Region": "Bahamas",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "Q7",
+      "ICAO": "SWQ",
+      "Airline": "SWIFT AIR,L.L.C.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -47321,6 +47996,15 @@
       "Region": "Switzerland",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "QE",
+      "ICAO": "QFZ",
+      "Airline": "Fars Qeshm Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "QEA": [
@@ -47342,7 +48026,7 @@
       "Call sign": "SUNSTATE",
       "Region": "Australia",
       "Comments": "Uses IATA of parent QANTAS.",
-      "Icon": "QF.svg"
+      "Icon": "QF_SSQ.svg"
     },
     {
       "IATA": "QF",
@@ -47351,7 +48035,7 @@
       "Call sign": "QLINK",
       "Region": "Australia",
       "Comments": "Turbo-Props",
-      "Icon": ""
+      "Icon": "QF_QLK.svg"
     },
     {
       "IATA": "QF",
@@ -47360,7 +48044,7 @@
       "Call sign": "QJET",
       "Region": "Australia",
       "Comments": "Qantaslink Jet Operations",
-      "Icon": ""
+      "Icon": "QF_QJE.svg"
     },
     {
       "IATA": "QF",
@@ -47369,7 +48053,7 @@
       "Call sign": "QANTAS",
       "Region": "Australia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "QF_QFA.svg"
     },
     {
       "IATA": "QF",
@@ -47378,7 +48062,7 @@
       "Call sign": "EASTERN",
       "Region": "Australia",
       "Comments": "IATA dupe with parent QANTAS. Also uses 2 letter ICAO EA.",
-      "Icon": ""
+      "Icon": "QF_EAQ.svg"
     }
   ],
   "QH": [
@@ -47628,7 +48312,7 @@
       "Call sign": "QATARI",
       "Region": "Qatar",
       "Comments": "",
-      "Icon": "QR.svg"
+      "Icon": "QR_QTR.svg"
     }
   ],
   "QRT": [
@@ -47754,7 +48438,7 @@
       "ICAO": "LAO",
       "Airline": "Lao Airlines",
       "Call sign": "LAO",
-      "Region": "Lao People's Democratic Republic",
+      "Region": "Lao People#@s Democratic Republic",
       "Comments": "",
       "Icon": ""
     }
@@ -47896,6 +48580,15 @@
       "Region": "Armenia",
       "Comments": "defunct",
       "Icon": ""
+    },
+    {
+      "IATA": "R3",
+      "ICAO": "SVL",
+      "Airline": "Joint Stock Company Aircompany \"Yakutia\"",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "R5": [
@@ -47959,6 +48652,15 @@
       "Call sign": "AIR CAMAI",
       "Region": "United States",
       "Comments": "Village Aviation",
+      "Icon": ""
+    },
+    {
+      "IATA": "R9",
+      "ICAO": "TSD",
+      "Airline": "Taf Linhas Aereas S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -49175,7 +49877,7 @@
     {
       "IATA": "",
       "ICAO": "RIC",
-      "Airline": "Richardson's Airway",
+      "Airline": "Richardson#@s Airway",
       "Call sign": "RICHARDSON",
       "Region": "United States",
       "Comments": "",
@@ -50201,7 +50903,7 @@
       "Call sign": "MAJAN",
       "Region": "Oman",
       "Comments": "",
-      "Icon": "RS.svg"
+      "Icon": "RS_MJN.svg"
     },
     {
       "IATA": "RS",
@@ -50210,7 +50912,7 @@
       "Call sign": "CONTAVIA",
       "Region": "Colombia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "RS_ICT.svg"
     },
     {
       "IATA": "RS",
@@ -50219,7 +50921,7 @@
       "Call sign": "AIR SEOUL",
       "Region": "South Korea",
       "Comments": "",
-      "Icon": ""
+      "Icon": "RS_ASV.svg"
     }
   ],
   "RSA": [
@@ -50993,6 +51695,24 @@
       "Region": "Sweden",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "RZ",
+      "ICAO": "LRS",
+      "Airline": "Servicios Aereos Nacionales S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "RZ",
+      "ICAO": "RFJ",
+      "Airline": "Royal Falcon",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "RZA": [
@@ -51164,7 +51884,7 @@
       "Call sign": "SIBERIAN AIRLINES",
       "Region": "Russia",
       "Comments": "",
-      "Icon": ""
+      "Icon": "S7_SBI.svg"
     }
   ],
   "S8": [
@@ -51215,7 +51935,7 @@
       "Call sign": "SPRINGBOK",
       "Region": "South Africa",
       "Comments": "",
-      "Icon": "SA.svg"
+      "Icon": "SA_SAA.svg"
     }
   ],
   "SAB": [
@@ -52035,6 +52755,15 @@
       "Region": "France",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "SE",
+      "ICAO": "XLF",
+      "Airline": "XL Airways France",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "SEA": [
@@ -52221,7 +52950,7 @@
       "Call sign": "TASSILI AIR",
       "Region": "Algeria",
       "Comments": "",
-      "Icon": ""
+      "Icon": "SF_DTH.svg"
     }
   ],
   "SFA": [
@@ -52231,7 +52960,7 @@
       "Airline": "SEFA",
       "Call sign": "SEFA",
       "Region": "France",
-      "Comments": "defunct - absorbed into �cole Nationale de l'Aviation Civile, with new ICAO code NAK",
+      "Comments": "defunct - absorbed into �cole Nationale de l#@Aviation Civile, with new ICAO code NAK",
       "Icon": ""
     }
   ],
@@ -52406,6 +53135,15 @@
       "Call sign": "JETSGO",
       "Region": "Canada",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "SG",
+      "ICAO": "MOD",
+      "Airline": "Royal Airways Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -52695,7 +53433,7 @@
     {
       "IATA": "",
       "ICAO": "SHJ",
-      "Airline": "Sharjah Ruler's Flight",
+      "Airline": "Sharjah Ruler#@s Flight",
       "Call sign": "SHARJAH",
       "Region": "United Arab Emirates",
       "Comments": "",
@@ -52852,6 +53590,15 @@
       "Airline": "Skynet Airlines",
       "Call sign": "BLUEJET",
       "Region": "Ireland",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "SI",
+      "ICAO": "BCI",
+      "Airline": "AirX Limited dba Blue Islands",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -53150,7 +53897,7 @@
       "Call sign": "SCANDINAVIAN",
       "Region": "Sweden, Denmark and Norway",
       "Comments": "",
-      "Icon": "SK.svg"
+      "Icon": "SK_SAS.svg"
     },
     {
       "IATA": "SK",
@@ -53159,7 +53906,7 @@
       "Call sign": "SCANOR",
       "Region": "Norway",
       "Comments": "",
-      "Icon": ""
+      "Icon": "SK_CNO.svg"
     }
   ],
   "SKA": [
@@ -53375,6 +54122,15 @@
       "Call sign": "RIO SUL",
       "Region": "Brazil",
       "Comments": "defunct",
+      "Icon": ""
+    },
+    {
+      "IATA": "SL",
+      "ICAO": "SHR",
+      "Airline": "Air Sylhet AG",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -53799,6 +54555,15 @@
       "Airline": "Brussels Airlines",
       "Call sign": "BEE-LINE",
       "Region": "Belgium",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "SN",
+      "ICAO": "DAT",
+      "Airline": "Brussels Airlines N.V.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -54520,7 +55285,7 @@
       "Call sign": "SINGCARGO",
       "Region": "Singapore",
       "Comments": "",
-      "Icon": "SQ.svg"
+      "Icon": "SQ_SQC.svg"
     },
     {
       "IATA": "SQ",
@@ -54529,7 +55294,7 @@
       "Call sign": "SINGAPORE",
       "Region": "Singapore",
       "Comments": "",
-      "Icon": ""
+      "Icon": "SQ_SIA.svg"
     }
   ],
   "SQA": [
@@ -55337,7 +56102,16 @@
       "Call sign": "AEROFLOT",
       "Region": "Russia",
       "Comments": "",
-      "Icon": "SU.svg"
+      "Icon": "SU_AFL.svg"
+    },
+    {
+      "IATA": "SU",
+      "ICAO": "RCF",
+      "Airline": "Aeroflot - Cargo",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "SU_RCF.svg"
     }
   ],
   "SUA": [
@@ -57626,6 +58400,15 @@
       "Region": "United States",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "TI",
+      "ICAO": "TAT",
+      "Airline": "TACA Costa Rica Sociedad Anonima",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "TIA": [
@@ -57801,7 +58584,7 @@
       "Call sign": "TURKISH",
       "Region": "Turkey",
       "Comments": "",
-      "Icon": "TK.svg"
+      "Icon": "TK_THY.svg"
     }
   ],
   "TKC": [
@@ -58565,7 +59348,7 @@
       "Call sign": "AIR PORTUGAL",
       "Region": "Portugal",
       "Comments": "",
-      "Icon": "TP.svg"
+      "Icon": "TP_TAP.svg"
     }
   ],
   "TPB": [
@@ -59140,7 +59923,7 @@
     {
       "IATA": "",
       "ICAO": "TSI",
-      "Airline": "Transport'air",
+      "Airline": "Transport#@air",
       "Call sign": "TRANSPORTAIR",
       "Region": "France",
       "Comments": "",
@@ -59664,7 +60447,7 @@
     {
       "IATA": "TW",
       "ICAO": "TWB",
-      "Airline": "T'way Air",
+      "Airline": "T#@way Air",
       "Call sign": "TWAYAIR",
       "Region": "Republic of Korea",
       "Comments": "",
@@ -60235,7 +61018,7 @@
       "Call sign": "UNITED",
       "Region": "United States",
       "Comments": "",
-      "Icon": "UA.svg"
+      "Icon": "UA_UAL.svg"
     }
   ],
   "UAA": [
@@ -60462,7 +61245,7 @@
     {
       "IATA": "UD",
       "ICAO": "HER",
-      "Airline": "Hex'Air",
+      "Airline": "Hex#@Air",
       "Call sign": "HEX AIRLINE",
       "Region": "France",
       "Comments": "",
@@ -60725,6 +61508,15 @@
       "Region": "Egypt",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "UJ",
+      "ICAO": "JUS",
+      "Airline": "USA Jet Airlines, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "UJR": [
@@ -60845,7 +61637,7 @@
       "Call sign": "SRILANKAN",
       "Region": "Sri Lanka",
       "Comments": "",
-      "Icon": ""
+      "Icon": "UL_ALK.svg"
     }
   ],
   "ULH": [
@@ -61083,10 +61875,19 @@
     {
       "IATA": "UQ",
       "ICAO": "OCM",
-      "Airline": "O'Connor Airlines",
+      "Airline": "O#@Connor Airlines",
       "Call sign": "OCONNOR",
       "Region": "Australia",
       "Comments": "Defunct - Bankrupt",
+      "Icon": ""
+    },
+    {
+      "IATA": "UQ",
+      "ICAO": "SJA",
+      "Airline": "Sky Jet Aviation Ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -61195,7 +61996,16 @@
       "Call sign": "CACTUS",
       "Region": "United States",
       "Comments": "",
-      "Icon": ""
+      "Icon": "US_AWE.svg"
+    },
+    {
+      "IATA": "US",
+      "ICAO": "USA",
+      "Airline": "US Airways, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": "US_USA.svg"
     }
   ],
   "USB": [
@@ -61305,6 +62115,15 @@
       "Call sign": "UTAIR",
       "Region": "Russia",
       "Comments": "WAS P2 till 2006",
+      "Icon": ""
+    },
+    {
+      "IATA": "UT",
+      "ICAO": "TMN",
+      "Airline": "UTair Aviation Joint-Stock Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -61481,7 +62300,7 @@
       "Call sign": "EUROPA",
       "Region": "Spain",
       "Comments": "",
-      "Icon": "UX.svg"
+      "Icon": "UX_AEA.svg"
     }
   ],
   "UY": [
@@ -61586,6 +62405,15 @@
       "Airline": "Reem Air",
       "Call sign": "REEM AIR",
       "Region": "Kyrgyzstan",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "V4",
+      "ICAO": "VEC",
+      "Airline": "Vensecar Internacional C.A.",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -61704,6 +62532,15 @@
       "Airline": "Virgin Australia Regional Airlines",
       "Call sign": "VELOCITY",
       "Region": "Australia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "VA",
+      "ICAO": "VAU",
+      "Airline": "Virgin Blue International Airlines",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -62799,7 +63636,7 @@
       "Call sign": "VIET NAM AIRLINES",
       "Region": "Vietnam",
       "Comments": "",
-      "Icon": "VN.svg"
+      "Icon": "VN_HVN.svg"
     }
   ],
   "VNA": [
@@ -62995,7 +63832,7 @@
       "Call sign": "CABOVERDE",
       "Region": "Cape Verde",
       "Comments": "",
-      "Icon": ""
+      "Icon": "VR_TCV.svg"
     }
   ],
   "VRA": [
@@ -63055,7 +63892,7 @@
     {
       "IATA": "",
       "ICAO": "VRE",
-      "Airline": "Air C�te d'Ivoire",
+      "Airline": "Air C�te d#@Ivoire",
       "Call sign": "COTE DIVORIE",
       "Region": "Ivory Coast",
       "Comments": "",
@@ -63125,7 +63962,7 @@
       "Call sign": "VIRGIN",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": "VS.svg"
+      "Icon": "VS_VIR.svg"
     }
   ],
   "VSA": [
@@ -63707,7 +64544,7 @@
       "Call sign": "CARGOJET",
       "Region": "Canada",
       "Comments": "",
-      "Icon": ""
+      "Icon": "W8_CJT.svg"
     }
   ],
   "W9": [
@@ -63933,7 +64770,7 @@
     {
       "IATA": "",
       "ICAO": "WAV",
-      "Airline": "Warbelow's Air Ventures",
+      "Airline": "Warbelow#@s Air Ventures",
       "Call sign": "WARBELOW",
       "Region": "United States",
       "Comments": "",
@@ -63970,7 +64807,7 @@
       "Call sign": "RWANDAIR",
       "Region": "Rwanda",
       "Comments": "",
-      "Icon": ""
+      "Icon": "WB_RWD.svg"
     }
   ],
   "WBR": [
@@ -64330,7 +65167,7 @@
     {
       "IATA": "",
       "ICAO": "WFO",
-      "Airline": "Wilbur's Flight Operations",
+      "Airline": "Wilbur#@s Flight Operations",
       "Call sign": "WILBURS",
       "Region": "United States",
       "Comments": "",
@@ -64726,7 +65563,7 @@
       "Call sign": "SOUTHWEST",
       "Region": "United States",
       "Comments": "",
-      "Icon": "WN.svg"
+      "Icon": "WN_SWA.svg"
     }
   ],
   "WNA": [
@@ -64857,6 +65694,15 @@
       "Region": "United States",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "WQ",
+      "ICAO": "RMV",
+      "Airline": "Romanian Aviation Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "WR": [
@@ -64920,7 +65766,7 @@
       "Call sign": "WESTJET",
       "Region": "Canada",
       "Comments": "",
-      "Icon": "WS.svg"
+      "Icon": "WS_WJA.svg"
     }
   ],
   "WSA": [
@@ -64940,7 +65786,7 @@
       "ICAO": "WSC",
       "Airline": "Westair Cargo Airlines",
       "Call sign": "WESTCAR",
-      "Region": "C�te d'Ivoire",
+      "Region": "C�te d#@Ivoire",
       "Comments": "",
       "Icon": ""
     }
@@ -65203,6 +66049,15 @@
       "Region": "Oman",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "WY",
+      "ICAO": "OAS",
+      "Airline": "Oman Air (SAOG)",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "WYC": [
@@ -65245,6 +66100,15 @@
       "Airline": "West African Airlines",
       "Call sign": "",
       "Region": "Benin",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "WZ",
+      "ICAO": "RWZ",
+      "Airline": "CJSC Airline 400",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -65755,7 +66619,7 @@
     {
       "IATA": "",
       "ICAO": "XJA",
-      "Airline": "Assistance Aeroportuaire de L'Aeroport de Paris",
+      "Airline": "Assistance Aeroportuaire de L#@Aeroport de Paris",
       "Call sign": "",
       "Region": "France",
       "Comments": "",
@@ -65923,6 +66787,15 @@
       "Region": "Japan",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "XM",
+      "ICAO": "XME",
+      "Airline": "Australian Air Express Pty. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "XMA": [
@@ -65999,6 +66872,15 @@
       "Call sign": "XPRESS",
       "Region": "Indonesia",
       "Comments": "Renamed from Travel Express Aviation Services in 2012",
+      "Icon": ""
+    },
+    {
+      "IATA": "XN",
+      "ICAO": "NPL",
+      "Airline": "Air Nepal International Pvt. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
       "Icon": ""
     }
   ],
@@ -66507,6 +67389,15 @@
       "Region": "Myanmar",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "Y5",
+      "ICAO": "AWA",
+      "Airline": "Aircompany Asia Wings JSC",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "Y6": [
@@ -66604,6 +67495,15 @@
       "Region": "Germany",
       "Comments": "defunct since 1996",
       "Icon": ""
+    },
+    {
+      "IATA": "YD",
+      "ICAO": "MTW",
+      "Airline": "Mauritania Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "YE": [
@@ -66668,6 +67568,15 @@
       "Airline": "Yamal Airlines",
       "Call sign": "YAMAL",
       "Region": "Russia",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "YL",
+      "ICAO": "BSA",
+      "Airline": "Air Bissau International Lda",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }
@@ -66797,7 +67706,7 @@
       "Call sign": "MIDEX",
       "Region": "United States",
       "Comments": "",
-      "Icon": "YX.svg"
+      "Icon": "YX_MEP.png"
     }
   ],
   "YYY": [
@@ -67191,6 +68100,15 @@
       "Region": "Cyprus",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "ZU",
+      "ICAO": "BBT",
+      "Airline": "Air Bashkortostan Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "ZV": [
@@ -67244,6 +68162,15 @@
       "Region": "Turkey",
       "Comments": "",
       "Icon": ""
+    },
+    {
+      "IATA": "ZY",
+      "ICAO": "EZA",
+      "Airline": "Eznis Airways Co. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
     }
   ],
   "ZZM": [
@@ -67253,6 +68180,1081 @@
       "Airline": "Agence Nationale des Aerodromes et de la Meteorologie",
       "Call sign": "",
       "Region": "Ivory Coast",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "0P": [
+    {
+      "IATA": "0P",
+      "ICAO": "",
+      "Airline": "Palau Asia Pacific Air Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "2E": [
+    {
+      "IATA": "2E",
+      "ICAO": "PHW",
+      "Airline": "Ave.com",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "2I": [
+    {
+      "IATA": "2I",
+      "ICAO": "SRU",
+      "Airline": "Star Up S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3A": [
+    {
+      "IATA": "3A",
+      "ICAO": "AFJ",
+      "Airline": "Kenosha Aero, Inc. dba Alliance Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3B": [
+    {
+      "IATA": "3B",
+      "ICAO": "JBR",
+      "Airline": "Job Air s.r.o.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3F": [
+    {
+      "IATA": "3F",
+      "ICAO": "",
+      "Airline": "Pacific Airways Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3H": [
+    {
+      "IATA": "3H",
+      "ICAO": "AIE",
+      "Airline": "Air Inuit Ltd/Ltee",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3I": [
+    {
+      "IATA": "3I",
+      "ICAO": "",
+      "Airline": "Aerolineas Austral Chile S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3M": [
+    {
+      "IATA": "3M",
+      "ICAO": "GFT",
+      "Airline": "Gulfstream International Airlines, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3Y": [
+    {
+      "IATA": "3Y",
+      "ICAO": "XBO",
+      "Airline": "Baseops International, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "3Z": [
+    {
+      "IATA": "3Z",
+      "ICAO": "",
+      "Airline": "Tatonduk Outfitters Limited.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "3Z",
+      "ICAO": "ZAW",
+      "Airline": "Zoom Airways Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4B": [
+    {
+      "IATA": "4B",
+      "ICAO": "",
+      "Airline": "Aviastar-TU Co.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4I": [
+    {
+      "IATA": "4I",
+      "ICAO": "IZM",
+      "Airline": "IHY Izmir Havayollari A.S.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4J": [
+    {
+      "IATA": "4J",
+      "ICAO": "",
+      "Airline": "Air Company Somon Air",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4K": [
+    {
+      "IATA": "4K",
+      "ICAO": "",
+      "Airline": "Askari Aviation (PVT) Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4L": [
+    {
+      "IATA": "4L",
+      "ICAO": "MJX",
+      "Airline": "Euroline",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4Q": [
+    {
+      "IATA": "4Q",
+      "ICAO": "SFW",
+      "Airline": "Safi Airways Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4V": [
+    {
+      "IATA": "4V",
+      "ICAO": "",
+      "Airline": "Lignes Aeriennes Congolaises",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4W": [
+    {
+      "IATA": "4W",
+      "ICAO": "AJK",
+      "Airline": "Allied Air Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4X": [
+    {
+      "IATA": "4X",
+      "ICAO": "",
+      "Airline": "Mercury Air Cargo, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "4Z": [
+    {
+      "IATA": "4Z",
+      "ICAO": "",
+      "Airline": "SA",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "5B": [
+    {
+      "IATA": "5B",
+      "ICAO": "",
+      "Airline": "Euro-Asia International JSC",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "5H": [
+    {
+      "IATA": "5H",
+      "ICAO": "FFV",
+      "Airline": "Five Fourty Aviation Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "5Q": [
+    {
+      "IATA": "5Q",
+      "ICAO": "BEA",
+      "Airline": "Best Aviation Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "5R": [
+    {
+      "IATA": "5R",
+      "ICAO": "",
+      "Airline": "Custom Air Transport, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6C": [
+    {
+      "IATA": "6C",
+      "ICAO": "",
+      "Airline": "Cetrafrrique Air Express (C.A.E.)",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6D": [
+    {
+      "IATA": "6D",
+      "ICAO": "",
+      "Airline": "Air Dominicana S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "6D",
+      "ICAO": "KDR",
+      "Airline": "Royal Daisy Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6L": [
+    {
+      "IATA": "6L",
+      "ICAO": "AKK",
+      "Airline": "Aklak Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6M": [
+    {
+      "IATA": "6M",
+      "ICAO": "",
+      "Airline": "Linkair Express S.p.A",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6S": [
+    {
+      "IATA": "6S",
+      "ICAO": "ESC",
+      "Airline": "El Sol de America",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "6T": [
+    {
+      "IATA": "6T",
+      "ICAO": "",
+      "Airline": "Turks Air",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7D": [
+    {
+      "IATA": "7D",
+      "ICAO": "UDC",
+      "Airline": "Limited Liability Company",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7H": [
+    {
+      "IATA": "7H",
+      "ICAO": "ERH",
+      "Airline": "Era Aviation, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7I": [
+    {
+      "IATA": "7I",
+      "ICAO": "",
+      "Airline": "Insel Air International B.V.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7J": [
+    {
+      "IATA": "7J",
+      "ICAO": "SWT",
+      "Airline": "Swiftair",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7Q": [
+    {
+      "IATA": "7Q",
+      "ICAO": "PWD",
+      "Airline": "Pan Am World Airways Dominicana",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7U": [
+    {
+      "IATA": "7U",
+      "ICAO": "",
+      "Airline": "Aviaenergo",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7V": [
+    {
+      "IATA": "7V",
+      "ICAO": "",
+      "Airline": "Corporate Air Charters, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "7Y": [
+    {
+      "IATA": "7Y",
+      "ICAO": "FCR",
+      "Airline": "Flying Carpet Air Transport & Services",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "8K": [
+    {
+      "IATA": "8K",
+      "ICAO": "",
+      "Airline": "Exploits Valley Air Services",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "8K",
+      "ICAO": "KMI",
+      "Airline": "K-Mile Air Co. Ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "8R": [
+    {
+      "IATA": "8R",
+      "ICAO": "",
+      "Airline": "SOL S.A. Lineas Aereas",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9D": [
+    {
+      "IATA": "9D",
+      "ICAO": "",
+      "Airline": "Toumai Air Tchad",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9H": [
+    {
+      "IATA": "9H",
+      "ICAO": "",
+      "Airline": "Dutch Antilles Express B.V.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9J": [
+    {
+      "IATA": "9J",
+      "ICAO": "DAN",
+      "Airline": "Dana Airlines Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9N": [
+    {
+      "IATA": "9N",
+      "ICAO": "AJV",
+      "Airline": "ANA & JP Express Co. ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9P": [
+    {
+      "IATA": "9P",
+      "ICAO": "",
+      "Airline": "Palau National Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "9P",
+      "ICAO": "CIE",
+      "Airline": "Transportes Aereos Cielos Andinos S.A.C.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9S": [
+    {
+      "IATA": "9S",
+      "ICAO": "SOO",
+      "Airline": "Southern Air Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "9X": [
+    {
+      "IATA": "9X",
+      "ICAO": "AXY",
+      "Airline": "New Axis Airways",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "C2": [
+    {
+      "IATA": "C2",
+      "ICAO": "",
+      "Airline": "CEIBA Intercontinental S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "C2",
+      "ICAO": "MTN",
+      "Airline": "Mountain Air Cargo Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "CB": [
+    {
+      "IATA": "CB",
+      "ICAO": "KFS",
+      "Airline": "Kalitta Charters II, LLC",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "CF": [
+    {
+      "IATA": "CF",
+      "ICAO": "SDR",
+      "Airline": "City Airline AB",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "DF": [
+    {
+      "IATA": "DF",
+      "ICAO": "ABH",
+      "Airline": "Aerolineas de Baleares AeBal",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "DZ": [
+    {
+      "IATA": "DZ",
+      "ICAO": "LMZ",
+      "Airline": "JSC \"Starline.kz\"",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "EB": [
+    {
+      "IATA": "EB",
+      "ICAO": "",
+      "Airline": "Pullmantur Air",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "GU": [
+    {
+      "IATA": "GU",
+      "ICAO": "",
+      "Airline": "AVIATECA, S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "I3": [
+    {
+      "IATA": "I3",
+      "ICAO": "",
+      "Airline": "Ivoirienne De Transport Aerien",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "I8": [
+    {
+      "IATA": "I8",
+      "ICAO": "IDA",
+      "Airline": "PT. Indonesia Air Transport. Tbk",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "IL": [
+    {
+      "IATA": "IL",
+      "ICAO": "",
+      "Airline": "LankAir Private Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "J0": [
+    {
+      "IATA": "J0",
+      "ICAO": "",
+      "Airline": "Jet Link Express Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "J5": [
+    {
+      "IATA": "J5",
+      "ICAO": "",
+      "Airline": "Shenzhen Donghai Airlines Co., Ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "K7": [
+    {
+      "IATA": "K7",
+      "ICAO": "LMY",
+      "Airline": "Air Almaty JSC",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "M0": [
+    {
+      "IATA": "M0",
+      "ICAO": "MNG",
+      "Airline": "Aero Mongolia",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "N3": [
+    {
+      "IATA": "N3",
+      "ICAO": "OMS",
+      "Airline": "Joint Stock Company \"Omskavia\" Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "NS": [
+    {
+      "IATA": "NS",
+      "ICAO": "",
+      "Airline": "Northeastern Airlines Co. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "OG": [
+    {
+      "IATA": "OG",
+      "ICAO": "",
+      "Airline": "Societe De Transport De L'Archipel",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "OG",
+      "ICAO": "OTG",
+      "Airline": "One Two Go Airlines Co. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "P2": [
+    {
+      "IATA": "P2",
+      "ICAO": "PLS",
+      "Airline": "Platnium Air Linhas Aereas Ltda.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    },
+    {
+      "IATA": "P2",
+      "ICAO": "XAK",
+      "Airline": "AirKenya Express Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "PB": [
+    {
+      "IATA": "PB",
+      "ICAO": "SPR",
+      "Airline": "Provincial Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "QA": [
+    {
+      "IATA": "QA",
+      "ICAO": "CBE",
+      "Airline": "Aerovias Caribe S.A. de C.V.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "QP": [
+    {
+      "IATA": "QP",
+      "ICAO": "SLT",
+      "Airline": "Starlight Airline",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "RM": [
+    {
+      "IATA": "RM",
+      "ICAO": "RUC",
+      "Airline": "Rutas Aereas, C.A. RUTACA",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "RP": [
+    {
+      "IATA": "RP",
+      "ICAO": "CHQ",
+      "Airline": "Chautauqua Airlines Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "T0": [
+    {
+      "IATA": "T0",
+      "ICAO": "",
+      "Airline": "Trans American Airlines, S.A. TACA PERU",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "T8": [
+    {
+      "IATA": "T8",
+      "ICAO": "WWI",
+      "Airline": "Worldwide Jet Charter L.L.C.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "TA": [
+    {
+      "IATA": "TA",
+      "ICAO": "TAI",
+      "Airline": "Taca International Airlines, S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "U9": [
+    {
+      "IATA": "U9",
+      "ICAO": "",
+      "Airline": "Tatarstan JSC Aircompany",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "UV": [
+    {
+      "IATA": "UV",
+      "ICAO": "UVA",
+      "Airline": "Universal Airways, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "V6": [
+    {
+      "IATA": "V6",
+      "ICAO": "VOG",
+      "Airline": "Voyager Airlines Ltd",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "WI": [
+    {
+      "IATA": "WI",
+      "ICAO": "",
+      "Airline": "Tradewinds Airlines Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "WJ": [
+    {
+      "IATA": "WJ",
+      "ICAO": "LAL",
+      "Airline": "Labrador Airways Limited",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "WM": [
+    {
+      "IATA": "WM",
+      "ICAO": "",
+      "Airline": "Windward Islands Airways Int'l",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "X8": [
+    {
+      "IATA": "X8",
+      "ICAO": "",
+      "Airline": "Icaro S.A.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "XE": [
+    {
+      "IATA": "XE",
+      "ICAO": "BTA",
+      "Airline": "ExpressJet Airlines, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "XR": [
+    {
+      "IATA": "XR",
+      "ICAO": "",
+      "Airline": "Skywest Airlines Pty. Ltd.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "XV": [
+    {
+      "IATA": "XV",
+      "ICAO": "",
+      "Airline": "MR Lines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "YC": [
+    {
+      "IATA": "YC",
+      "ICAO": "LLM",
+      "Airline": "Yamal Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "YN": [
+    {
+      "IATA": "YN",
+      "ICAO": "CRQ",
+      "Airline": "Air Creebec (1994) Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "YO": [
+    {
+      "IATA": "YO",
+      "ICAO": "MCM",
+      "Airline": "Heli Air Monaco",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "YR": [
+    {
+      "IATA": "YR",
+      "ICAO": "EGJ",
+      "Airline": "Scenic Airlines, Inc.",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "ZJ": [
+    {
+      "IATA": "ZJ",
+      "ICAO": "ZMA",
+      "Airline": "Zambezi Airlines",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "ZM": [
+    {
+      "IATA": "ZM",
+      "ICAO": "",
+      "Airline": "Cityline Hungary Kft",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "ZN": [
+    {
+      "IATA": "ZN",
+      "ICAO": "NAY",
+      "Airline": "Naysa",
+      "Call sign": "",
+      "Region": "",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
+  "ZR": [
+    {
+      "IATA": "ZR",
+      "ICAO": "",
+      "Airline": "Aviacon Zitotrans Air Company JSC",
+      "Call sign": "",
+      "Region": "",
       "Comments": "",
       "Icon": ""
     }

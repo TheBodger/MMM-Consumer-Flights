@@ -7,11 +7,11 @@
 
 const fs = require('fs');
 const uf = require('unique-filename');
-const iconfolder = 'icons/';
+const iconfolder = 'modules/MMM-Consumer-Flights/icons/';
 const tempsubfolder = 'tempicons/';
 const airlinesfile = 'airlines.json';
-const airlinesfolder = 'reference/';
-const svgtemplate = fs.readFileSync('icon.template.svg').toString();
+const airlinesfolder = 'modules/MMM-Consumer-Flights/reference/';
+const svgtemplate = fs.readFileSync('modules/MMM-Consumer-Flights/icon.template.svg').toString();
 
 exports.airlines = function () {
 
@@ -45,8 +45,9 @@ exports.airlines = function () {
         }
 
         if (offset != -1) {
-            var airline = this._airlines[IATAcode][offset];
+            var airline = JSON.parse(JSON.stringify( this._airlines[IATAcode][offset]));
             airline['offset'] = offset;
+            airline.Icon = this.geticonname(IATAcode, offset);
             return airline ;
         }
 
@@ -88,7 +89,7 @@ exports.airlines = function () {
         var _iconname;
 
         if (this._airlines[IATAcode][offset].Icon == '') {//create a dummy SVG and pass back the temp address
-
+            console.log(this._airlines[IATAcode][offset].Airline,IATAcode, this._airlines[IATAcode][offset].ICAO);
             var tmpiconfilename = uf(subfolder+tempsubfolder) + ".svg";
 
             this.buildicon(tmpiconfilename, this.shorten(shorten,length,this._airlines[IATAcode][offset].Airline));
@@ -99,7 +100,7 @@ exports.airlines = function () {
         else {
             _iconname = iconfolder + this._airlines[IATAcode][offset].Icon;
         }
-
+       
         return (_iconname);
 
     };
@@ -129,7 +130,7 @@ exports.airlines = function () {
 
         //shorten words where possible before truncating at length
 
-        while (_text.length <= length) {
+        while (_text.length > length) {
 
             switch (iteration) {
                 case 0:
@@ -137,6 +138,9 @@ exports.airlines = function () {
                     break;
                 case 1:
                     _text = _text.replace('irway', "'way");
+                    break;
+                case 2:
+                    _text = _text.replace('nternational', "nt'l");
                     break;
                 default:
                     _text = _text.substr(0, length);

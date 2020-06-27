@@ -169,11 +169,11 @@ module.exports = NodeHelper.create({
 
 				//setup flights for codeshare displaying
 				flight: { flightidx: 0, flights: [flight.flight] },
-				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata] },
+				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata], airlinesicao: [flight.airlineicao], airlineicon : [null]  },
 			}
 
 			if (self.consumerstorage[moduleinstance].config.icon) {
-				oflight['icon'] = svgutil.getairline(flight.airlineiata, flight.airlineicao).Icon;
+				oflight.airline.airlineicon[0] = svgutil.getairline(flight.airlineiata, flight.airlineicao).Icon;
             }
 
 			var addflight = true;
@@ -194,6 +194,15 @@ module.exports = NodeHelper.create({
 						flightdata.flights[index].flight.flights.push(flight.flight);
 						flightdata.flights[index].airline.airlines.push(flight.airline);
 						flightdata.flights[index].airline.airlinesiata.push(flight.airlineiata);
+						flightdata.flights[index].airline.airlinesicao.push(flight.airlineicao);
+
+						if (self.consumerstorage[moduleinstance].config.icon) {
+							flightdata.flights[index].airline.airlineicon.push(svgutil.getairline(flight.airlineiata, flight.airlineicao).Icon);
+						}
+						else {
+							flightdata.flights[index].airline.airlineicon.push(null);
+                        }
+
 					}
                 }
 
