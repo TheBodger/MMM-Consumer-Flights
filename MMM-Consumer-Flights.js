@@ -28,11 +28,7 @@ Module.register("MMM-Consumer-Flights", {
 		exclude: null,				//* Optional * - An array of field names to exclude from the board  
 		icon: false,				//*Optional* - Include an icon of the airline instead of the text
 		codes: true,				//*Optional* - Show only the codes provided from the provider for Airports, flights and carriers. 
-		//	It is assumed that these will be IATA codes. 
-		//	IF other codes are provided then used the reference setting to convert to strings for displaying on the board
 		header: true,				//*Optional* - Include the board header (clock, location etc)
-		reference: 'iatacode.js',   //*Optional* - The file name of a script that contains the names to convert to from the codes provided. 
-		//if codes is false, then the local iatacodes.js file is used to convert from iata codes to strings.
 		refreshrate: 10000,         //*Optional* - The time in milliseconds between showing the next set of flights on the board
 		flightcount: null,          //*Optional* - The number of flights to show, the default is all flights passed from the provider, but this can be used to reduce the total number
 		scroll: false,				//*Optional* - If true, then the flights are moved up one at atime on the board, otherwise a full baord at a time is displayed

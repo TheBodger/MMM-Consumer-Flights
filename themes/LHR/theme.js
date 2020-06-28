@@ -1,6 +1,6 @@
 //theme.js
 //LHR
-//contains paramaters that are used to layout the board
+//contains parameters that are used to layout the board
 //options are:
 //board column indexes
 //
