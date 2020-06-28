@@ -11,8 +11,6 @@ It works with data extracted through the MMM-Provider-JSON module pulling data t
 ### Example
 ![Example of MMM-Consumer-Flights output](images/screenshot.png?raw=true "Example screenshot")
 
-
-
 ### Dependencies
 
 Before installing this module, also install https://github.com/TheBodger/MMM-ChartUtilities as well as https://github.com/TheBodger/MMM-FeedUtilities 

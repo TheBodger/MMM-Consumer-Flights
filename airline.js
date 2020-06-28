@@ -96,8 +96,9 @@ exports.airlines = function () {
         var _iconname;
 
         if (this._airlines[IATAcode][offset].Icon == '') {//create a dummy SVG and pass back the temp address
-            console.log(this._airlines[IATAcode][offset].Airline,IATAcode, this._airlines[IATAcode][offset].ICAO);
-            var tmpiconfilename = uf(subfolder+tempsubfolder) + ".svg";
+            //console.log(this._airlines[IATAcode][offset].Airline,IATAcode, this._airlines[IATAcode][offset].ICAO);
+
+            var tmpiconfilename = subfolder + tempsubfolder + IATAcode +"_" + this._airlines[IATAcode][offset].ICAO + ".svg";
 
             this.buildicon(tmpiconfilename, this.shorten(shorten,length,this._airlines[IATAcode][offset].Airline));
 

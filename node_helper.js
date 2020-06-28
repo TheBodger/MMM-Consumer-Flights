@@ -102,7 +102,7 @@ module.exports = NodeHelper.create({
 				 * 	{a:"4", b:"5". c:"6"}
 				 * ]
 				 */
-				console.log(commonutils.showElapsed(startTime), "sending airports");
+				//console.log(commonutils.showElapsed(startTime), "sending airports");
 				this.sendNotificationToMasterModule("AIRPORTS_" + moduleinstance, { payload: jsonObj });
 			})
 
@@ -264,7 +264,7 @@ module.exports = NodeHelper.create({
 	socketNotificationReceived: function (notification, payload) {
 		//console.log(this.name + " NODE_HELPER received a socket notification: " + notification + " - Payload: " + payload);
 
-		console.log(commonutils.showElapsed(startTime), notification);
+		//console.log(commonutils.showElapsed(startTime), notification);
 
 		//we will receive a payload with the moduleinstance of the consumerid in it so we can store data and respond to the correct instance of
 		//the caller - i think that this may be possible!!
