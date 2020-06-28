@@ -17,13 +17,13 @@ It works with data extracted through the MMM-Provider-JSON module pulling data t
 
 Before installing this module, also install https://github.com/TheBodger/MMM-ChartUtilities as well as https://github.com/TheBodger/MMM-FeedUtilities 
 
-cd to the MagicMirror folder
+Node module required
 
-npm i --save csvtojson
-npm install moment-timezone --save
-npm install unique-filename --save 
-		
-		
+<BR>cd to the MagicMirror folder
+
+<BR>npm i --save csvtojson
+<BR>npm install moment-timezone --save
+<BR>npm install unique-filename --save 
 
 ## Standalone Installation
 To install the module, use your terminal to:
