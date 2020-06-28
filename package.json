@@ -1,10 +1,10 @@
 {
-  "name": "MMM-ChartDisplay",
+  "name": "MMM-Consumer-Flights",
   "version": "1.0.0",
-  "description": "Magic Mirror Module for displaying charts using data provided from other modules in NDTF on Magic Mirror 2",
+  "description": "Magic Mirror Module for displaying flight information in a themed airport board format using data provided from MMM-Provider-JSON",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheBodger/MMM-ChartDisplay"
+    "url": "git+https://github.com/TheBodger/MMM-Consumer-Flights"
   },
   "author": {
     "name": "N Scott"
@@ -12,14 +12,17 @@
   "keywords": [
     "magic mirror",
     "smart mirror",
-    "JSON Feeds",
-    "Chart Display",
+    "JSON Consumer",
+    "Airlnes Display",
+    "Airport Boards",
+    "Arrivals",
+    "Departures",
     "module"
   ],
   "dependencies": {},
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheBodger/MMM-ChartDisplay/issues"
+    "url": "https://github.com/TheBodger/MMM-Consumer-Flights/issues"
   },
-  "homepage": "https://github.com/TheBodger/MMM-ChartDisplay#readme"
+  "homepage": "https://github.com/TheBodger/MMM-Consumer-Flights#readme"
 }
