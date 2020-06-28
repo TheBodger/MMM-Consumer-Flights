@@ -4,12 +4,12 @@ This magic mirror module is the MMM-Consumer-Flights module that is part of the 
 
 This module receives feeds of Arrivals and Departures from a specified airport and displays them in a format similar to the boards found in airports.
 
-It works well with data extracted through the MMM-Provider-JSON module pulling data through the Aviationstack API. This is free for 500 API calls a month. Each call returns up to 100 flight details.
+It works with data extracted through the MMM-Provider-JSON module pulling data through the Aviationstack API. This is free for 500 API calls a month. Each call returns up to 100 flight details.
 
 
 
 ### Example
-![Example of MMM-ChartDisplay output](images/screenshot.png?raw=true "Example screenshot")
+![Example of MMM-Consumer-Flights output](images/screenshot.png?raw=true "Example screenshot")
 
 
 

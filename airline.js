@@ -40,6 +40,13 @@ exports.airlines = function () {
 
         var offset = 0;
 
+        //check code exists in the airlines database
+
+        if (this._airlines[IATAcode] == null && this._airlines[ICAOcode] == null) {
+            console.error("Airline not present in database",IATAcode,ICAOcode)
+            offset = -1;
+        }
+
         if (ICAOcode != null) {
             offset = this.getIATAoffset(IATAcode, ICAOcode);
         }
