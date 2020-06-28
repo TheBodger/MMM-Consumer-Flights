@@ -106,7 +106,13 @@ exports.airlines = function () {
 
         }
         else {
+
             _iconname = iconfolder + this._airlines[IATAcode][offset].Icon;
+
+            if (_iconname.substr(_iconname.length - 3, 3) == 'png') {
+                var x = 99;
+            }
+            
         }
        
         return (_iconname);

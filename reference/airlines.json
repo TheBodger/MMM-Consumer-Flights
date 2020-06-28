@@ -3654,7 +3654,7 @@
       "Call sign": "Azul",
       "Region": "Brazil",
       "Comments": "",
-      "Icon": ""
+      "Icon": "AD_AZU.svg"
     }
   ],
   "ADA": [
@@ -23191,7 +23191,7 @@
       "Call sign": "GOL TRANSPORTE",
       "Region": "Brazil",
       "Comments": "Brazilian low-cost airline.",
-      "Icon": ""
+      "Icon": "G3_GLO.png"
     },
     {
       "IATA": "G3",
@@ -24016,7 +24016,7 @@
       "Call sign": "GULF AIR",
       "Region": "Bahrain",
       "Comments": "",
-      "Icon": ""
+      "Icon": "GF_GFA.png"
     }
   ],
   "GFC": [
@@ -28024,7 +28024,7 @@
       "Call sign": "HAINAN",
       "Region": "China",
       "Comments": "",
-      "Icon": ""
+      "Icon": "HU_CHH.svg"
     }
   ],
   "HUB": [
@@ -38333,7 +38333,7 @@
       "Call sign": "AIRMAURITIUS",
       "Region": "Mauritius",
       "Comments": "",
-      "Icon": ""
+      "Icon": "MK_MAU.svg"
     }
   ],
   "MKA": [
@@ -49969,7 +49969,7 @@
       "Call sign": "JORDANIAN",
       "Region": "Jordan",
       "Comments": "",
-      "Icon": ""
+      "Icon": "RJ_RJA.svg"
     }
   ],
   "RJM": [
@@ -54556,7 +54556,7 @@
       "Call sign": "BEE-LINE",
       "Region": "Belgium",
       "Comments": "",
-      "Icon": ""
+      "Icon": "SN_BEL.svg"
     },
     {
       "IATA": "SN",
@@ -62223,7 +62223,7 @@
       "Call sign": "REUNION",
       "Region": "France",
       "Comments": "",
-      "Icon": ""
+      "Icon": "UU_REU.svg"
     }
   ],
   "UVA": [
