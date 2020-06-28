@@ -89,6 +89,8 @@ if an alternative source is required, clone airports.js and adjust accordingly.
 
 the helper script airline.js exposes a "database" of airline properties and icons obtained from wikipedia; missing icons are replaced with the airline name in red displayed on the board; 
 
+<PRE>
+
 top US carriers
 
 1	Southwest	163.606	1	157.677	3.8
