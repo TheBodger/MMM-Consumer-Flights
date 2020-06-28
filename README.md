@@ -93,13 +93,13 @@ the helper script airline.js exposes a "database" of airline properties and icon
 
 top US carriers
 
-1	Southwest	163.606	1	157.677	3.8
-2	Delta	152.029	2	145.647	4.4
-3	American	148.181	3	144.864	2.3
-4	United	113.197	4	107.243	5.6
-5	JetBlue	42.236	5	40.015	5.5
-6	SkyWest	38.956	6	35.776	8.9
-7	Alaska	33.503	7	26.067	28.5
-8	Spirit	28.683	8	23.813	20.5
-9	Frontier	19.433	10	16.800	15.7
-10	Republic 	18.640	9	16.932	10.1
+1	Southwest	163.606	 1	157.677	 3.8
+2	Delta		152.029	 2	145.647	 4.4
+3	American	148.181	 3	144.864	 2.3
+4	United		113.197	 4	107.243	 5.6
+5	JetBlue		 42.236	 5	 40.015	 5.5
+6	SkyWest		 38.956	 6	 35.776	 8.9
+7	Alaska		 33.503	 7	 26.067	28.5
+8	Spirit		 28.683	 8	 23.813	20.5
+9	Frontier	 19.433	10	 16.800	15.7
+10	Republic 	 18.640	 9	 16.932	10.1
