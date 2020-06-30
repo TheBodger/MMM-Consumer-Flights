@@ -433,14 +433,9 @@ Module.register("MMM-Consumer-Flights", {
 						cell[rowidx].innerHTML = flight.scheduled.split('')[ridx];
 					}
 					else if (ridx == 5) {//Airline code, name or icon
-						//need to handle code share airlines
-						//need to handle code share airlines
-						
-
-
 						if (this.config.icon) {
 							if (this.config.size == 'small') { width = '100px';}
-							cell[rowidx].style = 'background-color:white';
+							cell[rowidx].className = 'iconbackground';
 							cell[rowidx].innerHTML = `<img src="${flight.airline.airlineicon[flight.flight.flightidx]}" class='icon' />`;
 							var x;
 							x = 0;
@@ -448,9 +443,9 @@ Module.register("MMM-Consumer-Flights", {
 						else {
 							cell[rowidx].innerHTML = (this.config.codes) ? flight.airline.airlinesiata[flight.flight.flightidx] : flight.airline.airlines[flight.flight.flightidx];
 						}
-						cell[rowidx].className = 'airline';
+						cell[rowidx].classList.add('airline');
 					}
-					else if (ridx == 6) { cell[rowidx].innerHTML = (this.config.codes) ? flight.remoteairport : airports['getcity'](flight.remoteairport); }
+					else if (ridx == 6) { cell[rowidx].innerHTML = (this.config.codes) ? flight.remoteairport : airports['getcity'](flight.remoteairport); cell[rowidx].className = 'remote';}
 					else if (ridx == 7) {
 						cell[rowidx].innerHTML = (this.config.codes) ? flight.flight.flights[flight.flight.flightidx] : flight.flight.flights[flight.flight.flightidx]
 						this.payload.flights[fidx].flight.flightidx++;
@@ -458,10 +453,11 @@ Module.register("MMM-Consumer-Flights", {
 					}
 					else if (ridx == 8) {
 						cell[rowidx].innerHTML = flight.remarks;
-						if (flight.remarks.indexOf('inal') > -1) { cell[rowidx].className = 'final'; }
-						if (flight.remarks.indexOf('oard') > -1) { cell[rowidx].className = 'boarding'; }
-						if (flight.remarks.indexOf('arted') > -1) { cell[rowidx].className = 'departed'; }
-						if (flight.remarks.indexOf('ancelled') > -1) { cell[rowidx].className = 'cancelled'; }
+						cell[rowidx].className = 'remarks';
+						if (flight.remarks.indexOf('inal') > -1) { cell[rowidx].classList.add ( 'final'); }
+						if (flight.remarks.indexOf('oard') > -1) { cell[rowidx].classList.add('boarding'); }
+						if (flight.remarks.indexOf('arted') > -1) { cell[rowidx].classList.add ('departed'); }
+						if (flight.remarks.indexOf('ancelled') > -1) { cell[rowidx].classList.add ( 'cancelled'); }
 					}
 					else if (ridx == 9) { cell[rowidx].innerHTML = flight.terminal; cell[rowidx].className = 'terminal'; }
 					else if (ridx == 10) { cell[rowidx].innerHTML = flight.gate;  }
@@ -492,7 +488,7 @@ Module.register("MMM-Consumer-Flights", {
 						cell[ridx].innerHTML = '&nbsp;';
 					}
 					else if (ridx == 5) { cell[ridx].innerHTML = '&nbsp;'; cell[ridx].className = 'airline'; }
-					else if (ridx == 6) { cell[ridx].innerHTML = '&nbsp;'; }
+					else if (ridx == 6) { cell[ridx].innerHTML = '&nbsp;'; cell[ridx].className = 'remote';}
 					else if (ridx == 7) { cell[ridx].innerHTML = '&nbsp;'; }
 					else if (ridx == 8) { cell[ridx].innerHTML = '&nbsp;'; }
 					else if (ridx == 9) { cell[ridx].innerHTML = '&nbsp;'; cell[ridx].className = 'terminal'; }

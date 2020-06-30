@@ -1,0 +1,81 @@
+.HND {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .HND .head {
+        color: white;
+        text-align: center;
+        background-color: #404040;
+    }
+
+    .HND .columnhead {
+        color: white;
+        text-align: center;
+    }
+
+    .HND .divider {
+        border-width: 0;
+        background-color: #FFFFFF;
+    }
+
+    .HND .flights tr:nth-child(even) {
+        background-image: linear-gradient(lightblue, #0c52a5);
+    }
+
+    .HND .flights tr:nth-child(odd) {
+        background-image: linear-gradient(darkgrey, black);
+    }
+
+    .HND .flights {
+        border: 6px black solid
+    }
+
+    .HND .flight {
+        color: white;
+        background-color: #333333;
+    }
+
+        .HND .flight .icon {
+            max-width: 80px;
+            max-height: 24px;
+            width: auto;
+            height: auto;
+        }
+
+        .HND .flight .time, .terminal {
+            text-align: center;
+        }
+
+        .HND .flight .remote, .remarks {
+            text-align: left;
+        }
+
+        .HND .flight .airline {
+            color: yellow;
+        }
+
+        .HND .flight .departed {
+            color: green;
+        }
+
+        .HND .flight .cancelled {
+            color: yellow;
+        }
+
+        .HND .flight .final {
+            background-color: fuchsia
+        }
+
+        .HND .flight .boarding {
+            background-color: green;
+        }
+
+        .HND .flight .iconbackground {
+            background-image: linear-gradient(rgb(241, 241, 241),white);
+        }
+
+.HND .foot {
+    background-color: Background black;
+    text-align: left;
+    color: white;
+}

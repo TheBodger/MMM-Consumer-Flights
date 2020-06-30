@@ -66,6 +66,10 @@
             background-color: green
         }
 
+        .BOS .flight .iconbackground {
+            background-image: linear-gradient(white,white);
+        }
+
     .BOS .foot {
         background-color: #72ACF6;
         text-align: left;

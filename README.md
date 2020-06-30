@@ -6,8 +6,6 @@ This module receives feeds of Arrivals and Departures from a specified airport u
 
 It works with data extracted through the MMM-Provider-JSON module pulling data through the Aviationstack API. This is free for 500 API calls a month. Each call returns up to 100 flight details.
 
-
-
 ### Example
 ![Example of MMM-Consumer-Flights output](images/screenshot.png?raw=true "Example screenshot")
 
@@ -15,7 +13,9 @@ It works with data extracted through the MMM-Provider-JSON module pulling data t
 
 Before installing this module, also install https://github.com/TheBodger/MMM-ChartUtilities as well as https://github.com/TheBodger/MMM-FeedUtilities 
 
-Node module required
+To use this with the flights data, install https://github.com/TheBodger/MMM-Provider-JSON and follow the instructions that come with that module.
+
+Node modules required
 
 <BR>cd to the MagicMirror folder
 
@@ -82,7 +82,7 @@ Remarks
 Terminal
 Gate
 
-the script airports.js exposes the list of iata airportcodes in the file references/airports.csv (down loadable from https://openflights.org/data.html ) so that additional information can be added to the board if it cant be supplied in the main feed from the MMM-Provider-xxx module
+The script airports.js exposes the list of iata airportcodes in the file references/airports.csv (down loadable from https://openflights.org/data.html ) so that additional information can be added to the board if it cant be supplied in the main feed from the MMM-Provider-xxx module
 if an alternative source is required, clone airports.js and adjust accordingly.
 
 the helper script airline.js exposes a "database" of airline properties and icons obtained from wikipedia; missing icons are replaced with the airline name in red displayed on the board; 
