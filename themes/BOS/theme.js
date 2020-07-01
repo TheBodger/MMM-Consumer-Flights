@@ -22,5 +22,11 @@ var BOS_theme = {
 										//8 = remarks/status
 										//9 = terminal
 										//10 = gate
-										//i.e. (10,9,0,1,2,3,4,5,8,7,6) or leave null {} to use default of 0,1,2,3,4,5,6,7,8,9,10		
+										//i.e. (10,9,0,1,2,3,4,5,8,7,6) or leave null {} to use default of 0,1,2,3,4,5,6,7,8,9,10
+											//other data fields are available and can be displayed by adding their number to the list in the position it is to be shown
+										//names of the columns can be added into the columnames otherwise the name of the field is used
+										//Number	Name		description
+										//11		estimated	arrival time (formatted h h : m m)
+										//12		actual		arrival time (formatted h h : m m)
+										//13		landed		time (formatted h h : m m)
 };

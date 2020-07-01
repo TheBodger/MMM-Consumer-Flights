@@ -74,7 +74,8 @@ Module.register("MMM-Consumer-Flights", {
 		if (this.themedetails.bci == null) {
 			setdefault = true;
 		}
-		else if (this.themedetails.bci.length != 11) { setdefault = true; }
+		//just check we don't have an empty entry
+		else if (this.themedetails.bci.length == 0) { setdefault = true; }
 
 		if (setdefault) {
 			this.themedetails.bci = [0,1,2,3,4,5,6,7,8,9,10];
@@ -85,7 +86,8 @@ Module.register("MMM-Consumer-Flights", {
 		if (this.themedetails.dep_columnnames == null) {
 			setdefault = true;
 		}
-		else if (this.themedetails.dep_columnnames.length != 7) { setdefault = true; }
+		//just check we don't have an empty entry
+		else if (this.themedetails.dep_columnnames.length == 0) { setdefault = true; }
 
 		if (setdefault) {
 			this.themedetails.dep_columnnames = ['At','Airline','To','Flight','Remarks','Terminal','Gate'];
@@ -96,7 +98,8 @@ Module.register("MMM-Consumer-Flights", {
 		if (this.themedetails.arr_columnnames == null) {
 			setdefault = true;
 		}
-		else if (this.themedetails.arr_columnnames.length != 7) { setdefault = true; }
+		//just check we don't have an empty entry
+		else if (this.themedetails.arr_columnnames.length == 0) { setdefault = true; }
 
 		if (setdefault) {
 			this.themedetails.arr_columnnames = ['At', 'Airline', 'From', 'Flight', 'Remarks', 'Terminal', 'Gate'];
@@ -286,7 +289,7 @@ Module.register("MMM-Consumer-Flights", {
 
 			var row = board.insertRow(2);
 			var cell1 = row.insertCell(0);
-			cell1.colSpan = '11';
+			cell1.colSpan = this.themedetails.bci.length.toString();
 			cell1.style = "height: 2px";
 			
 		}
@@ -295,7 +298,7 @@ Module.register("MMM-Consumer-Flights", {
 			var row = board.insertRow(-1);
 			
 			var headercell = row.insertCell(-1);
-			headercell.colSpan = '11'
+			headercell.colSpan = this.themedetails.bci.length.toString();
 
 			var header = document.createElement('table');
 			header.className = this.config.theme;
@@ -319,20 +322,20 @@ Module.register("MMM-Consumer-Flights", {
 
 			var row = board.insertRow(-1);
 			var cell1 = row.insertCell(-1);
-			cell1.colSpan = '11';
+			cell1.colSpan = this.themedetails.bci.length.toString();
 			cell1.className = 'divider';
 		}
 
 		var row = board.insertRow(-1);
 		var flightscell = row.insertCell(0);
-		flightscell.colSpan = '11';
+		flightscell.colSpan = this.themedetails.bci.length.toString();
 		flightscell.id = 'boardflights_' + this.identifier;
 		flightscell.innerHTML = this.buildflights();
 
 		if (!this.config.header) {
 			var row = board.insertRow(-1);
 			var footercell = row.insertCell(-1);
-			footercell.colSpan = '11';
+			footercell.colSpan = this.themedetails.bci.length.toString();
 
 			var footer = document.createElement('table');
 			footer.className = 'foot';
@@ -399,23 +402,25 @@ Module.register("MMM-Consumer-Flights", {
 
 			var row = flights.insertRow(-1);
 			var cell1 = row.insertCell(-1);
-			cell1.colSpan = '11';
+			cell1.colSpan = this.themedetails.bci.length.toString();
 			cell1.style = "height:1px";
 		}
 
 		var ridx = 0;
-		var cell = new Array(11);
+		var cell = new Array(this.themedetails.bci.length);
 
 		if (usedata) {
 
 			var ridx = 0;
-			var cell = new Array(11);
+			var cell = new Array(this.themedetails.bci.length);
 
 			for (var fidx = this.boardflightidx; fidx < this.boardflightidx + this.config.rowcount; fidx++) {
 
 				var flight = this.payload.flights[fidx];
 
-				for (var rowidx = 0; rowidx < 11; rowidx++) {
+				//use the theme bci length to determine how many columns to display
+
+				for (var rowidx = 0; rowidx < this.themedetails.bci.length; rowidx++) {
 
 					//process each field in turn unless excluded
 
@@ -461,6 +466,9 @@ Module.register("MMM-Consumer-Flights", {
 					}
 					else if (ridx == 9) { cell[rowidx].innerHTML = flight.terminal; cell[rowidx].className = 'terminal'; }
 					else if (ridx == 10) { cell[rowidx].innerHTML = flight.gate;  }
+					else if (ridx == 11) { cell[rowidx].innerHTML = flight.estimated; cell[rowidx].className = 'time';}
+					else if (ridx == 12) { cell[rowidx].innerHTML = flight.actual; cell[rowidx].className = 'time';}
+					else if (ridx == 13) { cell[rowidx].innerHTML = flight.landed; cell[rowidx].className = 'time';}
 
 				}
 			}
@@ -474,7 +482,7 @@ Module.register("MMM-Consumer-Flights", {
 
 			for (var fidx = 0; fidx < this.config.rowcount; fidx++) {
 
-				for (var ridx = 0; ridx < 11; ridx++) {
+				for (var ridx = 0; ridx < this.themedetails.bci.length; ridx++) {
 
 					if (ridx == 0) {
 						var row = flights.insertRow(-1);
@@ -493,6 +501,9 @@ Module.register("MMM-Consumer-Flights", {
 					else if (ridx == 8) { cell[ridx].innerHTML = '&nbsp;'; }
 					else if (ridx == 9) { cell[ridx].innerHTML = '&nbsp;'; cell[ridx].className = 'terminal'; }
 					else if (ridx == 10) { cell[ridx].innerHTML = '&nbsp;'; }
+					else if (ridx == 11) { cell[ridx].innerHTML = '&nbsp;'; }
+					else if (ridx == 12) { cell[ridx].innerHTML = '&nbsp;'; }
+					else if (ridx == 13) { cell[ridx].innerHTML = '&nbsp;'; }
 
 				}
 			}

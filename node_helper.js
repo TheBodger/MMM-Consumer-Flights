@@ -167,6 +167,11 @@ module.exports = NodeHelper.create({
 				terminal: flight.terminal,
 				gate: flight.gate,
 
+				//add other fields that might be displayed
+				estimated: self.spaceme(moment(flight.estimated).format('hh:mm')),
+				actual: self.spaceme(moment(flight.actual).format('hh:mm')),
+				landed: self.spaceme(moment(flight.landed).format('hh:mm')),
+
 				//setup flights for codeshare displaying
 				flight: { flightidx: 0, flights: [flight.flight] },
 				airline: { airlines: [flight.airline], airlinesiata: [flight.airlineiata], airlinesicao: [flight.airlineicao], airlineicon : [null]  },
@@ -217,6 +222,15 @@ module.exports = NodeHelper.create({
 		}
 
 	},
+
+	spaceme: function (str) {
+
+		var chrs = str.split("");
+		var tmp = '';
+		chrs.forEach(chr => tmp += chr + " ");
+		return tmp;
+
+    },
 
 	getremarks: function (flight) {
 		//determine what the status is
