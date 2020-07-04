@@ -5426,6 +5426,15 @@
     },
     {
       "IATA": "AL",
+      "ICAO": "MAY",
+      "Airline": "Malta Air",
+      "Call sign": "Blue Med",
+      "Region": "Malta",
+      "Comments": "2019",
+      "Icon": "AL_MAY.jpg"
+    },
+    {
+      "IATA": "AL",
       "ICAO": "SYX",
       "Airline": "Skywalk Airlines",
       "Call sign": "SKYWAY-EX",
@@ -22376,7 +22385,7 @@
       "Call sign": "RYANAIR",
       "Region": "Ireland",
       "Comments": "",
-      "Icon": ""
+      "Icon": "FR_RYR.svg"
     }
   ],
   "FRA": [
@@ -37090,7 +37099,7 @@
   ],
   "MAY": [
     {
-      "IATA": "",
+      "IATA": "AL",
       "ICAO": "MAY",
       "Airline": "Malta Air",
       "Call sign": "",

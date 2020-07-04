@@ -161,16 +161,15 @@ module.exports = NodeHelper.create({
 		itemarray.forEach(function (flight) {
 
 			var oflight = {
-				scheduled: moment(flight.scheduled).format('hh:mm'),
+				scheduled: moment.utc(flight.scheduled).format('HH:mm'),
 				remoteairport: flight.remoteairport,
 				remarks: self.getremarks(flight),
 				terminal: flight.terminal,
 				gate: flight.gate,
 
 				//add other fields that might be displayed
-				estimated: self.spaceme(moment(flight.estimated).format('hh:mm')),
-				actual: self.spaceme(moment(flight.actual).format('hh:mm')),
-				landed: self.spaceme(moment(flight.landed).format('hh:mm')),
+				estimated: self.spaceme(moment.utc(flight.estimated).format('HH:mm')),
+				actual: (flight.actual == null) ? '' : self.spaceme(moment.utc(flight.actual).format('HH:mm')),
 
 				//setup flights for codeshare displaying
 				flight: { flightidx: 0, flights: [flight.flight] },
@@ -240,17 +239,17 @@ module.exports = NodeHelper.create({
 		}
 
 		if (flight.status == "landed") {
-			return 'Landed ' + moment(flight.landed).format("hh:mm");
+			return 'Landed ' + ((flight.landed==null) ? '' : moment.utc(flight.landed).format("HH:mm"));
 		}
 		
-		if (flight.status == "active") {
-			return "Departed " + moment(flight.actual).format("hh:mm");
+		if (flight.status == "active") { //TODO check if coming or going, if coming then as long as estimated =actual then return on time
+			return "Departed " + ((flight.actual == null) ? '' : moment.utc(flight.actual).format("HH:mm"));
 		}
 
 		if (flight.status == "scheduled") {
 
 			if (flight.delay != null) {
-				return "Delayed " + moment(flight.estimated).format("hh:mm");
+				return "Delayed " + moment.utc(flight.estimated).format("HH:mm");
 			}
 
 		}

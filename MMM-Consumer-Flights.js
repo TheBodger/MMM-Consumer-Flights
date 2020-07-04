@@ -181,6 +181,7 @@ Module.register("MMM-Consumer-Flights", {
 		if (notification == "AIRPORTS_" + this.identifier) {
 			console.log(this.showElapsed(), "msg got airports");
 			airports['init'](payload.payload);
+			this.updateboard(); //force an update
 		}
 
 		if (notification == "NEW_FLIGHTS_" + this.identifier) {
@@ -414,7 +415,7 @@ Module.register("MMM-Consumer-Flights", {
 			var ridx = 0;
 			var cell = new Array(this.themedetails.bci.length);
 
-			for (var fidx = this.boardflightidx; fidx < this.boardflightidx + this.config.rowcount; fidx++) {
+			for (var fidx = this.boardflightidx; fidx < Math.min(this.payload.flights.length, this.boardflightidx + this.config.rowcount); fidx++) {
 
 				var flight = this.payload.flights[fidx];
 
