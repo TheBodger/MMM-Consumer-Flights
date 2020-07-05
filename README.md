@@ -27,7 +27,7 @@ To install the module, use your terminal to:
 1. Navigate to your MagicMirror's modules folder. If you are using the default installation directory, use the command:<br />`cd ~/MagicMirror/modules`
 2. Clone the module:<br />`git clone https://github.com/TheBodger/MMM-Consumer-Flights`
 
-update the list of airports from here : https://openflights.org/data.html , save the file airports.dat into the folder modules/MMM-Consumer-Flights/reference and call it airports.csv
+You can update the list of airports from here to make sure you have all the current airports details : https://openflights.org/data.html , save the file airports.dat into the folder modules/MMM-Consumer-Flights/reference and call it airports.csv
 
 ### MagicMirror² Configuration
 
