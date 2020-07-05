@@ -82,6 +82,14 @@ Remarks
 Terminal
 Gate
 
+If an airlines ICON is missing from the icons folder, then a temporary one is created in the subfolder of tempicons. These are minimal SVG files containing a possibly shortened name of the airline. These are named in the format of IATAcode_ICAOcode.svg. To add a correct icon, download the image in any format into the icons folder and name it the same as the one in tempicons. if the temporary icon is named with a 3 letter IATAcode this is in theory invalid. When all icons have been added, run the buildairlines.js to update the database so the new icons will appear on the boards next time the module refreshes.
+
+```
+cd MAgicMirror/modules/MMM-consumer-Flights
+node buildairlines.js
+
+```
+
 The script airports.js exposes the list of iata airportcodes in the file references/airports.csv (down loadable from https://openflights.org/data.html ) so that additional information can be added to the board if it cant be supplied in the main feed from the MMM-Provider-xxx module
 if an alternative source is required, clone airports.js and adjust accordingly.
 
