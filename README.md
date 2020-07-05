@@ -21,7 +21,6 @@ Node modules required
 
 <BR>npm i --save csvtojson
 <BR>npm install moment-timezone --save
-<BR>npm install unique-filename --save 
 
 ## Standalone Installation
 To install the module, use your terminal to:
