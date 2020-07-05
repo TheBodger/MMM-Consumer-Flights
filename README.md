@@ -82,7 +82,9 @@ Remarks
 Terminal
 Gate
 
-If an airlines ICON is missing from the icons folder, then a temporary one is created in the subfolder of tempicons. These are minimal SVG files containing a possibly shortened name of the airline. These are named in the format of IATAcode_ICAOcode.svg. To add a correct icon, download the image in any format into the icons folder and name it the same as the one in tempicons. if the temporary icon is named with a 3 letter IATAcode this is in theory invalid. When all icons have been added, run the buildairlines.js to update the database so the new icons will appear on the boards next time the module refreshes.
+If an airlines ICON is missing from the icons folder, then a temporary one is created in the subfolder of tempicons. These are minimal SVG files containing a possibly shortened name of the airline. These are named in the format of IATAcode_ICAOcode.svg. To add a correct icon, download the image in any format into the icons folder and name it the same as the one in tempicons. if the temporary icon is named with a 3 letter IATAcode this is in theory invalid. When all icons have been added, run the buildairlines.js to update the database so the new icons will appear on the boards next time the module refreshes. Wikipedia is a good source of SVG files. Check copyright usage always.
+
+Missing airlines from the database (airlines.json.master) are reported in the node console log. These are usually 3 letter coded airlines, aviationstack sometimes wrongly reports them without the IATA code and ICAO code in its place. IATA code lists can be found through google or the IATA site when you weant to check the code of an airline
 
 ```
 cd MAgicMirror/modules/MMM-consumer-Flights

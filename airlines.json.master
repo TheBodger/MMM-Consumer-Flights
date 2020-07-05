@@ -233,7 +233,7 @@
       "Call sign": "PHAZER",
       "Region": "United States",
       "Comments": "",
-      "Icon": "1I_PZR.svg"
+      "Icon": ""
     },
     {
       "IATA": "1I",
@@ -242,7 +242,7 @@
       "Call sign": "NAVIGATOR",
       "Region": "Sweden",
       "Comments": "",
-      "Icon": "1I_NVR.svg"
+      "Icon": ""
     },
     {
       "IATA": "1I",
@@ -251,7 +251,7 @@
       "Call sign": "FRACTION",
       "Region": "Portugal",
       "Comments": "",
-      "Icon": "1I_NJE.svg"
+      "Icon": ""
     },
     {
       "IATA": "1I",
@@ -260,7 +260,7 @@
       "Call sign": "EXECJET",
       "Region": "United States",
       "Comments": "",
-      "Icon": "1I_EJA.svg"
+      "Icon": ""
     },
     {
       "IATA": "1I",
@@ -269,7 +269,7 @@
       "Call sign": "CIVIL AIR AMBULANCE",
       "Region": "Germany",
       "Comments": "",
-      "Icon": "1I_AMB.svg"
+      "Icon": ""
     }
   ],
   "1J": [
@@ -1434,7 +1434,7 @@
       "Call sign": "EMPRESS",
       "Region": "Canada",
       "Comments": "Air Norterra",
-      "Icon": "5T_MPE.svg"
+      "Icon": ""
     }
   ],
   "5V": [
@@ -1935,7 +1935,7 @@
       "Call sign": "ECHO ROMEO",
       "Region": "Israel",
       "Comments": "",
-      "Icon": "7L_ERO.svg"
+      "Icon": ""
     },
     {
       "IATA": "7L",
@@ -1944,7 +1944,7 @@
       "Call sign": "SILK WEST",
       "Region": "Azerbaijan",
       "Comments": "",
-      "Icon": "7L_AZG.svg"
+      "Icon": ""
     },
     {
       "IATA": "7L",
@@ -1953,7 +1953,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "7L_CRN.svg"
+      "Icon": ""
     }
   ],
   "7M": [
@@ -2345,7 +2345,7 @@
       "Call sign": "ONUR AIR",
       "Region": "Turkey",
       "Comments": "",
-      "Icon": "8Q_OHY.svg"
+      "Icon": ""
     }
   ],
   "8S": [
@@ -2378,7 +2378,7 @@
       "Call sign": "AFRIQIYAH",
       "Region": "Libya",
       "Comments": "",
-      "Icon": "8U_AAW.svg"
+      "Icon": ""
     }
   ],
   "8V": [
@@ -2493,7 +2493,7 @@
       "Call sign": "FLAGSHIP",
       "Region": "United States",
       "Comments": "",
-      "Icon": "9E_FLG.svg"
+      "Icon": ""
     },
     {
       "IATA": "9E",
@@ -2502,7 +2502,7 @@
       "Call sign": "ENDEAVOR",
       "Region": "United States",
       "Comments": "",
-      "Icon": "9E_EDV.svg"
+      "Icon": ""
     }
   ],
   "9I": [
@@ -2542,7 +2542,7 @@
       "Call sign": "CAIR",
       "Region": "United States",
       "Comments": "",
-      "Icon": "9K_KAP.svg"
+      "Icon": ""
     },
     {
       "IATA": "9K",
@@ -2551,7 +2551,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "9K_TFZ.svg"
+      "Icon": ""
     }
   ],
   "9L": [
@@ -2721,7 +2721,7 @@
       "Call sign": "AEGEAN",
       "Region": "Greece",
       "Comments": "",
-      "Icon": "A3_AEE.png"
+      "Icon": ""
     }
   ],
   "A4": [
@@ -2834,7 +2834,7 @@
       "Call sign": "AMERICAN",
       "Region": "United States",
       "Comments": "",
-      "Icon": "AA_AAL.svg"
+      "Icon": ""
     }
   ],
   "AAC": [
@@ -3409,7 +3409,7 @@
       "Call sign": "AIR CANADA",
       "Region": "Canada",
       "Comments": "",
-      "Icon": "AC_ACA.svg"
+      "Icon": ""
     }
   ],
   "ACB": [
@@ -3654,7 +3654,7 @@
       "Call sign": "Azul",
       "Region": "Brazil",
       "Comments": "",
-      "Icon": "AD_AZU.svg"
+      "Icon": ""
     }
   ],
   "ADA": [
@@ -4213,7 +4213,7 @@
       "Call sign": "AIRFRANS",
       "Region": "France",
       "Comments": "",
-      "Icon": "AF_AFR.svg"
+      "Icon": ""
     }
   ],
   "AFA": [
@@ -4400,7 +4400,7 @@
       "Call sign": "ARUBA",
       "Region": "Aruba",
       "Comments": "",
-      "Icon": "AG_ARU.svg"
+      "Icon": ""
     },
     {
       "IATA": "AG",
@@ -4409,7 +4409,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "AG_ABR.svg"
+      "Icon": ""
     }
   ],
   "AGA": [
@@ -4810,7 +4810,7 @@
       "Call sign": "AIRINDIA",
       "Region": "India",
       "Comments": "",
-      "Icon": "AI_AIC.svg"
+      "Icon": ""
     }
   ],
   "AID": [
@@ -5248,7 +5248,7 @@
       "Call sign": "RED CAP",
       "Region": "Malaysia",
       "Comments": "ICAO code no longer allocated",
-      "Icon": "AK_AXM.svg"
+      "Icon": ""
     },
     {
       "IATA": "AK",
@@ -5257,7 +5257,7 @@
       "Call sign": "AIRBRIDGE",
       "Region": "United Kingdom",
       "Comments": "defunct",
-      "Icon": "AK_ABR.svg"
+      "Icon": ""
     }
   ],
   "AKA": [
@@ -5689,7 +5689,7 @@
       "Call sign": "AEROMEXICO",
       "Region": "Mexico",
       "Comments": "",
-      "Icon": "AM_AMX.svg"
+      "Icon": ""
     }
   ],
   "AMA": [
@@ -6504,7 +6504,7 @@
       "Call sign": "MAPJET",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "AQ_MPJ.svg"
+      "Icon": ""
     },
     {
       "IATA": "AQ",
@@ -6513,7 +6513,7 @@
       "Call sign": "ALOHA",
       "Region": "United States",
       "Comments": "Ceased operations; former IATA code: TS",
-      "Icon": "AQ_AAH.svg"
+      "Icon": ""
     }
   ],
   "AQA": [
@@ -6850,7 +6850,7 @@
       "Call sign": "ALASKA",
       "Region": "United States",
       "Comments": "",
-      "Icon": "AS_ASA.svg"
+      "Icon": ""
     }
   ],
   "ASB": [
@@ -7086,7 +7086,7 @@
       "Call sign": "ROYALAIR MAROC",
       "Region": "Morocco",
       "Comments": "",
-      "Icon": "AT_RAM.svg"
+      "Icon": ""
     }
   ],
   "ATA": [
@@ -8098,7 +8098,7 @@
       "Call sign": "FINNAIR",
       "Region": "Finland",
       "Comments": "",
-      "Icon": "AY_FIN.svg"
+      "Icon": ""
     }
   ],
   "AYB": [
@@ -8230,7 +8230,7 @@
       "Call sign": "ALITALIA",
       "Region": "Italy",
       "Comments": "",
-      "Icon": "AZ_AZA.svg"
+      "Icon": ""
     }
   ],
   "AZB": [
@@ -8468,7 +8468,7 @@
       "Call sign": "JETBLUE",
       "Region": "United States",
       "Comments": "",
-      "Icon": "B6_JBU.svg"
+      "Icon": ""
     }
   ],
   "B7": [
@@ -8512,7 +8512,7 @@
       "Call sign": "SPEEDBIRD",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": "BA_BAW.svg"
+      "Icon": ""
     }
   ],
   "BAA": [
@@ -9278,7 +9278,7 @@
       "Call sign": "BANGLADESH",
       "Region": "Bangladesh",
       "Comments": "",
-      "Icon": "BG_BBC.svg"
+      "Icon": ""
     }
   ],
   "BGF": [
@@ -9487,7 +9487,7 @@
       "Call sign": "BRUNEI",
       "Region": "Brunei",
       "Comments": "",
-      "Icon": "BI_RBA.svg"
+      "Icon": ""
     }
   ],
   "BIB": [
@@ -11586,7 +11586,7 @@
       "Call sign": "AIR CHINA",
       "Region": "China",
       "Comments": "",
-      "Icon": "CA_CCA.svg"
+      "Icon": ""
     }
   ],
   "CAA": [
@@ -13010,7 +13010,7 @@
       "Call sign": "DYNASTY",
       "Region": "Taiwan",
       "Comments": "",
-      "Icon": "CI_CAL.svg"
+      "Icon": ""
     }
   ],
   "CIA": [
@@ -15343,7 +15343,7 @@
       "Call sign": "CATHAY",
       "Region": "Hong Kong",
       "Comments": "",
-      "Icon": "CX_CPA.svg"
+      "Icon": ""
     }
   ],
   "CXE": [
@@ -15530,7 +15530,7 @@
       "Call sign": "CHINA SOUTHERN",
       "Region": "China",
       "Comments": "",
-      "Icon": "CZ_CSN.svg"
+      "Icon": ""
     }
   ],
   "D0": [
@@ -16046,7 +16046,7 @@
       "Call sign": "NOK AIR",
       "Region": "Thailand",
       "Comments": "",
-      "Icon": "DD_NOK.svg"
+      "Icon": ""
     },
     {
       "IATA": "DD",
@@ -16055,7 +16055,7 @@
       "Call sign": "",
       "Region": "Denmark",
       "Comments": "defunct",
-      "Icon": "DD_DDL.svg"
+      "Icon": ""
     }
   ],
   "DDA": [
@@ -16631,7 +16631,7 @@
       "Call sign": "DELTA",
       "Region": "United States",
       "Comments": "",
-      "Icon": "DL_DAL.svg"
+      "Icon": ""
     }
   ],
   "DLA": [
@@ -17679,7 +17679,7 @@
       "Call sign": "EUROWINGS",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "E2_EWE.svg"
+      "Icon": ""
     }
   ],
   "E3": [
@@ -18673,7 +18673,7 @@
       "Call sign": "SHAMROCK",
       "Region": "Ireland",
       "Comments": "",
-      "Icon": "EI_EIN.svg"
+      "Icon": ""
     }
   ],
   "EIC": [
@@ -18849,7 +18849,7 @@
       "Call sign": "EMIRATES",
       "Region": "United Arab Emirates",
       "Comments": "",
-      "Icon": "EK_UAE.svg"
+      "Icon": ""
     }
   ],
   "EKA": [
@@ -19767,7 +19767,7 @@
       "Call sign": "ETHIOPIAN",
       "Region": "Ethiopia",
       "Comments": "",
-      "Icon": "ET_ETH.svg"
+      "Icon": ""
     }
   ],
   "ETA": [
@@ -20102,7 +20102,7 @@
       "Call sign": "EUROWINGS",
       "Region": "Germany",
       "Comments": "",
-      "Icon": "EW_EWG.svg"
+      "Icon": ""
     }
   ],
   "EWA": [
@@ -20364,7 +20364,7 @@
       "Call sign": "ETIHAD",
       "Region": "United Arab Emirates",
       "Comments": "",
-      "Icon": "EY_ETD.svg"
+      "Icon": ""
     },
     {
       "IATA": "EY",
@@ -20373,7 +20373,7 @@
       "Call sign": "FLYING EAGLE",
       "Region": "Tanzania",
       "Comments": "defunct 2002",
-      "Icon": "EY_EFL.svg"
+      "Icon": ""
     }
   ],
   "EYE": [
@@ -20550,7 +20550,7 @@
       "Call sign": "FRONTIER FLIGHT",
       "Region": "United States",
       "Comments": "",
-      "Icon": "F9_FFT.svg"
+      "Icon": ""
     }
   ],
   "FA": [
@@ -20832,7 +20832,7 @@
       "Call sign": "FLYING BULGARIA",
       "Region": "Bulgaria",
       "Comments": "",
-      "Icon": "FB_LZB.svg"
+      "Icon": ""
     }
   ],
   "FBA": [
@@ -21583,7 +21583,7 @@
       "Call sign": "ICEAIR",
       "Region": "Iceland",
       "Comments": "",
-      "Icon": "FI_ICE.svg"
+      "Icon": ""
     }
   ],
   "FIC": [
@@ -22385,7 +22385,7 @@
       "Call sign": "RYANAIR",
       "Region": "Ireland",
       "Comments": "",
-      "Icon": "FR_RYR.svg"
+      "Icon": ""
     }
   ],
   "FRA": [
@@ -23200,7 +23200,7 @@
       "Call sign": "GOL TRANSPORTE",
       "Region": "Brazil",
       "Comments": "Brazilian low-cost airline.",
-      "Icon": "G3_GLO.png"
+      "Icon": ""
     },
     {
       "IATA": "G3",
@@ -23349,7 +23349,7 @@
       "Call sign": "INDONESIA",
       "Region": "Indonesia",
       "Comments": "",
-      "Icon": "GA_GIA.svg"
+      "Icon": ""
     }
   ],
   "GAA": [
@@ -24025,7 +24025,7 @@
       "Call sign": "GULF AIR",
       "Region": "Bahrain",
       "Comments": "",
-      "Icon": "GF_GFA.png"
+      "Icon": ""
     }
   ],
   "GFC": [
@@ -26061,7 +26061,7 @@
       "Call sign": "HAWAIIAN",
       "Region": "United States",
       "Comments": "",
-      "Icon": "HA_HAL.svg"
+      "Icon": ""
     }
   ],
   "HAA": [
@@ -26645,7 +26645,7 @@
       "Call sign": "FLYNIKI",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "HG_NLY.svg"
+      "Icon": ""
     }
   ],
   "HGA": [
@@ -28033,7 +28033,7 @@
       "Call sign": "HAINAN",
       "Region": "China",
       "Comments": "",
-      "Icon": "HU_CHH.svg"
+      "Icon": ""
     }
   ],
   "HUB": [
@@ -28566,7 +28566,7 @@
       "Call sign": "IBERIA",
       "Region": "Spain",
       "Comments": "",
-      "Icon": "IB_IBE.svg"
+      "Icon": ""
     }
   ],
   "IBC": [
@@ -30547,7 +30547,7 @@
       "Call sign": "JAZEERA",
       "Region": "Kuwait",
       "Comments": "",
-      "Icon": "J9_JZR.svg"
+      "Icon": ""
     },
     {
       "IATA": "J9",
@@ -30556,7 +30556,7 @@
       "Call sign": "GUINEE AIRLINES",
       "Region": "Guinea",
       "Comments": "defunct",
-      "Icon": "J9_GIF.svg"
+      "Icon": ""
     }
   ],
   "JA": [
@@ -31312,7 +31312,7 @@
       "Call sign": "J-BIRD",
       "Region": "Japan",
       "Comments": "defunct",
-      "Icon": "JL_JAL.svg"
+      "Icon": ""
     },
     {
       "IATA": "JL",
@@ -31321,7 +31321,7 @@
       "Call sign": "JAPANAIR",
       "Region": "Japan",
       "Comments": "Japan Airlines International",
-      "Icon": "JL_JAL.svg"
+      "Icon": ""
     }
   ],
   "JLA": [
@@ -32024,7 +32024,7 @@
       "Call sign": "AIR SERBIA",
       "Region": "Serbia",
       "Comments": "Name changed from Aeroput to JAT Yugoslav Airlines to Jat Airways to Air Serbia. Formerly used JAT as ICAO code.",
-      "Icon": "JU_ASL.svg"
+      "Icon": ""
     },
     {
       "IATA": "JU",
@@ -32523,7 +32523,7 @@
       "Call sign": "SPAKAZ",
       "Region": "Kazakhstan",
       "Comments": "",
-      "Icon": "KC_KZR.svg"
+      "Icon": ""
     },
     {
       "IATA": "KC",
@@ -32532,7 +32532,7 @@
       "Call sign": "ASTANALINE",
       "Region": "Kazakhstan",
       "Comments": "",
-      "Icon": "KC_KZR.svg"
+      "Icon": ""
     }
   ],
   "KCA": [
@@ -32649,7 +32649,7 @@
       "Call sign": "KOREANAIR",
       "Region": "South Korea",
       "Comments": "",
-      "Icon": "KE_KAL.svg"
+      "Icon": ""
     }
   ],
   "KEK": [
@@ -32759,7 +32759,7 @@
       "Call sign": "AIR BARINAS",
       "Region": "Venezuela",
       "Comments": "",
-      "Icon": "KG_BNX.svg"
+      "Icon": ""
     },
     {
       "IATA": "KG",
@@ -32768,7 +32768,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "KG_LYM.svg"
+      "Icon": ""
     }
   ],
   "KGB": [
@@ -33103,7 +33103,7 @@
       "Call sign": "KLM",
       "Region": "Netherlands",
       "Comments": "",
-      "Icon": "KL_KLM.svg"
+      "Icon": ""
     }
   ],
   "KLB": [
@@ -33213,7 +33213,7 @@
       "Call sign": "AIR MALTA",
       "Region": "Malta",
       "Comments": "",
-      "Icon": "KM_AMC.svg"
+      "Icon": ""
     }
   ],
   "KMA": [
@@ -33497,7 +33497,7 @@
       "Call sign": "KENYA",
       "Region": "Kenya",
       "Comments": "",
-      "Icon": "KQ_KQA.svg"
+      "Icon": ""
     }
   ],
   "KR": [
@@ -34309,7 +34309,7 @@
       "Call sign": "LAN CHILE",
       "Region": "Chile",
       "Comments": "",
-      "Icon": "LA_LAN.svg"
+      "Icon": ""
     }
   ],
   "LAC": [
@@ -35128,7 +35128,7 @@
       "Call sign": "LUFTHANSA CARGO",
       "Region": "Germany",
       "Comments": "",
-      "Icon": "LH_GEC.svg"
+      "Icon": ""
     },
     {
       "IATA": "LH",
@@ -35137,7 +35137,7 @@
       "Call sign": "LUFTHANSA",
       "Region": "Germany",
       "Comments": "",
-      "Icon": "LH_DLH.svg"
+      "Icon": ""
     }
   ],
   "LHB": [
@@ -36529,7 +36529,7 @@
       "Call sign": "SWISS",
       "Region": "Switzerland",
       "Comments": "",
-      "Icon": "LX_SWR.svg"
+      "Icon": ""
     }
   ],
   "LXA": [
@@ -36584,7 +36584,7 @@
       "Call sign": "ELAL",
       "Region": "Israel",
       "Comments": "",
-      "Icon": "LY_ELY.svg"
+      "Icon": ""
     }
   ],
   "LYB": [
@@ -37785,7 +37785,7 @@
       "Call sign": "XIAMEN AIR",
       "Region": "China",
       "Comments": "",
-      "Icon": "MF_CXA.svg"
+      "Icon": ""
     }
   ],
   "MFA": [
@@ -38005,7 +38005,7 @@
       "Call sign": "MASWINGS",
       "Region": "Malaysia",
       "Comments": "",
-      "Icon": "MH_MWG.svg"
+      "Icon": ""
     },
     {
       "IATA": "MH",
@@ -38014,7 +38014,7 @@
       "Call sign": "MALAYSIAN",
       "Region": "Malaysia",
       "Comments": "",
-      "Icon": "MH_MAS.svg"
+      "Icon": ""
     }
   ],
   "MHA": [
@@ -38342,7 +38342,7 @@
       "Call sign": "AIRMAURITIUS",
       "Region": "Mauritius",
       "Comments": "",
-      "Icon": "MK_MAU.svg"
+      "Icon": ""
     }
   ],
   "MKA": [
@@ -39514,7 +39514,7 @@
       "Call sign": "THOMAS COOK",
       "Region": "United Kingdom",
       "Comments": "Formerly \"KESTREL�",
-      "Icon": "MT_TCX.svg"
+      "Icon": ""
     },
     {
       "IATA": "MT",
@@ -39523,7 +39523,7 @@
       "Call sign": "JAYEMMSEE",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": "MT_JMC.svg"
+      "Icon": ""
     }
   ],
   "MTA": [
@@ -39752,7 +39752,7 @@
       "Call sign": "CHINA EASTERN",
       "Region": "China",
       "Comments": "",
-      "Icon": "MU_CES.svg"
+      "Icon": ""
     }
   ],
   "MUA": [
@@ -41285,7 +41285,7 @@
       "Call sign": "ALL NIPPON",
       "Region": "Japan",
       "Comments": "",
-      "Icon": "NH_ANA.svg"
+      "Icon": ""
     }
   ],
   "NHC": [
@@ -41503,7 +41503,7 @@
       "Call sign": "SPIRIT WINGS",
       "Region": "United States",
       "Comments": "",
-      "Icon": "NK_NKS.svg"
+      "Icon": ""
     },
     {
       "IATA": "NK",
@@ -41512,7 +41512,7 @@
       "Call sign": "SPIRIT WINGS",
       "Region": "United States",
       "Comments": "",
-      "Icon": "NK_NKS.svg"
+      "Icon": ""
     }
   ],
   "NKL": [
@@ -42813,7 +42813,7 @@
       "Call sign": "EAGLE",
       "Region": "New Zealand",
       "Comments": "",
-      "Icon": "NZ_EAG.svg"
+      "Icon": ""
     },
     {
       "IATA": "NZ",
@@ -42822,7 +42822,7 @@
       "Call sign": "NEW ZEALAND",
       "Region": "New Zealand",
       "Comments": "\"NZ\" used by New Zealand National Airways Corporation until its merger with Air New Zealand in 1978",
-      "Icon": "NZ_ANZ.svg"
+      "Icon": ""
     }
   ],
   "NZA": [
@@ -43718,7 +43718,7 @@
       "Call sign": "SKYWEST",
       "Region": "United States",
       "Comments": "",
-      "Icon": "OO_SKW.svg"
+      "Icon": ""
     }
   ],
   "OOT": [
@@ -44011,7 +44011,7 @@
       "Call sign": "AUSTRIAN",
       "Region": "Austria",
       "Comments": "",
-      "Icon": "OS_AUA.svg"
+      "Icon": ""
     }
   ],
   "OSA": [
@@ -44207,7 +44207,7 @@
       "Call sign": "CROATIA",
       "Region": "Croatia",
       "Comments": "",
-      "Icon": "OU_CTN.svg"
+      "Icon": ""
     }
   ],
   "OUF": [
@@ -44876,7 +44876,7 @@
       "Call sign": "SUNTURK",
       "Region": "Turkey",
       "Comments": "WAS 1I, H9",
-      "Icon": "PC_PGT.svg"
+      "Icon": ""
     },
     {
       "IATA": "PC",
@@ -44885,7 +44885,7 @@
       "Call sign": "FIJIAIR",
       "Region": "Fiji",
       "Comments": "defunct",
-      "Icon": "PC_FAJ.svg"
+      "Icon": ""
     }
   ],
   "PCA": [
@@ -48035,7 +48035,7 @@
       "Call sign": "SUNSTATE",
       "Region": "Australia",
       "Comments": "Uses IATA of parent QANTAS.",
-      "Icon": "QF_SSQ.svg"
+      "Icon": ""
     },
     {
       "IATA": "QF",
@@ -48044,7 +48044,7 @@
       "Call sign": "QLINK",
       "Region": "Australia",
       "Comments": "Turbo-Props",
-      "Icon": "QF_QLK.svg"
+      "Icon": ""
     },
     {
       "IATA": "QF",
@@ -48053,7 +48053,7 @@
       "Call sign": "QJET",
       "Region": "Australia",
       "Comments": "Qantaslink Jet Operations",
-      "Icon": "QF_QJE.svg"
+      "Icon": ""
     },
     {
       "IATA": "QF",
@@ -48062,7 +48062,7 @@
       "Call sign": "QANTAS",
       "Region": "Australia",
       "Comments": "",
-      "Icon": "QF_QFA.svg"
+      "Icon": ""
     },
     {
       "IATA": "QF",
@@ -48071,7 +48071,7 @@
       "Call sign": "EASTERN",
       "Region": "Australia",
       "Comments": "IATA dupe with parent QANTAS. Also uses 2 letter ICAO EA.",
-      "Icon": "QF_EAQ.svg"
+      "Icon": ""
     }
   ],
   "QH": [
@@ -48321,7 +48321,7 @@
       "Call sign": "QATARI",
       "Region": "Qatar",
       "Comments": "",
-      "Icon": "QR_QTR.svg"
+      "Icon": ""
     }
   ],
   "QRT": [
@@ -49978,7 +49978,7 @@
       "Call sign": "JORDANIAN",
       "Region": "Jordan",
       "Comments": "",
-      "Icon": "RJ_RJA.svg"
+      "Icon": ""
     }
   ],
   "RJM": [
@@ -50912,7 +50912,7 @@
       "Call sign": "MAJAN",
       "Region": "Oman",
       "Comments": "",
-      "Icon": "RS_MJN.svg"
+      "Icon": ""
     },
     {
       "IATA": "RS",
@@ -50921,7 +50921,7 @@
       "Call sign": "CONTAVIA",
       "Region": "Colombia",
       "Comments": "",
-      "Icon": "RS_ICT.svg"
+      "Icon": ""
     },
     {
       "IATA": "RS",
@@ -50930,7 +50930,7 @@
       "Call sign": "AIR SEOUL",
       "Region": "South Korea",
       "Comments": "",
-      "Icon": "RS_ASV.svg"
+      "Icon": ""
     }
   ],
   "RSA": [
@@ -51893,7 +51893,7 @@
       "Call sign": "SIBERIAN AIRLINES",
       "Region": "Russia",
       "Comments": "",
-      "Icon": "S7_SBI.svg"
+      "Icon": ""
     }
   ],
   "S8": [
@@ -51944,7 +51944,7 @@
       "Call sign": "SPRINGBOK",
       "Region": "South Africa",
       "Comments": "",
-      "Icon": "SA_SAA.svg"
+      "Icon": ""
     }
   ],
   "SAB": [
@@ -52959,7 +52959,7 @@
       "Call sign": "TASSILI AIR",
       "Region": "Algeria",
       "Comments": "",
-      "Icon": "SF_DTH.svg"
+      "Icon": ""
     }
   ],
   "SFA": [
@@ -53906,7 +53906,7 @@
       "Call sign": "SCANDINAVIAN",
       "Region": "Sweden, Denmark and Norway",
       "Comments": "",
-      "Icon": "SK_SAS.svg"
+      "Icon": ""
     },
     {
       "IATA": "SK",
@@ -53915,7 +53915,7 @@
       "Call sign": "SCANOR",
       "Region": "Norway",
       "Comments": "",
-      "Icon": "SK_CNO.svg"
+      "Icon": ""
     }
   ],
   "SKA": [
@@ -54565,7 +54565,7 @@
       "Call sign": "BEE-LINE",
       "Region": "Belgium",
       "Comments": "",
-      "Icon": "SN_BEL.svg"
+      "Icon": ""
     },
     {
       "IATA": "SN",
@@ -55294,7 +55294,7 @@
       "Call sign": "SINGCARGO",
       "Region": "Singapore",
       "Comments": "",
-      "Icon": "SQ_SQC.svg"
+      "Icon": ""
     },
     {
       "IATA": "SQ",
@@ -55303,7 +55303,7 @@
       "Call sign": "SINGAPORE",
       "Region": "Singapore",
       "Comments": "",
-      "Icon": "SQ_SIA.svg"
+      "Icon": ""
     }
   ],
   "SQA": [
@@ -56111,7 +56111,7 @@
       "Call sign": "AEROFLOT",
       "Region": "Russia",
       "Comments": "",
-      "Icon": "SU_AFL.svg"
+      "Icon": ""
     },
     {
       "IATA": "SU",
@@ -56120,7 +56120,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "SU_RCF.svg"
+      "Icon": ""
     }
   ],
   "SUA": [
@@ -58593,7 +58593,7 @@
       "Call sign": "TURKISH",
       "Region": "Turkey",
       "Comments": "",
-      "Icon": "TK_THY.svg"
+      "Icon": ""
     }
   ],
   "TKC": [
@@ -59357,7 +59357,7 @@
       "Call sign": "AIR PORTUGAL",
       "Region": "Portugal",
       "Comments": "",
-      "Icon": "TP_TAP.svg"
+      "Icon": ""
     }
   ],
   "TPB": [
@@ -61027,7 +61027,7 @@
       "Call sign": "UNITED",
       "Region": "United States",
       "Comments": "",
-      "Icon": "UA_UAL.svg"
+      "Icon": ""
     }
   ],
   "UAA": [
@@ -61646,7 +61646,7 @@
       "Call sign": "SRILANKAN",
       "Region": "Sri Lanka",
       "Comments": "",
-      "Icon": "UL_ALK.svg"
+      "Icon": ""
     }
   ],
   "ULH": [
@@ -62005,7 +62005,7 @@
       "Call sign": "CACTUS",
       "Region": "United States",
       "Comments": "",
-      "Icon": "US_AWE.svg"
+      "Icon": ""
     },
     {
       "IATA": "US",
@@ -62014,7 +62014,7 @@
       "Call sign": "",
       "Region": "",
       "Comments": "",
-      "Icon": "US_USA.svg"
+      "Icon": ""
     }
   ],
   "USB": [
@@ -62232,7 +62232,7 @@
       "Call sign": "REUNION",
       "Region": "France",
       "Comments": "",
-      "Icon": "UU_REU.svg"
+      "Icon": ""
     }
   ],
   "UVA": [
@@ -62309,7 +62309,7 @@
       "Call sign": "EUROPA",
       "Region": "Spain",
       "Comments": "",
-      "Icon": "UX_AEA.svg"
+      "Icon": ""
     }
   ],
   "UY": [
@@ -63645,7 +63645,7 @@
       "Call sign": "VIET NAM AIRLINES",
       "Region": "Vietnam",
       "Comments": "",
-      "Icon": "VN_HVN.svg"
+      "Icon": ""
     }
   ],
   "VNA": [
@@ -63841,7 +63841,7 @@
       "Call sign": "CABOVERDE",
       "Region": "Cape Verde",
       "Comments": "",
-      "Icon": "VR_TCV.svg"
+      "Icon": ""
     }
   ],
   "VRA": [
@@ -63971,7 +63971,7 @@
       "Call sign": "VIRGIN",
       "Region": "United Kingdom",
       "Comments": "",
-      "Icon": "VS_VIR.svg"
+      "Icon": ""
     }
   ],
   "VSA": [
@@ -64553,7 +64553,7 @@
       "Call sign": "CARGOJET",
       "Region": "Canada",
       "Comments": "",
-      "Icon": "W8_CJT.svg"
+      "Icon": ""
     }
   ],
   "W9": [
@@ -64816,7 +64816,7 @@
       "Call sign": "RWANDAIR",
       "Region": "Rwanda",
       "Comments": "",
-      "Icon": "WB_RWD.svg"
+      "Icon": ""
     }
   ],
   "WBR": [
@@ -65572,7 +65572,7 @@
       "Call sign": "SOUTHWEST",
       "Region": "United States",
       "Comments": "",
-      "Icon": "WN_SWA.svg"
+      "Icon": ""
     }
   ],
   "WNA": [
@@ -65775,7 +65775,7 @@
       "Call sign": "WESTJET",
       "Region": "Canada",
       "Comments": "",
-      "Icon": "WS_WJA.svg"
+      "Icon": ""
     }
   ],
   "WSA": [
@@ -67715,7 +67715,7 @@
       "Call sign": "MIDEX",
       "Region": "United States",
       "Comments": "",
-      "Icon": "YX_MEP.svg"
+      "Icon": ""
     }
   ],
   "YYY": [
