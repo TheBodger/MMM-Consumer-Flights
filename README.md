@@ -31,14 +31,28 @@ You can update the list of airports from here to make sure you have all the curr
 
 ### MagicMirror² Configuration
 
-To use this module, add the following configuration block to the modules array in the config file
+To use this module, add the following configuration blocks to the modules array in the config file. The MMM-Provider-JSON module is normally required as well to provide the data to display
 
 ```js
+
+
+		{
+			module: "MMM-Provider-JSON",
+			config: {
+				consumerids: ["arrivals",],
+				id: 'FlightArrivals', 
+				package: 'FlightArrivals',
+				urlparams: { apikey: 'aviation stack API key', airportcode: 'LHR' },
+
+			}
+		},
+
 		{
 			module: "MMM-Consumer-Flights",
-			position: "wherever",
+			position: "top_left",
+			
 			config: {
-				id: "consumer id matching the consumer id in the provider",
+				id: 'arrivals',
 			}
 		},
 
