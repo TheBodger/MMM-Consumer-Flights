@@ -162,7 +162,7 @@ Module.register("MMM-Consumer-Flights", {
 
 			if (payload.consumerid == this.config.id) {
 
-				Log.log("Got some new data @ " + this.showElapsed());
+				Log.log(this.name,"Got some new data @ " + this.showElapsed());
 
 				//send the data to the aggregator
 
@@ -176,7 +176,7 @@ Module.register("MMM-Consumer-Flights", {
 	socketNotificationReceived: function (notification, payload) {
 		var self = this;
 
-		Log.log(this.showElapsed(),self.identifier,'mesage from nodehelper',notification );
+		Log.log(this.showElapsed(),self.identifier,'message from nodehelper',notification );
 
 		if (notification == "AIRPORTS_" + this.identifier) {
 			console.log(this.showElapsed(), "msg got airports");
@@ -185,6 +185,7 @@ Module.register("MMM-Consumer-Flights", {
 		}
 
 		if (notification == "NEW_FLIGHTS_" + this.identifier) {
+			console.log(this.showElapsed(), "msg got NEW_FLIGHTS", payload.payload.flights.length);
 			this.payload = payload.payload;
 			this.showflightscount = this.payload.flights.length;
 			if (this.config.flightcount != null) {
