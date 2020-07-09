@@ -27,11 +27,11 @@ exports.airlines = function () {
 
         this._airlines = JSON.parse(fs.readFileSync(this.config.airlinesfile).toString());
 
-        //clear the temporary images
+        //clear the temporary images, leaving empty.file
 
-        (fs.readdirSync(iconfolder + tempsubfolder)).forEach(
-            path => fs.unlinkSync(iconfolder + tempsubfolder+path)
-        );
+        const files = fs.readdirSync(iconfolder + tempsubfolder);
+
+        file.forEach(function (path) { if (path != 'empty.file') { fs.unlinkSync(iconfolder + tempsubfolder + path); } });
 
     };
 
