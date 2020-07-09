@@ -31,7 +31,7 @@ exports.airlines = function () {
 
         const files = fs.readdirSync(iconfolder + tempsubfolder);
 
-        file.forEach(function (path) { if (path != 'empty.file') { fs.unlinkSync(iconfolder + tempsubfolder + path); } });
+        files.forEach(function (path) { if (path != 'empty.file') { fs.unlinkSync(iconfolder + tempsubfolder + path); } });
 
     };
 
