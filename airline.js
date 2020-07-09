@@ -6,7 +6,6 @@
 //as some airlines have mulitple entries, then the ICAO code is requested by returning ICAO
 
 const fs = require('fs');
-const uf = require('unique-filename');
 const iconfolder = 'modules/MMM-Consumer-Flights/icons/';
 const tempsubfolder = 'tempicons/';
 const airlinesfile = 'airlines.json';
