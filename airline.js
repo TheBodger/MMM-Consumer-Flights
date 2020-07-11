@@ -46,9 +46,10 @@ exports.airlines = function () {
             offset = -1;
         }
 
-        if (ICAOcode != null) {
+        if (this._airlines[IATAcode] != null && ICAOcode != null) {
             offset = this.getIATAoffset(IATAcode, ICAOcode);
         }
+        else { offset = -1;}
 
         if (offset != -1) {
             var airline = JSON.parse(JSON.stringify( this._airlines[IATAcode][offset]));
