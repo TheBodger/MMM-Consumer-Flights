@@ -187,8 +187,8 @@ module.exports = NodeHelper.create({
 				//if this is codeshared, then find the host flight from the array of flights and add the extra details
 
 				if (flight.codeshared) {
-					var csflight = flight.codeshared_flight_iata.toLowerCase();
-					const index = flightdata.flights.findIndex(({ flight }) => flight.flights[0].toLowerCase() == csflight );
+					var csflight = flight.codeshared_flight_iata.toUpperCase(); //patch change to upper case check to try and miss crash on missing entry, removed tolowercase from following test line
+					const index = flightdata.flights.findIndex(({ flight }) => flight.flights[0] == csflight );
 
 					if (index == -1) {//just in case the host flight hasn't been loaded for some reason, we just add the codeshare to the flights
 						addflight = true;

@@ -56627,6 +56627,17 @@
       "Icon": ""
     }
   ],
+  "SWN": [
+    {
+      "IATA": "",
+      "ICAO": "SWN",
+      "Airline": "West Air Sweden",
+      "Call sign": "AIR SWEDEN",
+      "Region": "Sweden",
+      "Comments": "",
+      "Icon": ""
+    }
+  ],
   "SWO": [
     {
       "IATA": "",

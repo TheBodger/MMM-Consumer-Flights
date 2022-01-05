@@ -52,11 +52,18 @@ exports.airlines = function () {
         else { offset = -1;}
 
         if (offset != -1) {
-            var airline = JSON.parse(JSON.stringify( this._airlines[IATAcode][offset]));
+            var airline = JSON.parse(JSON.stringify(this._airlines[IATAcode][offset]));
             airline['offset'] = offset;
             airline.Icon = this.geticonname(IATAcode, offset);
-            return airline ;
+            return airline;
         }
+        //patch to send dummy entry of not null when a null airline is sent
+
+        else
+
+        {
+            IATAcode = "Missing";
+            ICAOcode = "Missing"; }
 
         return { IATA: IATAcode, ICAO: ICAOcode, Airline: null, Callsign: null, Region: null, Comments: null, Icon: '', Offset: offset}
 
